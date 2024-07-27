@@ -23,17 +23,8 @@
     <link href="{{ url('assets/css/odometer-theme-default.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/global.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/style.css') }}" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                    }
-                }
-            }
-        }
-    </script>
+
+    
 </head>
 
 <body>
@@ -41,7 +32,7 @@
     <!-- start page-wrapper -->
     <div class="page-wrapper">
         <!-- start preloader -->
-        <div class="preloader">
+        {{-- <div class="preloader">
             <div class="vertical-centered-box">
                 <div class="content">
                     <div class="loader-circle"></div>
@@ -51,7 +42,7 @@
                     <img class="" src="{{ url('assets/images/preloader.png') }}" alt="">
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- start header-section -->
         <header class="relative z-[111]">

@@ -33,10 +33,10 @@
                                         </div>
                                         <div data-swiper-parallax="400" class="slide-text">
                                             <p
-                                                class="text-[22px] text-[#e2e2e2] 
+                                                class="text-[22px] text-[#e2e2e2]
                                                     leading-[35px]
-                                                     mb-[40px] 
-                                                    md:text-[18px] col:leading-[25px] 
+                                                     mb-[40px]
+                                                    md:text-[18px] col:leading-[25px]
                                                     col:mb-[30px]">
                                                 Manufacturer, Wholesaler, and Trader of Desi Chana, Groundnut
                                                 Seeds, Soybean Seeds, Fish Fertilizer & many more</p>
@@ -78,10 +78,10 @@
                                         </div>
                                         <div data-swiper-parallax="400" class="slide-text">
                                             <p
-                                                class="text-[22px] text-[#e2e2e2] 
+                                                class="text-[22px] text-[#e2e2e2]
                                                     leading-[35px]
-                                                     mb-[40px] 
-                                                    md:text-[18px] col:leading-[25px] 
+                                                     mb-[40px]
+                                                    md:text-[18px] col:leading-[25px]
                                                     col:mb-[30px]">
                                                 All Agri Commodities Cleaning Plant & Coriander Seeds Processors</p>
                                         </div>
@@ -434,7 +434,7 @@
                 <div class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit  zoomIn"
                     data-wow-duration="2000ms">
                     <div
-                        class="group bg-white p-0 transition mb-7 cursor-pointer relative  text-center 
+                        class="group bg-white p-0 transition mb-7 cursor-pointer relative  text-center
                         ">
                         <div
                             class="relative bg-[#F3F1EA] py-5 product_image-div max-h-[220px] min-h-[220px] overflow-hidden flex justify-center flex-col">
@@ -447,47 +447,18 @@
                             <h2><a href="shop-single.html"
                                     class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">Producst
                                     Name</a></h2>
-                            <!-- <div class="pb-2">
-                                        <ul class="flex justify-center">
-                                            <li
-                                                class="line-through mr-2 text-[#6e6e6e] text-sm font-heading-font font-normal ">
-                                                $75.00</li>
-                                            <li class="text-[#F78914] text-sm font-heading-font font-normal"> $85.00</li>
-                                        </ul>
-                                    </div> -->
                         </div>
                         <div class="hidden">
                             <div
                                 class="transition-all text-center absolute top-0 left-0 z-20 scale-0 flex justify-center flex-col w-full h-full group-hover:scale-100">
                                 <ul class="flex items-center justify-center transition-all mb-5">
-                                    <!-- <li class="flex justify-center items-center  transition-all">
-                                                <a href="cart.html"
-                                                    class="block w-[45px] h-[45px] leading-[45px] transition-all-all text-white bg-transparent rounded-[50px]
-                                             border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
-                                                    <i class="fi ti-heart" aria-hidden="true"></i>
-                                                    <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
-                                                before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
-                                                 group-hover/edit:opacity-100 group-hover/edit:visible">View Details</span>
-                                                </a>
-                                            </li> -->
-                                    <!-- <li class="flex justify-center items-center ml-2 transition-all">
-                                                <a href="cart.html"
-                                                    class="block w-[45px] h-[45px] leading-[45px] transition-all-all text-white bg-transparent rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
-                                                    <i class="fi flaticon-shopping-cart" aria-hidden="true"></i>
-                                                    <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
-                                                before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
-                                                 group-hover/edit:opacity-100 group-hover/edit:visible">Add To Cart</span>
-                                                </a>
-                                            </li> -->
                                     <li class="flex justify-center items-center ml-2 transition-all prodact-modal">
                                         <button
                                             class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
                                             <i class="fi ti-eye"></i>
                                             <span
                                                 class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
+                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2
                                                 before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
                                                  group-hover/edit:opacity-100 group-hover/edit:visible">Quick
                                                 View</span>
@@ -497,13 +468,6 @@
                                 <h2><a href="shop-single.html"
                                         class="font-normal text-xl text-white mb-2 mt-1 font-heading-font transition-all-all hover:text-white">Fresh
                                         Orangey</a></h2>
-                                <!-- <div class="pb-2">
-                                            <ul class="flex justify-center">
-                                                <li class="line-through mr-2 text-white text-sm font-heading-font font-normal ">
-                                                    $75.00</li>
-                                                <li class="text-white text-sm font-heading-font font-normal"> $85.00</li>
-                                            </ul>
-                                        </div> -->
                                 <a href="cart.html"
                                     class="p-[10px_25px] bg-white rounded-[50px] text-[#6e6e6e] w-[160px] mx-auto mt-5 inline-block">View
                                     Details</a>
@@ -514,7 +478,7 @@
                 <div class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk vegetable zoomIn"
                     data-wow-duration="2000ms">
                     <div
-                        class="group bg-white p-0 transition mb-7 cursor-pointer relative  text-center 
+                        class="group bg-white p-0 transition mb-7 cursor-pointer relative  text-center
                         ">
                         <div
                             class="relative bg-[#F3F1EA] py-5 product_image-div max-h-[220px] min-h-[220px] overflow-hidden flex justify-center flex-col">
@@ -527,48 +491,19 @@
                             <h2><a href="shop-single.html"
                                     class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">Red
                                     Radish</a></h2>
-                            <!-- <div class="pb-2">
-                                        <ul class="flex justify-center">
-                                            <li
-                                                class="line-through mr-2 text-[#6e6e6e] text-sm font-heading-font font-normal ">
-                                                $75.00</li>
-                                            <li class="text-[#F78914] text-sm font-heading-font font-normal"> $85.00</li>
-                                        </ul>
-                                    </div> -->
                         </div>
 
                         <div class="hidden">
                             <div
                                 class="transition-all text-center absolute top-0 left-0 z-20 scale-0 flex justify-center flex-col w-full h-full group-hover:scale-100">
                                 <ul class="flex items-center justify-center transition-all mb-5">
-                                    <!-- <li class="flex justify-center items-center  transition-all">
-                                                <a href="cart.html"
-                                                    class="block w-[45px] h-[45px] leading-[45px] transition-all-all text-white bg-transparent rounded-[50px]
-                                             border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
-                                                    <i class="fi ti-heart" aria-hidden="true"></i>
-                                                    <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
-                                                before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
-                                                 group-hover/edit:opacity-100 group-hover/edit:visible">View Details</span>
-                                                </a>
-                                            </li> -->
-                                    <!-- <li class="flex justify-center items-center ml-2 transition-all">
-                                                <a href="cart.html"
-                                                    class="block w-[45px] h-[45px] leading-[45px] transition-all-all text-white bg-transparent rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
-                                                    <i class="fi flaticon-shopping-cart" aria-hidden="true"></i>
-                                                    <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
-                                                before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
-                                                 group-hover/edit:opacity-100 group-hover/edit:visible">Add To Cart</span>
-                                                </a>
-                                            </li> -->
                                     <li class="flex justify-center items-center ml-2 transition-all prodact-modal">
                                         <button
                                             class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
                                             <i class="fi ti-eye"></i>
                                             <span
                                                 class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
+                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2
                                                 before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
                                                  group-hover/edit:opacity-100 group-hover/edit:visible">Quick
                                                 View</span>
@@ -578,13 +513,6 @@
                                 <h2><a href="shop-single.html"
                                         class="font-normal text-xl text-white mb-2 mt-1 font-heading-font transition-all-all hover:text-white">Fresh
                                         Orangey</a></h2>
-                                <!-- <div class="pb-2">
-                                            <ul class="flex justify-center">
-                                                <li class="line-through mr-2 text-white text-sm font-heading-font font-normal ">
-                                                    $75.00</li>
-                                                <li class="text-white text-sm font-heading-font font-normal"> $85.00</li>
-                                            </ul>
-                                        </div> -->
                                 <a href="cart.html"
                                     class="p-[10px_25px] bg-white rounded-[50px] text-[#6e6e6e] w-[160px] mx-auto mt-5 inline-block">View
                                     Details</a>
@@ -595,7 +523,7 @@
                 <div class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0  fruit zoomIn"
                     data-wow-duration="2000ms">
                     <div
-                        class="group bg-white p-0 transition mb-7 cursor-pointer relative  text-center 
+                        class="group bg-white p-0 transition mb-7 cursor-pointer relative  text-center
                         ">
                         <div
                             class="relative bg-[#F3F1EA] py-5 product_image-div max-h-[220px] min-h-[220px] overflow-hidden flex justify-center flex-col">
@@ -608,48 +536,19 @@
                             <h2><a href="shop-single.html"
                                     class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">Cauliflower</a>
                             </h2>
-                            <!-- <div class="pb-2">
-                                        <ul class="flex justify-center">
-                                            <li
-                                                class="line-through mr-2 text-[#6e6e6e] text-sm font-heading-font font-normal ">
-                                                $75.00</li>
-                                            <li class="text-[#F78914] text-sm font-heading-font font-normal"> $85.00</li>
-                                        </ul>
-                                    </div> -->
                         </div>
 
                         <div class="hidden">
                             <div
                                 class="transition-all text-center absolute top-0 left-0 z-20 scale-0 flex justify-center flex-col w-full h-full group-hover:scale-100">
                                 <ul class="flex items-center justify-center transition-all mb-5">
-                                    <!-- <li class="flex justify-center items-center  transition-all">
-                                                <a href="cart.html"
-                                                    class="block w-[45px] h-[45px] leading-[45px] transition-all-all text-white bg-transparent rounded-[50px]
-                                             border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
-                                                    <i class="fi ti-heart" aria-hidden="true"></i>
-                                                    <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
-                                                before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
-                                                 group-hover/edit:opacity-100 group-hover/edit:visible">View Details</span>
-                                                </a>
-                                            </li> -->
-                                    <!-- <li class="flex justify-center items-center ml-2 transition-all">
-                                                <a href="cart.html"
-                                                    class="block w-[45px] h-[45px] leading-[45px] transition-all-all text-white bg-transparent rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
-                                                    <i class="fi flaticon-shopping-cart" aria-hidden="true"></i>
-                                                    <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
-                                                before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
-                                                 group-hover/edit:opacity-100 group-hover/edit:visible">Add To Cart</span>
-                                                </a>
-                                            </li> -->
                                     <li class="flex justify-center items-center ml-2 transition-all prodact-modal">
                                         <button
                                             class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
                                             <i class="fi ti-eye"></i>
                                             <span
                                                 class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2 
+                                                -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2
                                                 before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
                                                  group-hover/edit:opacity-100 group-hover/edit:visible">Quick
                                                 View</span>
@@ -686,7 +585,7 @@
 
     <!-- start of orico-partners-section  -->
     <section
-        class="relative py-[60px] bg-[url(../images/partner/bg.jpg)] bg-no-repeat bg-center bg-cover z-10 
+        class="relative py-[60px] bg-[url(../images/partner/bg.jpg)] bg-no-repeat bg-center bg-cover z-10
         before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#8AC224] before:opacity-[0.9] before:-z-10 ">
         <h2 class="hidden">hidden</h2>
         <div class="wraper">

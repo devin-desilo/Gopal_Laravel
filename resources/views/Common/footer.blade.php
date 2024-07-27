@@ -54,25 +54,25 @@
                                 </div>
                                 <ul>
                                     <li class="relative z-[1] py-[6px]">
-                                        <a href="about.html" class="text-[16px] font-heading-font transition-all-all text-white 
+                                        <a href="about.html" class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F78914]">
                                             About Us
                                         </a>
                                     </li>
                                     <li class="relative z-[1] py-[6px]">
-                                        <a href="about.html" class="text-[16px] font-heading-font transition-all-all text-white 
+                                        <a href="about.html" class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F78914]">
                                             Newsroom
                                         </a>
                                     </li>
                                     <li class="relative z-[1] py-[6px]">
-                                        <a href="about.html" class="text-[16px] font-heading-font transition-all-all text-white 
+                                        <a href="about.html" class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F78914]">
                                             Checkout
                                         </a>
                                     </li>
                                     <li class="relative z-[1] py-[6px]">
-                                        <a href="about.html" class="text-[16px] font-heading-font transition-all-all text-white 
+                                        <a href="about.html" class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F78914]">
                                             Contact us
                                         </a>
@@ -136,7 +136,7 @@
                                 Never Miss Anything From Gopal Agri Export By Signing Up To Our Newsletter.
                             </p>
                             <form class="mt-[25px] relative">
-                                <input type="email" class="bg-[#141d37] h-[55px] text-white p-[6px_15px] 
+                                <input type="email" class="bg-[#141d37] h-[55px] text-white p-[6px_15px]
                                 border-[1px] border-[#28343e] w-full focus:outline-0 rounded-[5px] "
                                     placeholder="Email Address *" required="">
                                 <div class="absolute right-[5px] top-[-17px] translate-y-1/2">
