@@ -1,10 +1,10 @@
 <!-- start footer -->
 <section class="bg-[#1e2845] relative z-[1]">
-    <div class="py-[80px] md:pb-[60px] relative overflow-hidden">
+    <div class="py-[80px] md:py-[60px] relative overflow-hidden">
         <div class="wraper">
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
-                    <div class="max-w-[180px] mb-[30px]">
+                    <div class="footer-logo mb-[30px]">
                         <img src="assets/images/footer-logo.png" alt="blog">
                     </div>
                     <p class="mb-[10px] text-white text-[16px] leading-[30px]">Global Agri Export of Premium

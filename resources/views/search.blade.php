@@ -26,16 +26,22 @@
 <!-- shop-section start-->
 <div class="bg-[#f9f9f9] py-[120px] md:py-[90px] sm:py-[80px]">
     <div class="wraper">
+        <!-- Search Form -->
+        <form action="{{ route('products.search') }}" method="GET" class="mb-8 text-center">
+            <input type="text" name="query" placeholder="Search products..." class="p-2 border rounded">
+            <button type="submit" class="p-2 bg-blue-500 text-white rounded">Search</button>
+        </form>
+
         <div>
             <div class="grid products-wrap gap-x-3 gap-y-5">
                 @foreach ($products as $product)
-                <div id="product-{{ $product->id }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
-                    <a href="{{ route('products.show', $product->id) }}">
+                <div id="product-{{ $product['id'] }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
+                    <a href="{{ route('products.show', $product['id']) }}">
                         <div class="group bg-white p-0 transition mb-7 cursor-pointer relative text-center">
                             <div class="relative bg-[#F3F1EA] py-5 product_image-div max-h-[220px] min-h-[220px] overflow-hidden flex justify-center flex-col">
                                 <div class="mx-auto">
-                                    @if (count($product->images) > 0)
-                                    <img src="{{asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition group-hover:opacity-[0.8]">
+                                    @if (count($product['images']) > 0)
+                                    <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition group-hover:opacity-[0.8]">
                                     @else
                                     <img src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
                                     @endif
@@ -43,7 +49,7 @@
                             </div>
                             <div class="transition product-text-div">
                                 <h2>
-                                    <p href="{{ route('products.show', $product->id) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition group-hover:text-[#F78914]">{{ $product->name }}</p>
+                                    <p href="{{ route('products.show', $product['id']) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">{{ $product['name'] }}</p>
                                 </h2>
                             </div>
                             <div class="hidden">
@@ -61,17 +67,18 @@
                                         </li>
                                     </ul>
                                     <h2>
-                                        <p href="{{ route('products.show', $product->id) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">{{ $product->name }}</p>
+                                        <p href="{{ route('products.show', $product['id']) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">{{ $product['name'] }}</p>
                                     </h2>
+                                    {{-- <a href="{{ route('cart.index') }}"
+                                    class="p-[10px_25px] bg-white rounded-[50px] text-[#6e6e6e] w-[160px] mx-auto mt-5 inline-block">View
+                                    Details
+                    </a> --}}
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 @endforeach
-            </div>
-            <div class="mt-8 pagination-main-div flex items-center justify-center">
-                {{ $products->links() }}
             </div>
         </div>
     </div>

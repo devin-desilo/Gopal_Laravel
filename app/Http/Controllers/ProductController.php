@@ -10,10 +10,10 @@ class ProductController extends Controller
     // Display a list of products
     public function index()
     {
-        $products = Product::all()->toArray();
-        // dd($products);
+        $products = Product::paginate(9); // Use pagination to get 9 products per page
         return view('shop', compact('products'));
     }
+
 
     // Display a specific product
     public function show($id)
@@ -67,5 +67,15 @@ class ProductController extends Controller
         $product->delete();
 
         return redirect()->route('products.index');
+    }
+
+    public function search(Request $request)
+    {
+        $query = $request->input('query');
+        $products = Product::where('name', 'LIKE', '%' . $query . '%')
+            ->orderBy('name', 'asc')
+            ->get();
+
+        return view('shop', compact('products'));
     }
 }

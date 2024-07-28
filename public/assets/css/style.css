@@ -1623,7 +1623,7 @@ h6 {
   margin-top: 1.25rem;
 }
 
-.my-5{
+.my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
@@ -3123,6 +3123,10 @@ h6 {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .\!flex-row {
@@ -6926,8 +6930,8 @@ h6 {
 @media (max-width: 767px) {
   .wraper {
     max-width: 540px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -7992,6 +7996,10 @@ h6 {
   ;
 }
 
+.group .group-hover\:text-\[\#F78914\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(247 137 20 / var(--tw-text-opacity));
+}
 .hover\:text-\[\#F78914\]:hover {
   --tw-text-opacity: 1;
   color: rgb(247 137 20 / var(--tw-text-opacity));
@@ -9715,6 +9723,10 @@ h6 {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .md\:py-\[60px\] {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 
   .md\:py-\[90px\] {
     padding-top: 90px;
@@ -10176,10 +10188,13 @@ h6 {
 }
 
 @media (max-width: 567px) {
+  .md\:mb-\[30px\] {
+    margin-bottom: 0px;
+  }
   .col\:col-span-12 {
     grid-column: span 12 / span 12;
   }
-
+  
   .col\:float-none {
     float: none;
   }
@@ -10959,29 +10974,57 @@ video {
 /* ---------------Product Css------------------ */
 .product-box {}
 
-.product-box .group{
+.product-box .group {
   border-radius: 12px;
 }
 
 .product-box:hover img {
   transform: scale(1.1);
 }
+
 .product_image-div {
-  border-radius: 12px 12px 0px 0px ;
+  border-radius: 12px 12px 0px 0px;
 }
 
-.product-text-div{
-  padding: 10px  ;
+.product-text-div {
+  padding: 10px;
 }
 
 
 /* ---------------Products css------------------ */
 
 
-.Scroller-bg{
+.Scroller-bg {
   background-image: url(../../assets/images/slider/BannerScroll.webp) !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+
+.products-wrap {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.footer-logo{
+  max-width: 180px;
+}
+
+@media(max-width:975px) {
+  .products-wrap {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .footer-logo{
+    max-width: 140px;
+  }
+}
+@media(max-width:600px) {
+  .footer-logo{
+    max-width: 100px;
+  }
+  .products-wrap {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+ 

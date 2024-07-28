@@ -23,14 +23,12 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/service', [ServiceController::class, 'index'])->name('service');
 
-
-
 // Product Routes
 // Display a list of products
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 
-// Display a specific product by ID
-Route::get('/products/{id}', [ProductController::class, 'show'])->name('products.show');
+// Search for products
+Route::get('/products/search', [ProductController::class, 'search'])->name('products.search');
 
 // Create a new product (show form)
 Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
@@ -43,6 +41,9 @@ Route::get('/products/{id}/edit', [ProductController::class, 'edit'])->name('pro
 
 // Update an existing product (handle form submission)
 Route::put('/products/{id}', [ProductController::class, 'update'])->name('products.update');
+
+// Display a specific product by ID
+Route::get('/products/{id}', [ProductController::class, 'show'])->name('products.show');
 
 // Delete a product
 Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('products.destroy');

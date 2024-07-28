@@ -525,6 +525,9 @@
 }
 
 @media(max-width:575px) {
+    .products-wrap{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
     .mini-cart-content {
         width: 290px;
     }

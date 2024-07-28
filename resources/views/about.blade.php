@@ -56,7 +56,7 @@
                                     five centuries the leap into.</p>
                             </li>
                         </ul>
-                        <a class="theme-btn bg-[#F78914] hover:bg-[#f78914ee]" href="about.html">Get In
+                        <a class="theme-btn bg-[#F78914] hover:bg-[#f78914ee]" href="/about">Get In
                             Touch</a>
 
                     </div>
@@ -135,71 +135,32 @@
 
 
 <!-- blog-area-start -->
-<section class="py-[120px] md:py-[90px] md:mb-[60px] sm:py-[80px] col:mb-[50px] bg-[#F7F6F1]">
+<section class="py-[120px] md:py-[90px]  sm:py-[80px]   bg-[#F7F6F1]">
     <div class="wraper">
-        <div class="grid justify-center">
-            <div class="col-span-8">
-                <div class="text-center mb-16 md:mb-12 col:mb-10">
-                    <span class="capitalize text-xl text-[#6e6e6e] font-heading-font font-normal underline  mb-2 inline-block">“<span class="text-[#F78914]">From Our Blog</span>”</span>
-                    <h2 class="text-6xl font-heading-font font-medium uppercase mt-5 col:mt-2 text-[#232323] sm:text-3xl col:text">
-                        LATEST ARTICLES</h2>
+        <div class="col-span-6 md:col-span-12">
+            <div class="orico-about-text-wrap 111">
+                <div class="orico-about-text">
+                    <h2 class="text-5xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Why Choose Us</h2>
+                    <p class="mb-5">
+                        Established in 2021, Gopal Agri Export is a leading Manufacturer, Wholesaler, and Trader of Desi Chana, Groundnut Seeds, Soybean Seeds, Fish Fertilizer, and more. We help farmers with professional advice on managing crops and increasing productivity. Using data and technology, we ensure farmers get high-quality agricultural inputs and close the knowledge gap.
+                    </p>
+                    <ul class="mb-8 flex col:block">
+                        <li class="py-1 relative pl-6 font-semibold inline-block text-base text-[#687693]">
+                            <i class="absolute left-0 top-1">
+                                <img src="assets/images/about/4.png" alt="">
+                            </i>
+                            <p>Our aim is to establish Agri clinics in every state and reach every district down to the village level, focusing on comprehensive agricultural consultancy.</p>
+                        </li>
+                        <li class="py-1 relative pl-6 font-semibold inline-block text-base text-[#687693]">
+                            <i class="absolute left-0 top-1">
+                                <img src="assets/images/about/4.png" alt="">
+                            </i>
+                            <p>We are developing software for APMC price lists, integrating auto voice commands and instructional videos, and aiming to export high-quality goods.</p>
+                        </li>
+                    </ul>
+                    <a class="theme-btn bg-[#F78914] hover:bg-[#f78914ee]" href="/about">Get In Touch</a>
                 </div>
-            </div>
-        </div>
-        <div class="grid grid-cols-12 gap-x-4">
-            <div class="col-span-4 lg:col-span-6 sm:col-span-12">
-                <div class="bg-white rounded-3xl lg:mb-7">
-                    <div class="p-7 sm:p-5 rounded-3xl">
-                        <img src="assets/images/blog/img-1.jpg" alt="" class="w-full rounded-3xl">
-                    </div>
-                    <div class="p-7 sm:p-5 sm:pt-0 pt-0">
-                        <ul class="flex mb-4">
-                            <li class="text-[#F78914] uppercase">04 - august - 2024</li>
-                        </ul>
-                        <h3 class="mb-7 text-2xl xl:text-xl font-heading-font">
-                            <a href="blog-single.html" class="text-[#232323] transition-all-all hover:text-[#F78914]">Many publishing
-                                and packages and web page editors
-                                model.</a>
-                        </h3>
-                        <a href="blog-single.html" class="theme-btn-s2">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-4 lg:col-span-6 sm:col-span-12">
-                <div class="bg-white rounded-3xl lg:mb-7">
-                    <div class="p-7 sm:p-5 rounded-3xl">
-                        <img src="assets/images/blog/img-2.jpg" alt="" class="w-full rounded-3xl">
-                    </div>
-                    <div class="p-7 sm:p-5 sm:pt-0 pt-0">
-                        <ul class="flex mb-4">
-                            <li class="text-[#F78914] uppercase">05 - august - 2024</li>
-                        </ul>
-                        <h3 class="mb-7 text-2xl xl:text-xl font-heading-font">
-                            <a href="blog-single.html" class="text-[#232323] transition-all-all hover:text-[#F78914]">How to get more
-                                traffic in your website of
-                                ecommerce.</a>
-                        </h3>
-                        <a href="blog-single.html" class="theme-btn-s2">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-4 lg:col-span-6 sm:col-span-12">
-                <div class="bg-white rounded-3xl lg:mb-7">
-                    <div class="p-7 sm:p-5 rounded-3xl">
-                        <img src="assets/images/blog/img-2.jpg" alt="" class="w-full rounded-3xl">
-                    </div>
-                    <div class="p-7 sm:p-5 sm:pt-0 pt-0">
-                        <ul class="flex mb-4">
-                            <li class="text-[#F78914] uppercase">05 - august - 2024</li>
-                        </ul>
-                        <h3 class="mb-7 text-2xl xl:text-xl font-heading-font">
-                            <a href="blog-single.html" class="text-[#232323] transition-all-all hover:text-[#F78914]">25 Rules and
-                                regulation to be successful in your
-                                business.</a>
-                        </h3>
-                        <a href="blog-single.html" class="theme-btn-s2">Read more</a>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

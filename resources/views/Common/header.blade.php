@@ -290,6 +290,12 @@
                                     </li>
                                 </ul>
                             </li>
+                            <li>
+                                <form action="{{ route('products.search') }}" method="GET">
+                                    <input type="text" name="query" placeholder="Search products...">
+                                    <button type="submit">Search</button>
+                                </form>
+                            </li>
                             <li class="hidden group">
                                 <a href="#" class="relative text-[16px] lg:text-[17px] py-[20px]
                                     xl:py-[15px] px-[20px] xl:px-[6px]
@@ -394,7 +400,7 @@
                                     <li><a href="index-3.html">Home style 3</a></li>
                                 </ul>
                             </li>
-                            <li><a href="about.html">About </a></li>
+                            <li><a href="/about">About </a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="dl-submenu">
                                     <li><a href="team.html">Team</a></li>
@@ -441,6 +447,3 @@
                 </div>
             </div>
         </header>
-
-
-      

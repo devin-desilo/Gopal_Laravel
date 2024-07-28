@@ -43,7 +43,7 @@
                                         </div>
 
                                         <div data-swiper-parallax="500" class="slide-btn">
-                                            <a href="about.html" class="btn theme-btn">
+                                            <a href="/about" class="btn theme-btn">
                                                 Explore more</a>
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@
                                         </div>
 
                                         <div data-swiper-parallax="500" class="slide-btn">
-                                            <a href="about.html" class="btn theme-btn">
+                                            <a href="/about" class="btn theme-btn">
                                                 Explore more</a>
                                         </div>
                                     </div>
@@ -210,7 +210,7 @@
                                         five centuries the leap into.</p>
                                 </li>
                             </ul>
-                            <a class="theme-btn bg-[#F78914] hover:bg-[#f78914ee]" href="about.html">Get In
+                            <a class="theme-btn bg-[#F78914] hover:bg-[#f78914ee]" href="/about">Get In
                                 Touch</a>
 
                         </div>

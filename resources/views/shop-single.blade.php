@@ -9,14 +9,14 @@
             <div class="col-span-12">
                 <div class="text-center">
                     <h2 class="text-[60px] text-white leading-[60px]m mt-[-10px] mb-5 font-heading-font font-medium sm:text-[30px] sm:leading-[35px] sm:mb-[10px]">
-                        Shop Single
+                        {{ $product['name'] }}
                     </h2>
                     <ol class="wpo-breadcumb-wrap">
                         <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg
                                 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-[8px] after:h-[8px] after:bg-white after:rounded-[50%]">
                             <a href="{{ url('/') }}" class="text-white text-lg transition-all hover:text-[#F78914]">Home</a>
                         </li>
-                        <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg">Shop Single</li>
+                        <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg">{{ $product['name'] }}</li>
                     </ol>
                 </div>
             </div>
@@ -130,15 +130,7 @@
 
 <!-- Initialize Slider -->
 <script>
-    $(window).on('load', function() {
-        if ($('.preloader').length) {
-            $('.preloader').delay(100).fadeOut(500, function() {
-                //active wow
-                wow.init();
-            });
-        }
-    })
-
+  
 
 
     $(document).ready(function() {
