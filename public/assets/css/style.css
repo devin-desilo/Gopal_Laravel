@@ -2104,7 +2104,7 @@ h6 {
 }
 
 .min-h-\[450px\] {
-  min-height: 450px;
+  min-height: 250px;
 }
 
 .min-h-\[600px\] {
@@ -10976,3 +10976,12 @@ video {
 
 
 /* ---------------Products css------------------ */
+
+
+.Scroller-bg{
+  background-image: url(../../assets/images/slider/BannerScroll.webp) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+

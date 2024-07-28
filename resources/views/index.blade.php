@@ -245,7 +245,7 @@
 
     <!-- start orico-fun-fact-section -->
     <section
-        class="bg-[url(../images/slider/BannerScroll.webp)] bg-cover bg-center bg-no-repeat bg-fixed
+        class="Scroller-bg bg-cover bg-center bg-no-repeat bg-fixed
              md:bg-local ">
         <div
             class="text-center py-20 md:pb-12 relative z-10  before:absolute before:left-0 before:top-0

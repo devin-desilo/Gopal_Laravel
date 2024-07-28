@@ -387,12 +387,16 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 967px) {
 
     .theme-btn,
     .view-cart-btn {
         padding: 8px 18px;
         font-size: 14px;
+    }
+
+    .hide-from-tab{
+        display: none;
     }
 
 }
@@ -3079,15 +3083,12 @@ All this is done for any sub-level being entered.
 
 
 
-#dl-menu .dl-trigger {
-    right: -20px;
-    border-radius: 5px;
-}
+
 
 @media (max-width:575px) {
-    #dl-menu .dl-trigger {
+    /* #dl-menu .dl-trigger {
         right: -13px;
-    }
+    } */
 }
 
 
@@ -3117,9 +3118,13 @@ All this is done for any sub-level being entered.
     z-index: 111;
 }
 
+
 @media (max-width:549px) {
     .dl-menuwrapper {
         width: 1%;
+    }
+    #dl-menu .dl-trigger {
+        right: 30px;
     }
 }
 
@@ -3143,7 +3148,7 @@ button.dl-trigger {
 
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
-    background: #1d3e54;
+    background: #1e2845;
 }
 
 .dl-menuwrapper button.dl-active {
@@ -3224,9 +3229,9 @@ button.dl-trigger {
     margin: 5px 0 0 0;
     width: 300px;
     position: absolute;
-    top: 75px;
+    top: 60px;
     margin: 0;
-    left: 0;
+    left: -300px;
     opacity: 0;
     pointer-events: none;
     -webkit-backface-visibility: hidden;
