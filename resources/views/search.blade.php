@@ -1,5 +1,53 @@
 @extends('Common.main')
 @section('content')
+
+<style>
+    .label {
+        font-size: .625rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: +1.3px;
+        margin-bottom: 1rem;
+    }
+
+    .searchBar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #searchQueryInput {
+        width: 100%;
+        height: 2.8rem;
+        background: #f5f5f5;
+        outline: none;
+        border: none;
+        border-radius: 1.625rem;
+        padding: 0 3.5rem 0 1.5rem;
+        font-size: 1rem;
+    }
+
+    #searchQuerySubmit {
+        width: 3.5rem;
+        height: 2.8rem;
+        margin-left: -3.5rem;
+        background: none;
+        border: none;
+        outline: none;
+    }
+
+    #searchQuerySubmit:hover {
+        cursor: pointer;
+    }
+
+    .search-button {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+</style>
 <!-- start wpo-page-title -->
 <section class="relative bg-[url(../images/page-title.jpg)] bg-no-repeat bg-center bg-cover min-h-[450px] flex justify-center flex-col z-10
                 sm:min-h-[250px]  before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#040128] before:-z-10 before:opacity-[0.65]">
@@ -8,13 +56,13 @@
             <div class="col-span-12">
                 <div class="text-center">
                     <h2 class="text-[60px] text-white leading-[60px]m mt-[-10px] mb-5 font-heading-font font-medium sm:text-[30px] sm:leading-[35px] sm:mb-[10px]">
-                        Shop</h2>
+                        {{ $query }}</h2>
                     <ol class="wpo-breadcumb-wrap">
                         <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg
                                 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-[8px] after:h-[8px] after:bg-white after:rounded-[50%]">
                             <a href="{{ url('/') }}" class="text-white text-lg transition-all hover:text-[#F78914]">Home</a>
                         </li>
-                        <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg">Shop</li>
+                        <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg">{{ $query }}</li>
                     </ol>
                 </div>
             </div>
@@ -28,11 +76,18 @@
     <div class="wraper">
         <!-- Search Form -->
         <form action="{{ route('products.search') }}" method="GET" class="mb-8 text-center">
-            <input type="text" name="query" placeholder="Search products..." class="p-2 border rounded">
-            <button type="submit" class="p-2 bg-blue-500 text-white rounded">Search</button>
+            <div class="searchBar relative">
+                <input id="searchQueryInput" type="text" name="query" placeholder="Search products..." value="" />
+                <button type="submit" class="p-2 bg-blue-500 text-white rounded absolute search-button">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                    </svg>
+                </button>
+            </div>
         </form>
 
         <div>
+            @if(count($products) > 0)
             <div class="grid products-wrap gap-x-3 gap-y-5">
                 @foreach ($products as $product)
                 <div id="product-{{ $product['id'] }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
@@ -73,15 +128,21 @@
                                     class="p-[10px_25px] bg-white rounded-[50px] text-[#6e6e6e] w-[160px] mx-auto mt-5 inline-block">View
                                     Details
                     </a> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
-                @endforeach
             </div>
         </div>
+        </a>
     </div>
+    @endforeach
+</div>
+@else
+<div class="text-center py-10">
+    <h2 class="text-2xl font-semibold">"{{ $query }}" No products found</h2>
+    <p class="text-lg">Try adjusting your search to find what you're looking for.</p>
+</div>
+@endif
+</div>
+</div>
 </div>
 <!-- shop-section end -->
 @endsection

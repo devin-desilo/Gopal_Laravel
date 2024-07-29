@@ -75,7 +75,7 @@ class ProductController extends Controller
         $products = Product::where('name', 'LIKE', '%' . $query . '%')
             ->orderBy('name', 'asc')
             ->get();
-
-        return view('shop', compact('products'));
+        // dd($products);
+        return view('search', compact('products' , 'query'));
     }
 }

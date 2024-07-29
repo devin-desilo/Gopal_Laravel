@@ -5,7 +5,7 @@
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
                     <div class="footer-logo mb-[30px]">
-                        <img src="assets/images/footer-logo.png" alt="blog">
+                        <img src={{ url('assets/images/footer-logo.png') }} class="w-full" srcset="/assets/images/footer-logo.png" alt="blog">
                     </div>
                     <p class="mb-[10px] text-white text-[16px] leading-[30px]">Global Agri Export of Premium
                         Agricultural Products: Desi Chana, Groundnut Seeds, Soybean Seeds, Fish Fertilizer &

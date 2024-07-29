@@ -290,12 +290,6 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <form action="{{ route('products.search') }}" method="GET">
-                                    <input type="text" name="query" placeholder="Search products...">
-                                    <button type="submit">Search</button>
-                                </form>
-                            </li>
                             <li class="hidden group">
                                 <a href="#" class="relative text-[16px] lg:text-[17px] py-[20px]
                                     xl:py-[15px] px-[20px] xl:px-[6px]
@@ -384,6 +378,19 @@
                                 </ul>
                             </li>
                         </ul>
+
+                        <form id="searchForm" action="{{ route('products.search') }}" method="GET">
+                            <div class="search-box">
+                                <button type="button" class="btn-search cursor-pointer" id="searchButton">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+                                        <circle cx="11" cy="11" r="8" />
+                                        <path d="m21 21-4.3-4.3" />
+                                    </svg>
+                                </button>
+                                <input type="text" name="query" class="input-search" placeholder="Search products..." id="searchInput">
+                            </div>
+                        </form>
+
                         <div class="flex items-center pr-[15px] lg:pr-[4px] sm:pr-0">
                             <a class="theme-btn content-btn py-[10px] px-[25px] bg-[#72a01e] md:hidden before:hidden" href="contact">Contact Us</a>
                         </div>
@@ -447,3 +454,29 @@
                 </div>
             </div>
         </header>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const searchForm = document.getElementById('searchForm');
+                const searchButton = document.getElementById('searchButton');
+                const searchInput = document.getElementById('searchInput');
+
+                // Handle button click
+                searchButton.addEventListener('click', function() {
+                    searchForm.submit();
+                });
+
+                // Handle enter key press
+                searchInput.addEventListener('keydown', function(event) {
+                    if (event.key === 'Enter') {
+                        event.preventDefault(); // Prevent the default form submission
+                        searchForm.submit();
+                    }
+                });
+
+                // Handle input focus
+                searchButton.addEventListener('focus', function() {
+                    searchForm.submit();
+                });
+            });
+        </script>

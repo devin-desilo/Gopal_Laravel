@@ -93,17 +93,18 @@
                 </div>
                 <div class="p-[50px] bg-white mb-[-125px] relative z-10
                             shadow-[0px_1px_15px_0px_rgba(62,65,159,0.1)] sm:p-7 sm:pt-[50px]">
-                    <form method="post" class="contact-validation-active mx-[-15px] overflow-hidden" id="contact-form-main">
+                    <form method="POST" action="{{ route('contact.send') }}" id="contact-form-main">
+                        @csrf
                         <div class="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
                             <input type="text" class="form-control w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px]
-                                        text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none
-                                         focus:border-[#F78914] focus:bg-transparent " name="name" id="name" placeholder="Your Name*">
+                    text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none
+                     focus:border-[#F78914] focus:bg-transparent " name="name" id="name" placeholder="Your Name*">
                         </div>
                         <div class="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
                             <input type="email" class="form-control  w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px] text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none  focus:border-[#F78914] focus:bg-transparent" name="email" id="email" placeholder="Your Email*">
                         </div>
                         <div class="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
-                            <input type="text" class="form-control  w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px] text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none  focus:border-[#F78914] focus:bg-transparent" name="adress" id="adress" placeholder="Adress">
+                            <input type="text" class="form-control  w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px] text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none  focus:border-[#F78914] focus:bg-transparent" name="address" id="address" placeholder="Address">
                         </div>
                         <div class="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
                             <select name="service" class="form-control  w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px]  text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none  focus:border-[#F78914] focus:bg-transparent">
@@ -118,9 +119,9 @@
                         </div>
                         <div class="text-center w-full mb-[10px]">
                             <button type="submit" class="bg-[#F78914] text-[#fff] inline-block py-[12px] px-[22px] border
-                                        hover:text-[#F78914]
-                                        border-transparent ] capitalize transition-all hover:bg-transparent
-                                        hover:border-[#F78914]">Get
+                    hover:text-[#F78914]
+                    border-transparent ] capitalize transition-all hover:bg-transparent
+                    hover:border-[#F78914]">Get
                                 in Touch</button>
                             <div id="loader">
                                 <i class="ti-reload"></i>
@@ -131,6 +132,8 @@
                             <div id="error"> Error occurred while sending email. Please try again later. </div>
                         </div>
                     </form>
+
+
                 </div>
             </div>
             <div class="col-span-1"></div>

@@ -20,7 +20,11 @@ use App\Http\Controllers\ProductController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+// Route for displaying the contact form
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+
+// Route for handling form submission
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/service', [ServiceController::class, 'index'])->name('service');
 
 // Product Routes
