@@ -25,7 +25,7 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 // Route for handling form submission
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
-Route::get('/service', [ServiceController::class, 'index'])->name('service');
+// Route::get('/service', [ServiceController::class, 'index'])->name('service');
 
 // Product Routes
 // Display a list of products

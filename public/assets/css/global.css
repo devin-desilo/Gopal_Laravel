@@ -41,11 +41,11 @@
 
 /*** back to top **/
 .back-to-top {
-    background-color: rgb(237, 51, 0, 0.7);
+    background-color: #f78914a7;
     width: 45px;
     height: 45px;
     line-height: 45px;
-    border: 2px solid #ed3400;
+    border: 2px solid #F78914;
     border-radius: 45px;
     text-align: center;
     display: none;
@@ -65,7 +65,7 @@
 }
 
 .back-to-top:hover {
-    background-color: #ed3400;
+    background-color: #F78914;
 }
 
 .back-to-top i {
@@ -395,7 +395,7 @@
         font-size: 14px;
     }
 
-    .hide-from-tab{
+    .hide-from-tab {
         display: none;
     }
 
@@ -478,12 +478,12 @@
 }
 
 .current {
-    color: #F78914;
+    color: #F5811E;
 }
 
 
 .tab .active button {
-    background-color: #F78914;
+    background-color: #F5811E;
     color: #fff;
 }
 
@@ -525,9 +525,10 @@
 }
 
 @media(max-width:575px) {
-    .products-wrap{
+    .products-wrap {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
     .mini-cart-content {
         width: 290px;
     }
@@ -609,7 +610,7 @@
 }
 
 .mini-cart-item-des a:hover {
-    color: #F78914;
+    color: #F5811E;
 }
 
 
@@ -733,7 +734,7 @@ input[type=number] {
 }
 
 .testimonial-slider button:hover {
-    background: #F78914;
+    background: #F5811E;
     color: #fff;
 }
 
@@ -782,7 +783,7 @@ input[type=number] {
 }
 
 .wpo-service-slider .owl-dots .active {
-    background: #F78914;
+    background: #F5811E;
     width: 45px;
 }
 
@@ -809,7 +810,7 @@ input[type=number] {
 .wpo-service-slider-two .owl-nav [class*=owl-] {
     padding: 0;
     margin: 0;
-    color: #F78914;
+    color: #F5811E;
     transition: all .3s ease-in-out;
     border: 0;
     background: none;
@@ -846,8 +847,8 @@ input[type=number] {
 
 .wpo-service-slider-two .owl-nav .owl-prev:hover,
 .wpo-service-slider-two .owl-nav .owl-next:hover {
-    background: #F78914;
-    border-color: #F78914;
+    background: #F5811E;
+    border-color: #F5811E;
 }
 
 .wpo-service-slider-two .owl-nav .owl-prev:hover .fi:before,
@@ -887,7 +888,7 @@ input[type=number] {
 }
 
 .wpo-service-slider-two .owl-dots .owl-dot.active {
-    background-color: #F78914;
+    background-color: #F5811E;
 }
 
 .wpo-service-slider-two:hover .owl-nav .owl-prev,
@@ -932,8 +933,8 @@ input[type=number] {
     background: transparent;
     transition: all .3s;
     background: transparent;
-    border: 1px solid #F78914;
-    color: #F78914;
+    border: 1px solid #F5811E;
+    color: #F5811E;
     text-decoration: none;
     border-radius: 50%;
 }
@@ -941,7 +942,7 @@ input[type=number] {
 .project-slider .owl-nav button:hover,
 .project-slider-s2 .owl-nav button:hover,
 .project-slider-s3 .owl-nav button:hover {
-    background: #F78914;
+    background: #F5811E;
     color: #fff;
     text-decoration: none;
     border-radius: 50%;
@@ -998,7 +999,7 @@ input[type=number] {
 .project-slider .owl-dots button.active,
 .project-slider-s2 .owl-dots button.active,
 .project-slider-s3 .owl-dots button.active {
-    background: #F78914;
+    background: #F5811E;
 }
 
 
@@ -1078,7 +1079,7 @@ input[type=number] {
 }
 
 .wpo-testimonial-wrap .slick-dots li.slick-active button {
-    background: #F78914;
+    background: #F5811E;
 }
 
 
@@ -1204,14 +1205,14 @@ input[type=number] {
     line-height: 46px;
     text-align: center;
     transition: all .3s;
-    border: 1px solid #F78914;
-    color: #F78914;
+    border: 1px solid #F5811E;
+    color: #F5811E;
     text-decoration: none;
     border-radius: 50%;
 }
 
 .wpo-testimonial-slide-s3 .owl-nav button:hover {
-    background: #F78914;
+    background: #F5811E;
     color: #fff;
     text-decoration: none;
     border-radius: 50%;
@@ -1247,11 +1248,11 @@ input[type=number] {
 }
 
 .wpo-testimonial-slide-s3 .owl-dots button.active {
-    background: #F78914;
+    background: #F5811E;
 }
 
 .wpo-testimonial-slide-s3 .owl-dots button.active {
-    background: #F78914;
+    background: #F5811E;
 }
 
 
@@ -1445,7 +1446,7 @@ input[type=number] {
 }
 
 .hero-slider .slick-dots li button {
-    background-color: #F78914;
+    background-color: #F5811E;
     width: 14px;
     height: 14px;
     border: 2px solid #fff;
@@ -1540,7 +1541,7 @@ input[type=number] {
     color: #fff;
 }
 
-.slider-nav{
+.slider-nav {
     height: 100px;
 }
 
@@ -1655,7 +1656,7 @@ input[type=number] {
 }
 
 .progress .progress-bar {
-    background-color: #F78914;
+    background-color: #F5811E;
 
 }
 
@@ -1770,8 +1771,8 @@ input[type=number] {
 }
 
 .product-option .product-row>div:last-child .theme-btn:hover {
-    background: #F78914;
-    border-color: #F78914;
+    background: #F5811E;
+    border-color: #F5811E;
     color: #fff;
 }
 
@@ -1788,9 +1789,9 @@ input[type=number] {
 }
 
 .product-option .theme-btn:hover {
-    background-color: #F78914;
+    background-color: #F5811E;
     color: #fff;
-    border-color: #F78914;
+    border-color: #F5811E;
 }
 
 .product-option .theme-btn {
@@ -1857,7 +1858,7 @@ input[type=number] {
 
 .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up:hover,
 .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down:hover {
-    background-color: #F78914;
+    background-color: #F5811E;
     color: #fff;
 }
 
@@ -1941,7 +1942,7 @@ input[type=number] {
 }
 
 .wpo-project-single-main-img .owl-nav [class*=owl-]:hover {
-    background: #F78914;
+    background: #F5811E;
     color: #fff;
 }
 
@@ -1953,7 +1954,7 @@ input[type=number] {
     padding: 0;
     margin: 0;
     border-radius: 50%;
-    color: #F78914;
+    color: #F5811E;
     transition: all .3s;
     border: 0;
 
@@ -2052,7 +2053,7 @@ input[type=number] {
 }
 
 .w-btn .tooltip_btn:hover {
-    background: #F78914;
+    background: #F5811E;
 }
 
 
@@ -2158,7 +2159,7 @@ label.error {
 .dl-menuwrapper:first-child {}
 
 .dl-menuwrapper button {
-    background: #F78914;
+    background: #F5811E;
     border: none;
     width: 48px;
     height: 45px;
@@ -2172,7 +2173,7 @@ label.error {
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
-    background: #F78914;
+    background: #F5811E;
 }
 
 .dl-menuwrapper button:after {
@@ -3126,8 +3127,9 @@ All this is done for any sub-level being entered.
     .dl-menuwrapper {
         width: 1%;
     }
+
     #dl-menu .dl-trigger {
-        right: 30px;
+        right: 40px;
     }
 }
 
@@ -3146,7 +3148,7 @@ All this is done for any sub-level being entered.
 }
 
 button.dl-trigger {
-    background-color: #F78914;
+    background-color: #F5811E;
 }
 
 .dl-menuwrapper button.dl-active,
@@ -3155,7 +3157,7 @@ button.dl-trigger {
 }
 
 .dl-menuwrapper button.dl-active {
-    background-color: #F78914;
+    background-color: #F5811E;
 
 }
 
@@ -4099,7 +4101,7 @@ All this is done for any sub-level being entered.
 }
 
 .post-slider .owl-nav [class*=owl-]:hover {
-    background: #F78914;
+    background: #F5811E;
     color: #fff;
 }
 
@@ -4111,7 +4113,7 @@ All this is done for any sub-level being entered.
     padding: 0;
     margin: 0;
     border-radius: 50%;
-    color: #F78914;
+    color: #F5811E;
     transition: all .3s ease-in-out;
     border: 0;
 }

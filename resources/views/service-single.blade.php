@@ -65,7 +65,7 @@
                                     <div
                                         class="w-12 h-12 leading-[48px] border-[2px] border-[#F7F6F1]
                                      text-center rounded-full mr-2 sm:float-none sm:mx-auto sm:mb-1 sm:w-8 sm:h-8 sm:leading-8 col:mb-1">
-                                        <i class="fi flaticon-phone-call  text-[#F78914] sm:text-lg"></i>
+                                        <i class="fi flaticon-phone-call  text-[#F5811E] sm:text-lg"></i>
                                     </div>
                                     <div class="overflow-hidden ml-5 sm:ml-0">
                                         <span
@@ -79,7 +79,7 @@
                                     <div
                                         class="w-12 h-12 leading-[48px] border-[2px] border-[#F7F6F1]
                                      text-center rounded-full mr-2 sm:float-none sm:mx-auto sm:mb-1 sm:w-8 sm:h-8 sm:leading-8 col:mb-1">
-                                        <i class=" fi flaticon-email text-[#F78914] sm:text-lg"></i>
+                                        <i class=" fi flaticon-email text-[#F5811E] sm:text-lg"></i>
                                     </div>
                                     <div class="overflow-hidden ml-5 sm:ml-0">
                                         <span
@@ -93,7 +93,7 @@
                                     <div
                                         class="w-12 h-12 leading-[48px] border-[2px] border-[#F7F6F1]
                                      text-center rounded-full mr-2 sm:float-none sm:mx-auto sm:mb-1 sm:w-8 sm:h-8 sm:leading-8 col:mb-1">
-                                        <i class=" fi flaticon-placeholder text-[#F78914] sm:text-lg"></i>
+                                        <i class=" fi flaticon-placeholder text-[#F5811E] sm:text-lg"></i>
                                     </div>
                                     <div class="overflow-hidden ml-5 sm:ml-0">
                                         <span class="font-normal text-base leading-4 text-[#868981] mb-1 lg:text-xs">Our
@@ -444,7 +444,7 @@
                                 w-[50px] h-[50px] rounded-[50%] leading-[55px]">
                                     <i class="fi flaticon-shopping-cart text-[22px]"></i>
                                     <span class="w-[19px] h-[19px] text-[10px] leading-[19px] text-white
-                                absolute top-[-2px] right-[-5px] rounded-[50%] font-semibold bg-[#F78914]">2</span>
+                                absolute top-[-2px] right-[-5px] rounded-[50%] font-semibold bg-[#F5811E]">2</span>
                                 </div>
                             </div>
                             <div class="mini-cart-content">
@@ -506,10 +506,10 @@
                                 Service</h2>
                             <ol class="wpo-breadcumb-wrap">
                                 <li
-                                    class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg 
+                                    class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg
                                 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-[8px] after:h-[8px] after:bg-white after:rounded-[50%]">
                                     <a href="/"
-                                        class="text-white text-lg transition-all hover:text-[#F78914]">Home</a>
+                                        class="text-white text-lg transition-all hover:text-[#F5811E]">Home</a>
                                 </li>
                                 <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg">Service
                                 </li>
@@ -557,19 +557,19 @@
                                 sollicitudin diam.</p>
                             <ul>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Non saed velit dictum quam risus pharetra esta.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Hac nibh fermentum nisi, platea condimentum cursus.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Massa volutpat odio facilisis purus sit elementum.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Elit curabitur amet risus bibendum.</li>
                             </ul>
                         </div>
@@ -590,16 +590,16 @@
                                 Our Work Process</h3>
                             <ul>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Non saed velit dictum quam risus pharetra esta.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Hac nibh fermentum nisi, platea condimentum cursus.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F78914] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Massa volutpat odio facilisis purus sit elementum.</li>
                             </ul>
                         </div>
@@ -641,7 +641,7 @@
                                     </div>
                                 </div>
                                 <div class="mt-[10px]">
-                                    <button type="submit" class="theme-btn bg-[#F78914] rounded-[6px]">Send
+                                    <button type="submit" class="theme-btn bg-[#F5811E] rounded-[6px]">Send
                                         Massege</button>
                                     <div id="loader">
                                         <i class="ti-reload"></i>
@@ -664,7 +664,7 @@
                                         <input type="text"
                                             class="form-control w-full text-[16px] rounded-[5px] h-[70px] p] border-0 pl-[10px] focus:outline-0 focus:shadow-none bg-white text-[#687693]"
                                             placeholder="Search Post..">
-                                        <button type="submit" class="text-[20px] text-white  bg-[#F78914] absolute right-[10px] top-[52%] h-[50px]
+                                        <button type="submit" class="text-[20px] text-white  bg-[#F5811E] absolute right-[10px] top-[52%] h-[50px]
                                 leading-[50px] w-[50px] rounded-[6px] transform -translate-y-1/2">
                                             <i class="ti-search"></i>
                                         </button>
@@ -677,24 +677,24 @@
                                 <ul>
                                     <li class=" mt-[15px] group transition-all "><a href="service-single.html"
                                             class="text-[#687693] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
-                                            block transition-all relative  group-hover:bg-[#F78914] group-hover:text-white">Agricultural Services</a>
+                                            block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Agricultural Services</a>
                                     </li>
                                     <li class="mt-[15px] group transition-all "><a href="service-single.html"
                                             class="text-[#687693] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
-                                            block transition-all relative  group-hover:bg-[#F78914] group-hover:text-white">Product Delivery</a>
+                                            block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Product Delivery</a>
                                     </li>
                                     <li class="mt-[15px] group transition-all "><a href="service-single.html"
-                                            class="text-white bg-[#F78914] rounded-[5px] p-[10px_20px]  group
+                                            class="text-white bg-[#F5811E] rounded-[5px] p-[10px_20px]  group
                                             font-base-font text-[16px] font-normal
-                                            block transition-all relative  group-hover:bg-[#F78914] group-hover:text-white">Fries Marine Fish</a>
+                                            block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Fries Marine Fish</a>
                                     </li>
                                     <li class="mt-[15px] group transition-all "><a href="service-single.html"
                                             class="text-[#687693] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
-                                            block transition-all relative  group-hover:bg-[#F78914] group-hover:text-white">Natural food</a>
+                                            block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Natural food</a>
                                     </li>
                                     <li class="mt-[15px] group transition-all "><a href="service-single.html"
                                             class="text-[#687693] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
-                                            block transition-all relative  group-hover:bg-[#F78914] group-hover:text-white">Natural Dairy Milk</a>
+                                            block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Natural Dairy Milk</a>
                                     </li>
                                 </ul>
                             </div>
@@ -723,7 +723,7 @@
                                     <a class="text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
-                                      hover:bg-[#F78914]" href="#">
+                                      hover:bg-[#F5811E]" href="#">
                                         <i class="ti-facebook"></i>
                                     </a>
                                 </li>
@@ -731,7 +731,7 @@
                                     <a class="text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
-                                      hover:bg-[#F78914]" href="#">
+                                      hover:bg-[#F5811E]" href="#">
                                         <i class="ti-twitter-alt"></i>
                                     </a>
                                 </li>
@@ -739,7 +739,7 @@
                                     <a class="text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
-                                      hover:bg-[#F78914]" href="#">
+                                      hover:bg-[#F5811E]" href="#">
                                         <i class="ti-instagram"></i>
                                     </a>
                                 </li>
@@ -747,7 +747,7 @@
                                     <a class="text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
-                                      hover:bg-[#F78914]" href="#">
+                                      hover:bg-[#F5811E]" href="#">
                                         <i class="ti-google"></i>
                                     </a>
                                 </li>
@@ -761,26 +761,26 @@
                                 </div>
                                 <ul>
                                     <li class="relative z-[1] py-[6px]">
-                                        <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white 
-                                           duration-300 hover:text-[#F78914]">
+                                        <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white
+                                           duration-300 hover:text-[#F5811E]">
                                             About Us
                                         </a>
                                     </li>
                                     <li class="relative z-[1] py-[6px]">
-                                        <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white 
-                                           duration-300 hover:text-[#F78914]">
+                                        <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white
+                                           duration-300 hover:text-[#F5811E]">
                                             Newsroom
                                         </a>
                                     </li>
                                     <li class="relative z-[1] py-[6px]">
-                                        <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white 
-                                           duration-300 hover:text-[#F78914]">
+                                        <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white
+                                           duration-300 hover:text-[#F5811E]">
                                             Checkout
                                         </a>
                                     </li>
                                     <li class="relative z-[1] py-[6px]">
-                                        <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white 
-                                           duration-300 hover:text-[#F78914]">
+                                        <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white
+                                           duration-300 hover:text-[#F5811E]">
                                             Contact us
                                         </a>
                                     </li>
@@ -795,14 +795,14 @@
                                 </div>
                                 <ul>
                                     <li class="mb-[10px] text-white text-[15px] font-heading-font">
-                                        <i class="ti-location-pin text-[#F78914]"></i> <span>123 Main Street New Yourk
+                                        <i class="ti-location-pin text-[#F5811E]"></i> <span>123 Main Street New Yourk
                                             Town , USA 12345</span>
                                     </li>
                                     <li class="mb-[10px] text-white text-[15px] font-heading-font">
-                                        <i class="ti-email text-[#F78914]"></i> <span>gopalagriexport@gmail.com</span>
+                                        <i class="ti-email text-[#F5811E]"></i> <span>gopalagriexport@gmail.com</span>
                                     </li>
                                     <li class="mb-[10px] text-white text-[15px] font-heading-font">
-                                        <i class="ti-mobile text-[#F78914]"></i> <span>+1 888 187 986 897</span>
+                                        <i class="ti-mobile text-[#F5811E]"></i> <span>+1 888 187 986 897</span>
                                     </li>
                                 </ul>
                             </div>
@@ -816,11 +816,11 @@
                                 publi’s shing
                                 packages web page editors now is use sites.</p>
                             <form class="mt-[25px] relative">
-                                <input type="email" class="bg-[#141d37] h-[55px] text-white p-[6px_15px] 
+                                <input type="email" class="bg-[#141d37] h-[55px] text-white p-[6px_15px]
                                 border-[1px] border-[#28343e] w-full focus:outline-0 rounded-[5px] "
                                     placeholder="Email Address *" required="">
                                 <div class="absolute right-[5px] top-[-17px] translate-y-1/2">
-                                    <button type="submit" class="bg-[#F78914] border-0 outline-0
+                                    <button type="submit" class="bg-[#F5811E] border-0 outline-0
                                      text-white w-[40px] h-[45px] leading-[45px] transition-all-all rounded-[5px] ">
                                         <i class="ti-angle-right"></i>
                                     </button>
@@ -836,7 +836,7 @@
                         <div class="col-span-12">
                             <p class="text-[15px] text-white text-center font-heading-font">
                                 Copyright &copy; 2024 All Right Reserved by
-                                <a href="/" class="text-[#F78914]">Gopalagriexport</a>
+                                <a href="/" class="text-[#F5811E]">Gopalagriexport</a>
                             </p>
                         </div>
                     </div>

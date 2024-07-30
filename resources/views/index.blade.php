@@ -22,14 +22,14 @@
                                             <p
                                                 class="text-[25px] col:text-[16px] text-white  capitalize
                                                     mb-[30px] font-normal tracking-[2px]">
-                                                “<span class="text-[#F78914]">SUPPLIER</span>”</p>
+                                                “<span class="text-[#F5811E]">SUPPLIER</span>”</p>
                                         </div>
                                         <div data-swiper-parallax="300" class="slide-title">
                                             <h2
                                                 class="text-[75px] font-heading-font font-normal uppercase leading-[90px] mt-[10px] mb-[25px]
                                                      lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[35px]
                                                      col:leading-[35px] text-white col:mb-[20px]">
-                                                Highest <span class="text-[#F78914]">Quality</span> Seeds Supplier</h2>
+                                                Highest <span class="text-[#F5811E]">Quality</span> Seeds Supplier</h2>
                                         </div>
                                         <div data-swiper-parallax="400" class="slide-text">
                                             <p
@@ -65,7 +65,7 @@
                                             <p
                                                 class="text-[25px] col:text-[16px] text-white  capitalize
                                                     mb-[30px] font-normal tracking-[2px]">
-                                                “<span class="text-[#F78914]">SEEDS</span>”</p>
+                                                “<span class="text-[#F5811E]">SEEDS</span>”</p>
                                         </div>
                                         <div data-swiper-parallax="300" class="slide-title">
                                             <h2
@@ -73,7 +73,7 @@
                                                      lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[35px]
                                                      col:leading-[35px] text-white col:mb-[20px]">
                                                 We Fulfill Your All
-                                                <span class="text-[#F78914]">Agriculture Requirements</span>!
+                                                <span class="text-[#F5811E]">Agriculture Requirements</span>!
                                             </h2>
                                         </div>
                                         <div data-swiper-parallax="400" class="slide-text">
@@ -180,11 +180,11 @@
         class="relative flex justify-center flex-col z-20 py-[120px] md:pt-[70px] md:py-[90px] sm:py-[80px] sm:pt-[60px] ">
         <div class="wraper">
             <div class="grid grid-cols-12 gap-x-4 items-center">
-                <div class="col-span-6 md:col-span-12">
+                <div class="col-span-6 md:col-span-12 mobile-order-2">
                     <div class="orico-about-text-wrap 111">
                         <div class="orico-about-text">
                             <span
-                                class="text-xl font-heading-font inline-block mb-1 font-normal underline text-[#F78914]">“ABOUT
+                                class="text-xl font-heading-font inline-block mb-1 font-normal underline text-[#F5811E]">“ABOUT
                                 US”</span>
                             <h2 class="text-5xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Welcome
                                 To Gopal Agri Export
@@ -210,15 +210,15 @@
                                         five centuries the leap into.</p>
                                 </li>
                             </ul>
-                            <a class="theme-btn bg-[#F78914] hover:bg-[#f78914ee]" href="/about">Get In
+                            <a class="theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">Get In
                                 Touch</a>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-span-6 md:col-span-12">
+                <div class="col-span-6 md:col-span-12 mobile-order-1">
                     <div class="pl-12 md:pl-0 md:mt-14">
-                        <div class="relative z-10 w-full p-5 col:p-2 border border-[#f7891470] ">
+                        <div class="relative z-10 w-full p-5 col:p-2 border border-[#F5811E70] ">
                             <video autoplay loop muted playsinline>
                                 <source src="/assets/Video/banner_Video.mp4" type="video/mp4">
                                 <!-- <source src="path/to/your/video.webm" type="video/webm"> -->
@@ -244,8 +244,7 @@
     <!-- end of orico-about-section -->
 
     <!-- start orico-fun-fact-section -->
-    <section
-        class="Scroller-bg bg-cover bg-center bg-no-repeat bg-fixed
+    <section class="Scroller-bg bg-cover bg-center bg-no-repeat bg-fixed
              md:bg-local ">
         <div
             class="text-center py-20 md:pb-12 relative z-10  before:absolute before:left-0 before:top-0
@@ -317,15 +316,10 @@
                         <div>
                             <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
                                 rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
-                                        <img src="assets/images/service/icon-1.svg" alt="" class="max-w-[55px]">
-                                    </div> -->
+                                                <img src="assets/images/service/icon-1.svg" alt="" class="max-w-[55px]">
+                                            </div> -->
                             <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">
                                 Manufacturer</h4>
-                            <a href="service-single.html"
-                                class="block w-16 h-16 leading-[64px] border border-[#F78914] bg-transparent
-                                mx-auto mt-2 rounded-[50%] transition-all hover:bg-[#F78914] hover:text-white">
-                                <i class="ti-arrow-right"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -338,15 +332,10 @@
                         <div>
                             <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
                                 rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
-                                        <img src="assets/images/service/icon-2.svg" alt="" class="max-w-[55px]">
-                                    </div> -->
+                                                <img src="assets/images/service/icon-2.svg" alt="" class="max-w-[55px]">
+                                            </div> -->
                             <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">Wholesaler
                             </h4>
-                            <a href="service-single.html"
-                                class="block w-16 h-16 leading-[64px] border border-[#F78914] bg-transparent
-                                mx-auto mt-2 rounded-[50%] transition-all hover:bg-[#F78914] hover:text-white">
-                                <i class="ti-arrow-right"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -359,15 +348,10 @@
                         <div>
                             <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
                                 rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
-                                        <img src="assets/images/service/icon-3.svg" alt="" class="max-w-[55px]">
-                                    </div> -->
+                                                <img src="assets/images/service/icon-3.svg" alt="" class="max-w-[55px]">
+                                            </div> -->
                             <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">Trader
                             </h4>
-                            <a href="service-single.html"
-                                class="block w-16 h-16 leading-[64px] border border-[#F78914] bg-transparent
-                                mx-auto mt-2 rounded-[50%] transition-all hover:bg-[#F78914] hover:text-white">
-                                <i class="ti-arrow-right"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -387,7 +371,7 @@
                     <div class="text-center mb-16 md:mb-12 col:mb-10">
                         <span
                             class="capitalize text-xl text-[#6e6e6e] font-heading-font font-normal underline  mb-2 inline-block">“<span
-                                class="text-[#F78914]">BEST PRODUCT</span>”</span>
+                                class="text-[#F5811E]">BEST PRODUCT</span>”</span>
                         <h2
                             class="text-6xl font-heading-font font-medium uppercase mt-5 col:mt-2 text-[#232323] sm:text-3xl col:text">
                             Latest Products</h2>
@@ -445,7 +429,7 @@
                         </div>
                         <div class="transition product-text-div">
                             <h2><a href="shop-single.html"
-                                    class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">Producst
+                                    class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">Producst
                                     Name</a></h2>
                         </div>
                         <div class="hidden">
@@ -454,7 +438,7 @@
                                 <ul class="flex items-center justify-center transition-all mb-5">
                                     <li class="flex justify-center items-center ml-2 transition-all prodact-modal">
                                         <button
-                                            class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
+                                            class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F5811E] relative group/edit">
                                             <i class="fi ti-eye"></i>
                                             <span
                                                 class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
@@ -489,7 +473,7 @@
                         </div>
                         <div class="transition product-text-div">
                             <h2><a href="shop-single.html"
-                                    class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">Red
+                                    class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">Red
                                     Radish</a></h2>
                         </div>
 
@@ -499,7 +483,7 @@
                                 <ul class="flex items-center justify-center transition-all mb-5">
                                     <li class="flex justify-center items-center ml-2 transition-all prodact-modal">
                                         <button
-                                            class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
+                                            class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F5811E] relative group/edit">
                                             <i class="fi ti-eye"></i>
                                             <span
                                                 class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
@@ -534,7 +518,7 @@
                         </div>
                         <div class="transition product-text-div">
                             <h2><a href="shop-single.html"
-                                    class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F78914]">Cauliflower</a>
+                                    class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">Cauliflower</a>
                             </h2>
                         </div>
 
@@ -544,7 +528,7 @@
                                 <ul class="flex items-center justify-center transition-all mb-5">
                                     <li class="flex justify-center items-center ml-2 transition-all prodact-modal">
                                         <button
-                                            class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F78914] relative group/edit">
+                                            class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F5811E] relative group/edit">
                                             <i class="fi ti-eye"></i>
                                             <span
                                                 class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
@@ -559,12 +543,12 @@
                                         class="font-normal text-xl text-white mb-2 mt-1 font-heading-font transition-all-all hover:text-white">Fresh
                                         Orangey</a></h2>
                                 <!-- <div class="pb-2">
-                                            <ul class="flex justify-center">
-                                                <li class="line-through mr-2 text-white text-sm font-heading-font font-normal ">
-                                                    $75.00</li>
-                                                <li class="text-white text-sm font-heading-font font-normal"> $85.00</li>
-                                            </ul>
-                                        </div> -->
+                                                    <ul class="flex justify-center">
+                                                        <li class="line-through mr-2 text-white text-sm font-heading-font font-normal ">
+                                                            $75.00</li>
+                                                        <li class="text-white text-sm font-heading-font font-normal"> $85.00</li>
+                                                    </ul>
+                                                </div> -->
                                 <a href="cart.html"
                                     class="p-[10px_25px] bg-white rounded-[50px] text-[#6e6e6e] w-[160px] mx-auto mt-5 inline-block">View
                                     Details</a>
@@ -685,19 +669,19 @@
                                     </span>
                                     <ul class="ml-2">
                                         <li class="inline-block"><a href='#'
-                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F78914] mr-2 block"><i
+                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F5811E] mr-2 block"><i
                                                     class="fa fa-facebook"></i></a></li>
                                         <li class="inline-block"><a href='#'
-                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F78914] mr-2 block"><i
+                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F5811E] mr-2 block"><i
                                                     class="fa fa-linkedin"></i></a></li>
                                         <li class="inline-block"><a href='#'
-                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F78914] mr-2 block"><i
+                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F5811E] mr-2 block"><i
                                                     class="fa fa-twitter"></i></a></li>
                                         <li class="inline-block"><a href='#'
-                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F78914] mr-2 block"><i
+                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F5811E] mr-2 block"><i
                                                     class="fa fa-instagram"></i></a></li>
                                         <li class="inline-block"><a href='#'
-                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F78914] mr-2 block"><i
+                                                class="w-7 h-7 rounded-[100px] leading-7 text-center text-white bg-[#F5811E] mr-2 block"><i
                                                     class="fa fa-youtube-play"></i></a></li>
                                     </ul>
                                 </div>
