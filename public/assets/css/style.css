@@ -3317,6 +3317,10 @@ h6 {
     justify-items: stretch;
 }
 
+.gap-20px{
+    gap: 20px;
+}
+
 .gap-1 {
     gap: 4px;
 }
@@ -7323,10 +7327,10 @@ h6 {
     border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.before\:bg-\[\#0008\]::before {
+/* .before\:bg-\[\#0008\]::before {
     content: var(--tw-content);
     background-color: #0008;
-}
+} */
 
 .before\:bg-\[\#040128\]::before {
     content: var(--tw-content);
@@ -8094,10 +8098,10 @@ h6 {
     text-align: center;
 }
 
-.hover\:before\:opacity-100:hover::before {
+/* .hover\:before\:opacity-100:hover::before {
     content: var(--tw-content);
     opacity: 1;
-}
+} */
 
 .hover\:before\:opacity-\[0\.04\]:hover::before {
     content: var(--tw-content);
@@ -10307,6 +10311,8 @@ h6 {
         padding: 20px;
     }
 
+
+
     .col\:p-\[30px_10px\] {
         padding: 30px 10px;
     }
@@ -10957,7 +10963,7 @@ video {
 }
 
 .header-box {
-    /* padding: 20px !important; */
+    padding: 10px !important;
 }
 
 .content-btn {
@@ -10999,7 +11005,8 @@ video {
 
 
 .Scroller-bg {
-    background-image: url(../../assets/images/slider/BannerScroll.webp) !important;
+    /* background-image: url(../../assets/images/slider/BannerScroll.webp) !important; */
+    background-color: #F7F6F1;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11054,7 +11061,7 @@ video {
         border-radius: 30px;
     }
 
-    .mb-\[-125px\]{
+    .mb-\[-125px\] {
         margin-bottom: 20px;
     }
 
@@ -11097,8 +11104,8 @@ video {
 
     .header-div .header-bg-div {
         border-radius: 0px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .mobile-order-2 {

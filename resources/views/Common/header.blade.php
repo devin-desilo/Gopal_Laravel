@@ -46,14 +46,14 @@
 
         <!-- start header-section -->
         <header class="relative z-[111]">
-            <div class="absolute left-0 top-0 z-10 sm:hidden">
+            {{-- <div class="absolute left-0 top-0 z-10 sm:hidden">
                 <img src="{{ url('assets/images/header-shape1.png') }}" alt="">
             </div>
             <div class="absolute right-0 top-0 z-10  sm:hidden">
                 <img src="{{ url('assets/images/header-shape2.png') }}" alt="">
-            </div>
+            </div> --}}
             <h1 class="hidden">section heading hidden</h1>
-            <div class="py-[20px] relative z-10">
+            <div class="py-[20px] hidden z-10">
                 <div class="wraper">
                     <div class="flex gap-4 items-center justify-between">
 
@@ -120,32 +120,27 @@
                     </div>
                 </div>
             </div>
-            <div class="wraper header-div">
-                <div
-                    class="flex items-center justify-between bg-[#F7F6F1] header-bg-div rounded-[5px] -mb-6 relative z-10 px-[20px] header-box">
-                    <div class="w-[70px] md:w-[70px] sm:w-[70px]  ">
-                        <a class="flex items-center md:justify-center text-white" href="/">
-                            <img class="" src="{{ url('assets/images/logo.png') }}" alt=""></a>
-                    </div>
-                    <div class="flex items-center justify-end gap-1">
-                        <ul class="md:hidden font-heading-font">
-                            <li class="relative  inline-block group">
-                                <a href="/"
-                                    class="relative text-[16px] lg:text-[17px] py-[25px]
-                                    xl:py-[25px] px-[20px] xl:px-[6px]
-                                    text-[#14212b] block capitalize
-                                     font-medium transition-all-all
-                                    hover:text-[#ea7c08]
-                                    before:absolute before:left-0 before:top-0 before:w-full before:h-[4px]
-                                    before:bg-[#ea7c08] before:content
-                                    before:opacity-0 before:invisible before:transition-all-all before:rounded-[3px]
-                                    hover:before:opacity-100 hover:before:visible">Home</a>
-
-                            </li>
-                            <li class="relative inline-block">
-                                <a href="/about"
-                                    class="relative text-[16px] lg:text-[17px] py-[25px]
-                                    xl:py-[25px] px-[20px] xl:px-[6px]
+            <div class=" header-div">
+                <div class="bg-[#F7F6F1] header-bg-div">
+                    <div class="flex items-center justify-between  wraper    relative z-10 p-[20px] header-box ">
+                        <div class="w-[70px] md:w-[70px] sm:w-[70px]  ">
+                            <a class="flex items-center md:justify-center text-white" href="/">
+                                <img class="" src="{{ url('assets/images/logo.png') }}" alt=""></a>
+                        </div>
+                        <div class="flex items-center justify-end gap-20px font-heading-font">
+                            <a href="/"
+                                class="relative text-[16px] lg:text-[17px] py-[25px]
+                                xl:py-[25px] menu-nav-item
+                                text-[#14212b] block capitalize
+                                 font-medium transition-all-all
+                                hover:text-[#ea7c08]
+                                before:absolute before:left-0 before:top-0 before:w-full before:h-[4px]
+                                before:bg-[#ea7c08] before:content
+                                before:opacity-0 before:invisible before:transition-all-all before:rounded-[3px]
+                                hover:before:opacity-100 hover:before:visible">Home</a>
+                            <a href="/about"
+                                class="relative text-[16px] lg:text-[17px] py-[25px]
+                                    xl:py-[25px] menu-nav-item
                                     text-[#14212b] block capitalize
                                      font-medium transition-all-all
                                     hover:text-[#ea7c08]
@@ -153,350 +148,133 @@
                                     before:bg-[#ea7c08] before:content
                                     before:opacity-0 before:invisible before:transition-all-all before:rounded-[3px]
                                     hover:before:opacity-100 hover:before:visible">About</a>
-                            </li>
-                            <li class="relative inline-block group">
+                            <div class=" group relative">
                                 <a href="/products"
                                     class="relative text-[16px] lg:text-[17px] py-[25px]
-                                    xl:py-[25px] px-[20px] xl:px-[6px]
-                                    text-[#14212b] block capitalize
-                                     font-medium transition-all
-                                    hover:text-[#ea7c08]
-                                    before:absolute before:left-0 before:top-0 before:w-full before:h-[4px]
-                                    before:bg-[#ea7c08] before:content
-                                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
-                                    hover:before:opacity-100 hover:before:visible">Products</a>
+                                            xl:py-[25px] menu-nav-item
+                                            text-[#14212b] block capitalize
+                                             font-medium transition-all
+                                            hover:text-[#ea7c08]
+                                            before:absolute before:left-0 before:top-0 before:w-full before:h-[4px]
+                                            before:bg-[#ea7c08] before:content
+                                            before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
+                                            hover:before:opacity-100 hover:before:visible">Products</a>
                                 <ul
                                     class="absolute w-[240px] left-0 top-[110%] pt-[20px] pb-[15px] px-[7px] z-[111] bg-[#fff]
-                                    shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
-                                    group-hover:opacity-100 group-hover:top-full group-hover:visible ">
+                                            shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
+                                            group-hover:opacity-100 group-hover:top-full group-hover:visible ">
                                     <li>
                                         <a href="products/1"
                                             class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Peanuts</a>
+                                                    text-[#0a272c] group relative overflow-hidden font-medium transition-all
+                                                    after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
+                                                    after:content after:bg-[#ea7c08] after:transition-all
+                                                    hover:after:w-[50%]">Peanuts</a>
                                     </li>
                                     <li>
                                         <a href="products/2"
                                             class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Seeds</a>
+                                                    text-[#0a272c] group relative overflow-hidden font-medium transition-all
+                                                    after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
+                                                    after:content after:bg-[#ea7c08] after:transition-all
+                                                    hover:after:w-[50%]">Seeds</a>
                                     </li>
                                     <li>
                                         <a href="products/3"
                                             class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Nuts</a>
+                                                    text-[#0a272c] group relative overflow-hidden font-medium transition-all
+                                                    after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
+                                                    after:content after:bg-[#ea7c08] after:transition-all
+                                                    hover:after:w-[50%]">Nuts</a>
                                     </li>
                                     <li>
                                         <a href="products/4"
                                             class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Spices</a>
+                                                    text-[#0a272c] group relative overflow-hidden font-medium transition-all
+                                                    after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
+                                                    after:content after:bg-[#ea7c08] after:transition-all
+                                                    hover:after:w-[50%]">Spices</a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li class="hidden inline-block group">
-                                <a href="/shop"
-                                    class="relative text-[16px] lg:text-[17px] py-[20px]
-                                    xl:py-[15px] px-[20px] xl:px-[6px]
-                                    text-[#14212b] block capitalize
-                                     font-medium transition-all
-                                    hover:text-[#ea7c08]
-                                    before:absolute before:left-0 before:top-0 before:w-full before:h-[4px]
-                                    before:bg-[#ea7c08] before:content
-                                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
-                                    hover:before:opacity-100 hover:before:visible">Products</a>
-                                <ul
-                                    class="absolute w-[240px] left-0 top-[110%] pt-[20px] pb-[15px] px-[7px] z-[111] bg-[#fff]
-                                    shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
-                                    group-hover:opacity-100 group-hover:top-full group-hover:visible ">
-                                    <li>
-                                        <a href="team.html"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Team</a>
-                                    </li>
-                                    <li>
-                                        <a href="service.html"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Service</a>
-                                    </li>
-                                    <li>
-                                        <a href="service-single.html"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Service
-                                            Single</a>
-                                    </li>
-                                    <li>
-                                        <a href="testimonial.html"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Testimonial</a>
-                                    </li>
-                                    <li>
-                                        <a href="faq.html"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Faq</a>
-                                    </li>
-                                    <li>
-                                        <a href="login.html"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">login</a>
-                                    </li>
-                                    <li>
-                                        <a href="404.html"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">404</a>
-                                    </li>
+                            </div>
+                            <a href="/products/search" class="search-btn md:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+                                    <circle cx="11" cy="11" r="8" />
+                                    <path d="m21 21-4.3-4.3" />
+                                </svg>
+                            </a>
 
-                                </ul>
-                            </li>
-                            <li class="hidden group">
-                                <a href="#"
-                                    class="relative text-[16px] lg:text-[17px] py-[20px]
-                                    xl:py-[15px] px-[20px] xl:px-[6px]
-                                    text-[#14212b] block capitalize
-                                     font-medium transition-all
-                                    hover:text-[#ea7c08]
-                                    before:absolute before:left-0 before:top-0 before:w-full before:h-[4px]
-                                    before:bg-[#ea7c08] before:content
-                                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
-                                    hover:before:opacity-100 hover:before:visible">Shop</a>
-                                <ul
-                                    class="absolute w-[240px] left-0 top-[110%] pt-[20px] pb-[15px] px-[7px] z-[111] bg-[#fff]
-                                    shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
-                                    group-hover:opacity-100 group-hover:top-full group-hover:visible ">
-                                    <li>
-                                        <a href="shop"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Shop
-                                            Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="shop-single"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Shop
-                                            Single</a>
-                                    </li>
-                                    <li>
-                                        <a href="cart"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Cart</a>
-                                    </li>
-                                    <li>
-                                        <a href="checkout.html"
-                                            class="text-[16px] lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Checkout</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="hidden group">
-                                <a href="#"
-                                    class="relative text-[16px] lg:text-[17px] py-[20px]
-                                    xl:py-[15px] px-[20px] xl:px-[6px]
-                                    text-[#14212b] block capitalize
-                                     font-medium transition-all
-                                    hover:text-[#ea7c08]
-                                    before:absolute before:left-0 before:top-0 before:w-full before:h-[4px]
-                                    before:bg-[#ea7c08] before:content
-                                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
-                                    hover:before:opacity-100 hover:before:visible">Blog</a>
-                                <ul
-                                    class="absolute w-[240px] left-0 top-[110%] pt-[20px] pb-[15px] px-[7px] z-[111] bg-[#fff]
-                                    shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
-                                    group-hover:opacity-100 group-hover:top-full group-hover:visible ">
-                                    <li>
-                                        <a href="blog.html"
-                                            class="text-[16px]
-                                            lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Blog
-                                            With Right Sidebar</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-left-sidebar.html"
-                                            class="text-[16px]
-                                            lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Blog
-                                            With Left Sidebar</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-fullwidth.html"
-                                            class="text-[16px]
-                                            lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Blog
-                                            Fullwidth</a>
-                                    </li>
-                                    <li class="relative group/group-2">
-                                        <a href="#"
-                                            class="text-[16px]
-                                            lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Blog
-                                            details</a>
-                                        <ul
-                                            class="absolute w-[240px] left-[120%] top-0 pt-[20px] pb-[15px] px-[7px] z-[111] bg-[#fff]
-                                            shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] opacity-0 invisible
-                                            transition-all group-hover/group-2:opacity-100 group-hover/group-2:left-[103%]
-                                            group-hover/group-2:visible">
-                                            <li>
-                                                <a href="blog-single.html"
-                                                    class="text-[16px]
-                                            lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Blog
-                                                    details right sidebar</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="blog-single-left-sidebar.html"
-                                                    class="text-[16px]
-                                            lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Blog
-                                                    details left sidebar</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="blog-single-fullwidth.html"
-                                                    class="text-[16px]
-                                            lg:text-[16px] inline-block  px-[15px] capitalize
-                                            text-[#0a272c] group relative overflow-hidden font-medium transition-all
-                                            after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px]
-                                            after:content after:bg-[#ea7c08] after:transition-all
-                                            hover:after:w-[50%]">Blog
-                                                    details fullwidth</a>
-                                            </li>
-
-
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <a href="/products/search" class="search-btn md:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
-                                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
-                                <circle cx="11" cy="11" r="8" />
-                                <path d="m21 21-4.3-4.3" />
-                            </svg>
-                        </a>
-
-                        <div class="flex items-center pr-[15px] lg:pr-[4px] sm:pr-0">
-                            <a class="theme-btn content-btn py-[10px] px-[25px] bg-[#72a01e] md:hidden before:hidden"
-                                href="contact">Contact Us</a>
+                            <div class="flex items-center pr-[15px] lg:pr-[4px] sm:pr-0">
+                                <a class="theme-btn content-btn py-[10px] px-[25px] bg-[#72a01e] md:hidden before:hidden"
+                                    href="contact">Contact Us</a>
+                            </div>
+                        </div>
+                        <!-- movile menu  -->
+                        <div id="dl-menu" class="dl-menuwrapper hidden md:block">
+                            <button class="dl-trigger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
+                                    <line x1="4" x2="20" y1="12" y2="12" />
+                                    <line x1="4" x2="20" y1="6" y2="6" />
+                                    <line x1="4" x2="20" y1="18" y2="18" />
+                                </svg>
+                            </button>
+                            <ul class="dl-menu">
+                                <li>
+                                    <a href="#">Home</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="/">Home style 1</a></li>
+                                        <li><a href="index-2.html">Home style 2</a></li>
+                                        <li><a href="index-3.html">Home style 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/about">About </a></li>
+                                <li><a href="#">Pages</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="service.html">Service</a></li>
+                                        <li><a href="service-single.html">Service Single</a></li>
+                                        <li><a href="testimonial.html">Testimonial</a></li>
+                                        <li><a href="404.html">404 Error</a></li>
+                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="404.html">404</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Shop</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="shop.html">Shop </a></li>
+                                        <li><a href="shop-single.html">Shop Single</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="http://google.com/">Blog</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="blog.html">Blog right sidebar</a></li>
+                                        <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
+                                        <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
+                                        <li>
+                                            <a href="#">Blog details</a>
+                                            <ul class="dl-submenu">
+                                                <li><a href="blog-single.html">Blog details right sidebar</a>
+                                                </li>
+                                                <li><a href="blog-single-left-sidebar.html">Blog details left
+                                                        sidebar</a></li>
+                                                <li><a href="blog-single-fullwidth.html">Blog details
+                                                        fullwidth</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- movile menu  -->
-                    <div id="dl-menu" class="dl-menuwrapper hidden md:block">
-                        <button class="dl-trigger">Open Menu</button>
-                        <ul class="dl-menu">
-                            <li>
-                                <a href="#">Home</a>
-                                <ul class="dl-submenu">
-                                    <li><a href="/">Home style 1</a></li>
-                                    <li><a href="index-2.html">Home style 2</a></li>
-                                    <li><a href="index-3.html">Home style 3</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="/about">About </a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="dl-submenu">
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="service.html">Service</a></li>
-                                    <li><a href="service-single.html">Service Single</a></li>
-                                    <li><a href="testimonial.html">Testimonial</a></li>
-                                    <li><a href="404.html">404 Error</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Shop</a>
-                                <ul class="dl-submenu">
-                                    <li><a href="shop.html">Shop </a></li>
-                                    <li><a href="shop-single.html">Shop Single</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="http://google.com/">Blog</a>
-                                <ul class="dl-submenu">
-                                    <li><a href="blog.html">Blog right sidebar</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                    <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
-                                    <li>
-                                        <a href="#">Blog details</a>
-                                        <ul class="dl-submenu">
-                                            <li><a href="blog-single.html">Blog details right sidebar</a>
-                                            </li>
-                                            <li><a href="blog-single-left-sidebar.html">Blog details left
-                                                    sidebar</a></li>
-                                            <li><a href="blog-single-fullwidth.html">Blog details
-                                                    fullwidth</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-
                 </div>
             </div>
         </header>

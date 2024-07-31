@@ -254,38 +254,38 @@
                     <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                         <div>
                             <h3
-                                class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                                class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                                 <span class="odometer" data-count="250">00</span>+
                             </h3>
-                            <p class="text-base text-white md:text-sm">Trusted By Customers</p>
+                            <p class="text-base text-black md:text-sm">Trusted By Customers</p>
                         </div>
                     </div>
                     <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                         <div>
                             <h3
-                                class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                                class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                                 <span class="odometer" data-count="46">00</span>+
                             </h3>
-                            <p class="text-base text-white md:text-sm">Product Sale Per Day</p>
+                            <p class="text-base text-black md:text-sm">Product Sale Per Day</p>
 
                         </div>
                     </div>
                     <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                         <div>
                             <h3
-                                class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                                class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                                 <span class="odometer" data-count="9">00 </span>+
                             </h3>
-                            <p class="text-base text-white md:text-sm">Years Of Foundation</p>
+                            <p class="text-base text-black md:text-sm">Years Of Foundation</p>
                         </div>
                     </div>
                     <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                         <div>
                             <h3
-                                class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                                class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                                 <span class="odometer" data-count="86">00</span>+
                             </h3>
-                            <p class="text-base text-white md:text-sm">Monthly Product Order</p>
+                            <p class="text-base text-black md:text-sm">Monthly Product Order</p>
                         </div>
                     </div>
                 </div>

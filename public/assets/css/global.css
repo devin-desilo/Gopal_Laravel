@@ -2170,11 +2170,11 @@ label.error {
     outline: none;
 }
 
-.dl-menuwrapper button:hover,
+/* .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
     background: #F5811E;
-}
+} */
 
 .dl-menuwrapper button:after {
     content: '';
@@ -3139,7 +3139,7 @@ All this is done for any sub-level being entered.
     text-indent: -900em;
     overflow: hidden;
     cursor: pointer;
-    background-color: #c0b596;
+    background-color: #F7F6F1;
     width: 40px;
     height: 40px;
     border: 0;
@@ -3147,9 +3147,9 @@ All this is done for any sub-level being entered.
     position: relative;
 }
 
-button.dl-trigger {
+/* button.dl-trigger {
     background-color: #F5811E;
-}
+} */
 
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
@@ -3163,7 +3163,7 @@ button.dl-trigger {
 
 
 
-.dl-menuwrapper button:after {
+/* .dl-menuwrapper button:after {
     content: '';
     position: absolute;
     width: 68%;
@@ -3174,7 +3174,7 @@ button.dl-trigger {
     box-shadow:
         0 10px 0 #fff,
         0 20px 0 #fff;
-}
+} */
 
 .dl-menuwrapper ul {
     padding: 0;
