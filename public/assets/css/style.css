@@ -3317,7 +3317,7 @@ h6 {
     justify-items: stretch;
 }
 
-.gap-20px{
+.gap-20px {
     gap: 20px;
 }
 
@@ -5456,7 +5456,7 @@ h6 {
 }
 
 .text-6xl {
-    font-size: 3.75rem;
+    font-size: 2.75rem;
     line-height: 1;
 }
 
@@ -5468,6 +5468,10 @@ h6 {
 .text-8xl {
     font-size: 6rem;
     line-height: 1;
+}
+
+.active-text {
+    color: #f78914 !important;
 }
 
 .text-\[0\.8rem\] {
@@ -11288,4 +11292,16 @@ video {
     .pagination-link {
         margin: 0.25rem 0;
     }
+}
+
+.products-slider .draggable {
+    height: fit-content;
+}
+
+/* .products-slider .slick-arrow{
+    height: fit-content;
+} */
+
+.slick-arrow {
+    color: transparent !important;
 }

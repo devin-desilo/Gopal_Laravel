@@ -148,7 +148,7 @@
 
 
     <!-- blog-area-start -->
-    <section class="py-[120px] md:py-[90px]  sm:py-[80px]   bg-[#F7F6F1]">
+    <section class="py-[120px] md:py-[90px]  sm:py-[80px]   ">
         <div class="wraper">
             <div class="col-span-6 md:col-span-12">
                 <div class="orico-about-text-wrap 111">

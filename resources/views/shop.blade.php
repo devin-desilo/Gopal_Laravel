@@ -10,7 +10,7 @@
                     <div class="text-center">
                         <h2
                             class="text-[60px] text-white leading-[60px]m mt-[-10px] mb-5 font-heading-font font-medium sm:text-[30px] sm:leading-[35px] sm:mb-[10px]">
-                            Shop</h2>
+                            Gopal Products</h2>
                         <ol class="wpo-breadcumb-wrap">
                             <li
                                 class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg
@@ -18,7 +18,7 @@
                                 <a href="{{ url('/') }}"
                                     class="text-white text-lg transition-all hover:text-[#F5811E]">Home</a>
                             </li>
-                            <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg">Shop</li>
+                            <li class="inline-block px-1 pr-[15px] text-white relative text-xl sm:text-lg">Products</li>
                         </ol>
                     </div>
                 </div>
