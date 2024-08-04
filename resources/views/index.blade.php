@@ -2,8 +2,8 @@
 @section('content')
 <div class="relative">
     <!-- start hero-slider -->
-    <section class="bg-[#131313] w-full h-[900px]  lg:h-[680px]
-                 md:h-[600px] sm:h-[500px]  relative z-[1] overflow-hidden
+    <section class="bg-[#131313] home-banner
+  relative z-[1] overflow-hidden
                  ">
         <div class="swiper-container w-full h-full absolute left-0 top-0">
             <div class="swiper-wrapper">
@@ -12,8 +12,8 @@
                             before:top-0 before:w-full before:h-full before:bg-[#040128] before:opacity-[0.6] pt-[35px] lg:pt-0" data-background="assets/images/slider/slide-1.jpg">
                         <!-- <div class="gradient-overlay"></div> -->
                         <div class="wraper">
-                            <div class="relative h-[900px] lg:h-[680px]  md:h-[600px] sm:h-[500px]">
-                                <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2 pb-[175px] lg:pb-0">
+                            <div class="relative home-banner">
+                                <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2  lg:pb-0">
 
                                     <div data-swiper-parallax="200" class="wpo-hero-title-top">
                                         <p class="text-[25px] col:text-[16px] text-white  capitalize
@@ -50,8 +50,8 @@
                             before:top-0 before:w-full before:h-full before:bg-[#040128] before:opacity-[0.6] pt-[35px] lg:pt-0" data-background="assets/images/slider/slide-4.jpg">
                         <!-- <div class="gradient-overlay"></div> -->
                         <div class="wraper">
-                            <div class="relative h-[900px] lg:h-[680px]  md:h-[600px] sm:h-[500px]">
-                                <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2 pb-[175px] lg:pb-0">
+                            <div class="relative home-banner">
+                                <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2  lg:pb-0">
 
                                     <div data-swiper-parallax="200" class="wpo-hero-title-top">
                                         <p class="text-[25px] col:text-[16px] text-white  capitalize
@@ -161,25 +161,25 @@
             <div class="col-span-6 md:col-span-12 mobile-order-2">
                 <div class="orico-about-text-wrap 111">
                     <div class="orico-about-text">
-                        <span class="text-xl font-heading-font inline-block mb-1 font-normal underline text-[#F5811E]">“ABOUT
+                        <span data-wow-duration="1s" class="text-xl wow slideInLeft font-heading-font inline-block mb-1 font-normal underline text-[#F5811E]">“ABOUT
                             US”</span>
-                        <h2 class="text-5xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Welcome
+                        <h2 data-wow-duration="1s" class="wow fadeInDown text-5xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Welcome
                             To Gopal Agri Export
                         </h2>
-                        <p class="mb-5">Established in 2021, Gopal Agri Export is a leading Manufacturer,
+                        <p data-wow-duration="1s" class="mb-5 wow fadeIn">Established in 2021, Gopal Agri Export is a leading Manufacturer,
                             Wholesaler, and Trader of Desi Chana, Groundnut Seeds, Soybean Seeds, Fish
                             Fertilizer, and more. We help farmers with professional advice on managing crops and
                             increasing productivity. Using data and technology, we ensure farmers get
                             high-quality agricultural inputs and close the knowledge gap.</p>
                         <ul class="mb-8 flex col:block">
-                            <li class="py-1 relative pl-6 font-semibold inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-semibold inline-block text-base  text-[#687693]">
                                 <i class="absolute left-0 top-1">
                                     <img src="assets/images/about/4.png" alt="">
                                 </i>
                                 <p>It has survived not only
                                     five centuries the leap into.</p>
                             </li>
-                            <li class="py-1 relative pl-6 font-semibold inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-semibold inline-block text-base  text-[#687693]">
                                 <i class="absolute left-0 top-1">
                                     <img src="assets/images/about/5.png" alt="">
                                 </i>
@@ -187,7 +187,7 @@
                                     five centuries the leap into.</p>
                             </li>
                         </ul>
-                        <a class="theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">Get In
+                        <a data-wow-duration="1s" class=" wow fadeInUp theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">Get In
                             Touch</a>
                     </div>
                 </div>
@@ -262,73 +262,8 @@
 </section>
 <!-- end orico-fun-fact-section -->
 
-<!-- start of orico-service  -->
-<div class="pt-[120px] md:pt-[90px] sm:pt-[80px] pb-[90px] md:pb-[60px] sm:pb-[50px]">
-    <div class="wraper">
-        <div class="grid justify-center">
-            <div class="col-span-6">
-                <div class="text-center mb-16 md:mb-12 col:mb-10">
-                    <h2 class="text-6xl font-heading-font font-medium uppercase mt-5 col:mt-2 text-[#232323] sm:text-3xl col:text">
-                        What We do</h2>
-                </div>
-            </div>
-        </div>
-        <div class="grid grid-cols-9 justify-center gap-x-4">
-            <div class="col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
-                <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
-                    <div class="overflow-hidden rounded-[0.75rem] blog-img">
-                        <img src="assets/images/service/Manufacture.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110">
-                    </div>
-                    <div>
-                        <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
-                                rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
-                                                <img src="assets/images/service/icon-1.svg" alt="" class="max-w-[55px]">
-                                            </div> -->
-                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">
-                            Manufacturer</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
-                <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
-                    <div class="overflow-hidden rounded-[0.75rem] blog-img">
-                        <img src="assets/images/service/Wolesale.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110 h-full">
-                    </div>
-                    <div>
-                        <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
-                                rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
-                                                <img src="assets/images/service/icon-2.svg" alt="" class="max-w-[55px]">
-                                            </div> -->
-                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">Wholesaler
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
-                <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
-                    <div class="overflow-hidden rounded-[0.75rem] blog-img">
-                        <img src="assets/images/service/Trader.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110 h-full">
-                    </div>
-                    <div>
-                        <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
-                                rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
-                                                <img src="assets/images/service/icon-3.svg" alt="" class="max-w-[55px]">
-                                            </div> -->
-                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">Trader
-                        </h4>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-<!-- end of orico-hero-service  -->
-
-
-
 <!-- start of orico-product-section  -->
-<section class="pb-20 bg-[#F7F6F1] relative z-10 md:pb-12 pt-28 md:pt-24 sm:pt-20 overflow-hidden">
+<section class="pb-20  relative z-10 md:pb-12 pt-28 md:pt-24 sm:pt-20 overflow-hidden">
     <div class="wraper">
         <div class="grid justify-center">
             <div class="col-span-8">
@@ -338,7 +273,7 @@
                 </div>
             </div>
         </div>
-        <div class="products-slider">
+        <div data-wow-duration="1s" class="fadeIn wow products-slider">
             @foreach($latestProducts as $product)
             <div id="product-{{ $product->id }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
                 <a href="{{ route('products.show', $product->id) }}">
@@ -385,17 +320,84 @@
             @endforeach
         </div>
         <div class="flex-center pt-5">
-            <a  href="/products" class="theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">View all Products</a>
-            
+            <a href="/products" data-wow-duration="1s" class="wow fadeInUp theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">View all Products</a>
+
         </div>
     </div>
-    <div class="absolute left-0 bottom-0 -z-10">
+    <div class="absolute opacity-50 left-0 bottom-0 -z-10">
         <img src="assets/images/product/shape-1.png" alt="">
     </div>
-    <div class="absolute right-0 top-0 -z-10">
+    <div class="absolute opacity-50 right-0 top-0 -z-10">
         <img src="assets/images/product/shape-2.png" alt="">
     </div>
 </section>
+
+<!-- start of orico-service  -->
+<div class="pt-[120px] bg-[#F7F6F1] md:pt-[90px] sm:pt-[80px] pb-[90px] md:pb-[60px] sm:pb-[50px]">
+    <div class="wraper">
+        <div class="grid justify-center">
+            <div class="col-span-6">
+                <div class="text-center mb-16 md:mb-12 col:mb-10">
+                    <h2 class="text-6xl font-heading-font font-medium uppercase mt-5 col:mt-2 text-[#232323] sm:text-3xl col:text">
+                        What We do</h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-9 justify-center gap-x-4">
+            <div data-wow-duration="1s" class=" wow fadeInLeft col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
+                <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
+                    <div class="overflow-hidden rounded-[0.75rem] blog-img">
+                        <img src="assets/images/service/Manufacture.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition">
+                    </div>
+                    <div>
+                        <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
+                                rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
+                                                <img src="assets/images/service/icon-1.svg" alt="" class="max-w-[55px]">
+                                            </div> -->
+                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">
+                            Manufacturer</h4>
+                    </div>
+                </div>
+            </div>
+            <div data-wow-duration="1s" class=" wow fadeInUp col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
+                <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
+                    <div class="overflow-hidden rounded-[0.75rem] blog-img">
+                        <img src="assets/images/service/Wolesale.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition h-full">
+                    </div>
+                    <div>
+                        <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
+                                rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
+                                                <img src="assets/images/service/icon-2.svg" alt="" class="max-w-[55px]">
+                                            </div> -->
+                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">Wholesaler
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div data-wow-duration="1s" class=" wow fadeInRight col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
+                <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
+                    <div class="overflow-hidden rounded-[0.75rem] blog-img">
+                        <img src="assets/images/service/Trader.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition h-full">
+                    </div>
+                    <div>
+                        <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
+                                rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
+                                                <img src="assets/images/service/icon-3.svg" alt="" class="max-w-[55px]">
+                                            </div> -->
+                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">Trader
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end of orico-hero-service  -->
+
+
+
+
 
 <!-- start of orico-partners-section  -->
 <section class="relative py-[60px] bg-[url(../images/partner/bg.jpg)] bg-no-repeat bg-center bg-cover z-10
@@ -458,6 +460,7 @@
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
+            speed: 500, // This controls the slide transition speed (in milliseconds)
             responsive: [{
                     breakpoint: 1024,
                     settings: {

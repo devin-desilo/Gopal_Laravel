@@ -2161,6 +2161,9 @@ label.error {
     background: #F5811E;
     border: none;
     width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 45px;
     text-indent: -900em;
     overflow: hidden;
@@ -2177,6 +2180,7 @@ label.error {
 
 .dl-menuwrapper button:after {
     content: '';
+    display: none;
     position: absolute;
     width: 68%;
     height: 5px;
@@ -3050,6 +3054,10 @@ All this is done for any sub-level being entered.
     #dl-menu {
         display: block;
     }
+
+    .header-menu-link{
+        display: none !important;
+    }
 }
 
 #dl-menu li a {
@@ -3155,8 +3163,12 @@ All this is done for any sub-level being entered.
     background: #1e2845;
 }
 
-.dl-menuwrapper button.dl-active {
-    background-color: #F5811E;
+.dl-menuwrapper button.dl-active  {
+    background: transparent;
+
+}
+.dl-menuwrapper button.dl-active  svg{
+    stroke: #F5811E;
 
 }
 

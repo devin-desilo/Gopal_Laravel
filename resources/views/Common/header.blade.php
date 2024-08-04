@@ -25,6 +25,41 @@
     <link href="{{ url('assets/css/style.css') }}" rel="stylesheet">
 
 
+    <style>
+        .search-field {
+            background-color: transparent;
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2724%27%20height%3D%2724%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27currentColor%27%20stroke-width%3D%271.75%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%20class%3D%27lucide%20lucide-search%27%3E%3Ccircle%20cx%3D%2711%27%20cy%3D%2711%27%20r%3D%278%27%2F%3E%3Cpath%20d%3D%27m21%2021-4.3-4.3%27%2F%3E%3C%2Fsvg%3E");
+            background-position: 5px center;
+            background-repeat: no-repeat;
+            background-size: 24px 24px;
+            border: none;
+            cursor: pointer;
+            height: 40px;
+            margin: 3px 0;
+            padding: 0 0 0 34px;
+            position: relative;
+            -webkit-transition: width 400ms ease, background 400ms ease;
+            transition: width 400ms ease, background 400ms ease;
+            width: 0px;
+            cursor: pointer;
+        }
+
+
+        .search-field:focus {
+            background-color: #FFF;
+            border: 1px solid #c3c0ab;
+            background-size: 24px 20px;
+            border-radius: 10px;
+            cursor: text;
+            outline: 0;
+            width: 250px;
+            color: #000;
+        }
+
+        .search-form .search-submit {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -113,7 +148,7 @@
                     <a class="flex items-center md:justify-center text-white" href="/">
                         <img class="" src="{{ url('assets/images/logo.png') }}" alt=""></a>
                 </div>
-                <div class="flex items-center justify-end gap-20px font-heading-font">
+                <div class="flex items-center justify-end gap-20px font-heading-font header-menu-link">
                     <a href="/" class="relative text-[16px] lg:text-[17px] py-[25px] xl:py-[25px] menu-nav-item
     text-[#14212b] block capitalize font-medium transition-all-all hover:text-[#ea7c08]
     before:absolute before:left-0 before:top-0 before:w-full before:h-[4px] before:bg-[#ea7c08] before:content
@@ -176,12 +211,13 @@
                         </ul>
                     </div>
 
-                    <a href="/products/search" class="search-btn md:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
-                            <circle cx="11" cy="11" r="8" />
-                            <path d="m21 21-4.3-4.3" />
-                        </svg>
-                    </a>
+                    <form action="{{ route('products.search') }}" role="search" method="get" class="search-form m-0">
+                        <label>
+                            <input type="text" class="search-field" placeholder="Search …" value="" name="query" title="Search for:" />
+                        </label>
+                        <input type="submit" class="search-submit" value="Search" />
+                    </form>
+
 
                     <div class="flex items-center pr-[15px] lg:pr-[4px] sm:pr-0">
                         <a class="theme-btn content-btn py-[10px] px-[25px] bg-[#72a01e] md:hidden before:hidden" href="/contact">Contact Us</a>

@@ -5580,7 +5580,7 @@ h6 {
 }
 
 .text-\[75px\] {
-    font-size: 75px;
+    font-size: 55px;
 }
 
 .text-\[80px\] {
@@ -6930,7 +6930,7 @@ h6 {
 
 @media (max-width: 991px) {
     .wraper {
-        max-width: 720px;
+        max-width: 900px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -9158,6 +9158,10 @@ h6 {
 .peer[data-te-input-focused]~.peer-data-\[te-input-focused\]\:text-primary {
     --tw-text-opacity: 1;
     color: rgb(59 113 202 / var(--tw-text-opacity));
+}
+
+.home-banner{
+    height: calc(100vh - 100px);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -5,8 +5,7 @@
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
                     <div class="footer-logo mb-[30px]">
-                        <img src={{ url('assets/images/footer-logo.png') }} class="w-full"
-                            srcset="/assets/images/footer-logo.png" alt="blog">
+                        <img src={{ url('assets/images/footer-logo.png') }} class="w-full" srcset="/assets/images/footer-logo.png" alt="blog">
                     </div>
                     <p class="mb-[10px] text-white text-[16px] leading-[30px]">Global Agri Export of Premium
                         Agricultural Products: Desi Chana, Groundnut Seeds, Soybean Seeds, Fish Fertilizer &
@@ -16,8 +15,7 @@
                             <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
-                                      hover:bg-[#F5811E]"
-                                href="#">
+                                      hover:bg-[#F5811E]" href="#">
                                 <i class="ti-facebook"></i>
                             </a>
                         </li>
@@ -25,8 +23,7 @@
                             <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
-                                      hover:bg-[#F5811E]"
-                                href="#">
+                                      hover:bg-[#F5811E]" href="#">
                                 <i class="ti-twitter-alt"></i>
                             </a>
                         </li>
@@ -34,8 +31,7 @@
                             <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
-                                      hover:bg-[#F5811E]"
-                                href="#">
+                                      hover:bg-[#F5811E]" href="#">
                                 <i class="ti-instagram"></i>
                             </a>
                         </li>
@@ -43,8 +39,7 @@
                             <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
-                                      hover:bg-[#F5811E]"
-                                href="#">
+                                      hover:bg-[#F5811E]" href="#">
                                 <i class="ti-google"></i>
                             </a>
                         </li>
@@ -53,29 +48,25 @@
                 <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
                     <div class="pl-[50px] lg:pl-0 md:pl-0">
                         <div class="mb-[30px]">
-                            <h3
-                                class="text-[25px] text-white capitalize relative font-heading-font font-normal
+                            <h3 class="text-[25px] text-white capitalize relative font-heading-font font-normal
                                      ">
                                 Quick Links</h3>
                         </div>
                         <ul>
                             <li class="relative z-[1] py-[6px]">
-                                <a href="/about"
-                                    class="text-[16px] font-heading-font transition-all-all text-white
+                                <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F5811E]">
                                     About Us
                                 </a>
                             </li>
                             <li class="relative z-[1] py-[6px]">
-                                <a href="/products"
-                                    class="text-[16px] font-heading-font transition-all-all text-white
+                                <a href="/products" class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F5811E]">
                                     Products
                                 </a>
                             </li>
                             <li class="relative z-[1] py-[6px]">
-                                <a href="/contact"
-                                    class="text-[16px] font-heading-font transition-all-all text-white
+                                <a href="/contact" class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F5811E]">
                                     Contact us
                                 </a>
@@ -86,8 +77,7 @@
                 <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
                     <div class="px-[20px] lg:px-0 ">
                         <div class="mb-[30px]">
-                            <h3
-                                class="text-[25px] text-white capitalize relative font-heading-font font-normal
+                            <h3 class="text-[25px] text-white capitalize relative font-heading-font font-normal
                                      ">
                                 Our Address</h3>
                         </div>
@@ -131,8 +121,7 @@
                 </div>
                 <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
                     <div class="mb-[30px]">
-                        <h3
-                            class="text-[25px] text-white capitalize relative font-heading-font font-normal
+                        <h3 class="text-[25px] text-white capitalize relative font-heading-font font-normal
                                      ">
                             Newsletter</h3>
                     </div>
@@ -140,13 +129,10 @@
                         Never Miss Anything From Gopal Agri Export By Signing Up To Our Newsletter.
                     </p>
                     <form class="mt-[25px] relative">
-                        <input type="email"
-                            class="bg-[#141d37] h-[55px] text-white p-[6px_15px]
-                                border-[1px] border-[#28343e] w-full focus:outline-0 rounded-[5px] "
-                            placeholder="Email Address *" required="">
+                        <input type="email" class="bg-[#141d37] h-[55px] text-white p-[6px_15px]
+                                border-[1px] border-[#28343e] w-full focus:outline-0 rounded-[5px] " placeholder="Email Address *" required="">
                         <div class="absolute right-[5px] top-[-17px] translate-y-1/2">
-                            <button type="submit"
-                                class="bg-[#F5811E] border-0 outline-0
+                            <button type="submit" class="bg-[#F5811E] border-0 outline-0
                                      text-white w-[40px] h-[45px] leading-[45px] transition-all-all rounded-[5px] ">
                                 <i class="ti-angle-right"></i>
                             </button>
@@ -173,6 +159,7 @@
 
 
 </div>
+
 <!-- end of page-wrapper -->
 <!-- All JavaScript files
     ================================================== -->
