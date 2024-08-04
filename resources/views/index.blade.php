@@ -189,7 +189,6 @@
                         </ul>
                         <a class="theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">Get In
                             Touch</a>
-
                     </div>
                 </div>
             </div>
@@ -278,7 +277,7 @@
             <div class="col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
                 <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
                     <div class="overflow-hidden rounded-[0.75rem] blog-img">
-                        <img src="assets/images/service/Manufacturer.jpg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110">
+                        <img src="assets/images/service/Manufacture.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110">
                     </div>
                     <div>
                         <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
@@ -293,7 +292,7 @@
             <div class="col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
                 <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
                     <div class="overflow-hidden rounded-[0.75rem] blog-img">
-                        <img src="assets/images/service/Wholesaler-relationships.jpg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110 h-full">
+                        <img src="assets/images/service/Wolesale.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110 h-full">
                     </div>
                     <div>
                         <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
@@ -308,7 +307,7 @@
             <div class="col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
                 <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
                     <div class="overflow-hidden rounded-[0.75rem] blog-img">
-                        <img src="assets/images/service/Trader.jpg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110 h-full">
+                        <img src="assets/images/service/Trader.svg" alt="" class="w-full rounded-[0.75rem] transform-all scale-100 transition group-hover:scale-110 h-full">
                     </div>
                     <div>
                         <!-- <div class="w-[120px] h-[120px] leading-[120px] flex items-center justify-center bg-white shadow-[4px_8px_20px_rgba(35,35,35,0.1)]
@@ -340,28 +339,24 @@
             </div>
         </div>
         <div class="products-slider">
-        @foreach($latestProducts as $product)
-            <div id="product-{{ $product->id }}"
-                 class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn"
-                 data-wow-duration="2000ms">
+            @foreach($latestProducts as $product)
+            <div id="product-{{ $product->id }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
                 <a href="{{ route('products.show', $product->id) }}">
                     <div class="group bg-white p-0 transition mb-7 cursor-pointer relative text-center">
                         <div class="relative bg-[#F3F1EA] py-5 product_image-div max-h-[220px] min-h-[220px] overflow-hidden flex justify-center flex-col">
                             <div class="mx-auto">
                                 @if (count($product->images) > 0)
-                                    <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}"
-                                         alt="" class="relative transition group-hover:opacity-[0.8]">
+                                <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition group-hover:opacity-[0.8]">
                                 @else
-                                    <img src="assets/images/default-product.jpg" alt=""
-                                         class="relative transition group-hover:opacity-[0.8]">
+                                <img src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
                                 @endif
                             </div>
                         </div>
                         <div class="transition product-text-div">
                             <h2>
-                                <p href="{{ route('products.show', $product->id) }}"
-                                   class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition group-hover:text-[#F5811E]">
-                                    {{ $product->name }}</p>
+                                <p href="{{ route('products.show', $product->id) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition group-hover:text-[#F5811E]">
+                                    {{ $product->name }}
+                                </p>
                             </h2>
                         </div>
                         <div class="hidden">
@@ -378,17 +373,21 @@
                                     </li>
                                 </ul>
                                 <h2>
-                                    <p href="{{ route('products.show', $product->id) }}"
-                                       class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">
-                                        {{ $product->name }}</p>
+                                    <p href="{{ route('products.show', $product->id) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">
+                                        {{ $product->name }}
+                                    </p>
                                 </h2>
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
-        @endforeach
-    </div>
+            @endforeach
+        </div>
+        <div class="flex-center pt-5">
+            <a  href="/products" class="theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">View all Products</a>
+            
+        </div>
     </div>
     <div class="absolute left-0 bottom-0 -z-10">
         <img src="assets/images/product/shape-1.png" alt="">

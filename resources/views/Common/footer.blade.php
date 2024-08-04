@@ -13,7 +13,7 @@
                         More.</p>
                     <ul class="pt-[10px]">
                         <li class="inline-block text-[22px] text-white">
-                            <a class="text-white w-[36px] h-[36px] leading-[40px]
+                            <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
                                       hover:bg-[#F5811E]"
@@ -22,7 +22,7 @@
                             </a>
                         </li>
                         <li class="inline-block text-[22px] text-white ml-[20px] lg:ml-[20px]">
-                            <a class="text-white w-[36px] h-[36px] leading-[40px]
+                            <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
                                       hover:bg-[#F5811E]"
@@ -31,7 +31,7 @@
                             </a>
                         </li>
                         <li class="inline-block text-[22px] text-white ml-[20px] lg:ml-[20px]">
-                            <a class="text-white w-[36px] h-[36px] leading-[40px]
+                            <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
                                       hover:bg-[#F5811E]"
@@ -40,7 +40,7 @@
                             </a>
                         </li>
                         <li class="inline-block text-[22px] text-white ml-[20px] lg:ml-[20px]">
-                            <a class="text-white w-[36px] h-[36px] leading-[40px]
+                            <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
                                       hover:bg-[#F5811E]"
@@ -64,6 +64,13 @@
                                     class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F5811E]">
                                     About Us
+                                </a>
+                            </li>
+                            <li class="relative z-[1] py-[6px]">
+                                <a href="/products"
+                                    class="text-[16px] font-heading-font transition-all-all text-white
+                                           duration-300 hover:text-[#F5811E]">
+                                    Products
                                 </a>
                             </li>
                             <li class="relative z-[1] py-[6px]">

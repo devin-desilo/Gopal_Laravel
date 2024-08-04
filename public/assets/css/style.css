@@ -4435,6 +4435,7 @@ h6 {
 .bg-\[\#F5811E\] {
     --tw-bg-opacity: 1;
     background-color: rgb(247 137 20 / var(--tw-bg-opacity));
+    transition: all 300ms;
 }
 
 .bg-\[\#f9f9f9\] {
@@ -5316,7 +5317,7 @@ h6 {
 }
 
 .pt-28 {
-    padding-top: 7rem;
+    padding-top: 100px;
 }
 
 .pt-4 {
@@ -5340,7 +5341,7 @@ h6 {
 }
 
 .pt-\[120px\] {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .pt-\[15px\] {
@@ -7919,6 +7920,9 @@ h6 {
 .hover\:bg-\[\#00000014\]:hover {
     background-color: #00000014;
 }
+.hover\:bg-\[\#F5811Eee\]:hover {
+    background-color: #F5811Eee;
+}
 
 .hover\:bg-\[\#00000026\]:hover {
     background-color: #00000026;
@@ -7935,7 +7939,7 @@ h6 {
 }
 
 .hover\:bg-\[\#F5811Eee\]:hover {
-    background-color: #F5811Eee;
+    background-color: #ffa151;
 }
 
 .hover\:bg-\[unset\]:hover {
@@ -10949,11 +10953,15 @@ h6 {
 }
 
 .blog-img {
-    height: 220px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+.blog-img img{
+    height: 100%;
 }
 
 video {
@@ -11302,6 +11310,19 @@ video {
     height: fit-content;
 } */
 
-.slick-arrow {
+.products-slider .slick-arrow {
     color: transparent !important;
+    display: none !important;
+}
+
+.icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
