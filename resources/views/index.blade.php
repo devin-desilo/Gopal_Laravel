@@ -16,21 +16,21 @@
                                 <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2  lg:pb-0">
 
                                     <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                        <p class="text-[25px] col:text-[16px] text-white  capitalize
-                                                    mb-[30px] font-normal tracking-[2px]">
+                                        <p class="text-[16px] col:text-[16px] text-white  capitalize
+                                                    mb-[10px] font-normal tracking-[2px]">
                                             “<span class="text-[#F5811E]">SUPPLIER</span>”</p>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-title">
-                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[90px] mt-[10px] mb-[25px]
+                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] mb-[10px]
                                                      lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[35px]
                                                      col:leading-[35px] text-white col:mb-[20px]">
                                             Highest <span class="text-[#F5811E]">Quality</span> Seeds Supplier</h2>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text">
-                                        <p class="text-[22px] text-[#e2e2e2]
+                                        <p class="home-sub-title text-[#e2e2e2]
                                                     leading-[35px]
-                                                     mb-[40px]
-                                                    md:text-[18px] col:leading-[25px]
+                                                     mb-[20px]
+                                                     col:leading-[25px]
                                                     col:mb-[30px]">
                                             Manufacturer, Wholesaler, and Trader of Desi Chana, Groundnut
                                             Seeds, Soybean Seeds, Fish Fertilizer & many more</p>
@@ -54,12 +54,12 @@
                                 <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2  lg:pb-0">
 
                                     <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                        <p class="text-[25px] col:text-[16px] text-white  capitalize
-                                                    mb-[30px] font-normal tracking-[2px]">
+                                        <p class="text-[16px] col:text-[16px] text-white  capitalize
+                                                    mb-[10px] font-normal tracking-[2px]">
                                             “<span class="text-[#F5811E]">SEEDS</span>”</p>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-title">
-                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[90px] mt-[10px] mb-[25px]
+                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] mb-[10px]
                                                      lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[35px]
                                                      col:leading-[35px] text-white col:mb-[20px]">
                                             We Fulfill Your All
@@ -67,10 +67,10 @@
                                         </h2>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text">
-                                        <p class="text-[22px] text-[#e2e2e2]
+                                        <p class="home-sub-title text-[#e2e2e2]
                                                     leading-[35px]
-                                                     mb-[40px]
-                                                    md:text-[18px] col:leading-[25px]
+                                                     mb-[20px]
+                                                     col:leading-[25px]
                                                     col:mb-[30px]">
                                             All Agri Commodities Cleaning Plant & Coriander Seeds Processors</p>
                                     </div>
@@ -161,9 +161,9 @@
             <div class="col-span-6 md:col-span-12 mobile-order-2">
                 <div class="orico-about-text-wrap 111">
                     <div class="orico-about-text">
-                        <span data-wow-duration="1s" class="text-xl wow slideInLeft font-heading-font inline-block mb-1 font-normal underline text-[#F5811E]">“ABOUT
+                        <span data-wow-duration="1s" class="text-[16px] wow slideInLeft font-heading-font inline-block mb-1 font-normal underline text-[#F5811E]">“ABOUT
                             US”</span>
-                        <h2 data-wow-duration="1s" class="wow fadeInDown text-5xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Welcome
+                        <h2 data-wow-duration="1s" class="wow fadeInDown text-4xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Welcome
                             To Gopal Agri Export
                         </h2>
                         <p data-wow-duration="1s" class="mb-5 wow fadeIn">Established in 2021, Gopal Agri Export is a leading Manufacturer,
@@ -172,14 +172,14 @@
                             increasing productivity. Using data and technology, we ensure farmers get
                             high-quality agricultural inputs and close the knowledge gap.</p>
                         <ul class="mb-8 flex col:block">
-                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-semibold inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
                                 <i class="absolute left-0 top-1">
                                     <img src="assets/images/about/4.png" alt="">
                                 </i>
                                 <p>It has survived not only
                                     five centuries the leap into.</p>
                             </li>
-                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-semibold inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
                                 <i class="absolute left-0 top-1">
                                     <img src="assets/images/about/5.png" alt="">
                                 </i>
@@ -343,7 +343,7 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-9 justify-center gap-x-4">
+        <div class="grid grid-cols-9  what-we-do justify-center gap-x-4">
             <div data-wow-duration="1s" class=" wow fadeInLeft col-span-3 lg:col-span-4 md:col-span-6 col:col-span-12">
                 <div class="p-7 bg-white rounded-[0.75rem] shadow-[4px_8px_20px_#eaeced] text-center mb-7 group">
                     <div class="overflow-hidden rounded-[0.75rem] blog-img">
