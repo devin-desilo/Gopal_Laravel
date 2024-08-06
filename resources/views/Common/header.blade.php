@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpOceans">
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico">
-    <title>Gopal Agri Export – home</title>
+    <link rel="shortcut icon" type="image/png" href="{{ url('assets/images/favicon.ico')}}">
+    <title>{{ $title  ?? 'Gopal Agri Export'}}</title>
     <link href="{{ url('assets/css/themify-icons.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/flaticon.css') }}" rel="stylesheet">
@@ -25,7 +25,43 @@
     <link href="{{ url('assets/css/style.css') }}" rel="stylesheet">
 
 
+
+
     <style>
+        .mobile-drawer {
+            width: 100vw;
+            height: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+            transition: height 0.3s ease;
+        }
+
+        .mobile-drawer.open {
+            height: calc(100vh - 91.69px);
+        }
+
+        .mobile-drawer nav ul {
+            list-style: none;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .mobile-drawer nav ul li {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .mobile-drawer nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .mobile-drawer nav ul li a:hover {
+            color: #F5811E;
+        }
+
+
         .search-field {
             background-color: transparent;
             background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2724%27%20height%3D%2724%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27currentColor%27%20stroke-width%3D%271.75%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%20class%3D%27lucide%20lucide-search%27%3E%3Ccircle%20cx%3D%2711%27%20cy%3D%2711%27%20r%3D%278%27%2F%3E%3Cpath%20d%3D%27m21%2021-4.3-4.3%27%2F%3E%3C%2Fsvg%3E");
@@ -62,7 +98,7 @@
     </style>
 </head>
 
-<body>
+<body id="body">
 
     <!-- start page-wrapper -->
     <div class="page-wrapper">
@@ -224,67 +260,40 @@
                     </div>
                 </div>
                 <!-- movile menu  -->
-                <div id="dl-menu" class="dl-menuwrapper hidden md:block">
-                    <button class="dl-trigger">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
-                            <line x1="4" x2="20" y1="12" y2="12" />
-                            <line x1="4" x2="20" y1="6" y2="6" />
-                            <line x1="4" x2="20" y1="18" y2="18" />
-                        </svg>
-                    </button>
-                    <ul class="dl-menu">
-                        <li>
-                            <a href="#">Home</a>
-                            <ul class="dl-submenu">
-                                <li><a href="/">Home style 1</a></li>
-                                <li><a href="index-2.html">Home style 2</a></li>
-                                <li><a href="index-3.html">Home style 3</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/about">About </a></li>
-                        <li><a href="#">Pages</a>
-                            <ul class="dl-submenu">
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="service.html">Service</a></li>
-                                <li><a href="service-single.html">Service Single</a></li>
-                                <li><a href="testimonial.html">Testimonial</a></li>
-                                <li><a href="404.html">404 Error</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="404.html">404</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Shop</a>
-                            <ul class="dl-submenu">
-                                <li><a href="shop.html">Shop </a></li>
-                                <li><a href="shop-single.html">Shop Single</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="http://google.com/">Blog</a>
-                            <ul class="dl-submenu">
-                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
-                                <li>
-                                    <a href="#">Blog details</a>
-                                    <ul class="dl-submenu">
-                                        <li><a href="blog-single.html">Blog details right sidebar</a>
-                                        </li>
-                                        <li><a href="blog-single-left-sidebar.html">Blog details left
-                                                sidebar</a></li>
-                                        <li><a href="blog-single-fullwidth.html">Blog details
-                                                fullwidth</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <div class="hidden md:flex gap-2">
+                    <div class="">
+                        <form action="{{ route('products.search') }}" role="search" method="get" class="search-form m-0">
+                            <label>
+                                <input type="text" class="search-field" placeholder="Search …" value="" name="query" title="Search for:" />
+                            </label>
+                            <input type="submit" class="search-submit" value="Search" />
+                        </form>
+                    </div>
+                    <div class="flex-center">
+                        <button id="toggleDrawer" class="dl-trigger">
+                            <svg id="openIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
+                                <line x1="4" x2="20" y1="12" y2="12" />
+                                <line x1="4" x2="20" y1="6" y2="6" />
+                                <line x1="4" x2="20" y1="18" y2="18" />
+                            </svg>
+                            <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x hidden">
+                                <line x1="18" x2="6" y1="6" y2="18" />
+                                <line x1="6" x2="18" y1="6" y2="18" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="mobile-drawer" id="drawer">
+        <nav class="">
+            <ul class="font-heading-font">
+                <li><a class="" href="#home">Home</a></li>
+                <li><a class="" href="#about">About</a></li>
+                <li><a class="" href="#products">Products</a></li>
+                <li><a class="" href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
     </div>
     </header>

@@ -16,13 +16,13 @@
                                 <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2  lg:pb-0">
 
                                     <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                        <p class="text-[16px] col:text-[16px] text-white  capitalize
-                                                    mb-[10px] font-normal tracking-[2px]">
+                                        <p class="text-[16px] col:text-[14px] text-white  capitalize
+                                                     font-normal tracking-[2px]">
                                             “<span class="text-[#F5811E]">SUPPLIER</span>”</p>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-title">
-                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] mb-[10px]
-                                                     lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[35px]
+                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] col:mt-[0] mb-[10px]
+                                                     lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px]
                                                      col:leading-[35px] text-white col:mb-[20px]">
                                             Highest <span class="text-[#F5811E]">Quality</span> Seeds Supplier</h2>
                                     </div>
@@ -54,13 +54,13 @@
                                 <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2  lg:pb-0">
 
                                     <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                        <p class="text-[16px] col:text-[16px] text-white  capitalize
-                                                    mb-[10px] font-normal tracking-[2px]">
+                                        <p class="text-[16px] col:text-[14px] text-white  capitalize
+                                                     font-normal tracking-[2px]">
                                             “<span class="text-[#F5811E]">SEEDS</span>”</p>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-title">
                                         <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] mb-[10px]
-                                                     lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[35px]
+                                                     lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px]
                                                      col:leading-[35px] text-white col:mb-[20px]">
                                             We Fulfill Your All
                                             <span class="text-[#F5811E]">Agriculture Requirements</span>!

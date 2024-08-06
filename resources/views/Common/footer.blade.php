@@ -164,6 +164,28 @@
 <!-- All JavaScript files
     ================================================== -->
 <script src="{{ url('assets/js/jquery.min.js') }}"></script>
+<script>
+    document.getElementById('toggleDrawer').addEventListener('click', function() {
+        var drawer = document.getElementById('drawer');
+        var body = document.getElementById('body');
+        var openIcon = document.getElementById('openIcon');
+        var closeIcon = document.getElementById('closeIcon');
+
+        if (drawer.classList.contains('open')) {
+            drawer.classList.remove('open');
+            body.style.overflow = '';
+            body.style.height = '';
+            openIcon.classList.remove('hidden');
+            closeIcon.classList.add('hidden');
+        } else {
+            drawer.classList.add('open');
+            body.style.overflow = 'hidden';
+            body.style.height = '100vh';
+            openIcon.classList.add('hidden');
+            closeIcon.classList.remove('hidden');
+        }
+    });
+</script>
 <!-- Plugins for this template -->
 <script src="{{ url('assets/js/modernizr.custom.js') }}"></script>
 <script src="{{ url('assets/js/jquery-plugin-collection.js') }}"></script>

@@ -10,6 +10,7 @@ class ProductController extends Controller
     // Display a list of products
     public function index()
     {
+        $title = 'Gopal Agri Export – Products';
         $products = Product::paginate(9); // Use pagination to get 9 products per page
         return view('shop', compact('products'));
     }
@@ -18,9 +19,10 @@ class ProductController extends Controller
     // Display a specific product
     public function show($id)
     {
+        $title = 'Gopal Agri Export – Products';
         $product = Product::findOrFail($id)->toArray();
         // dd($product);
-        return view('shop-single', compact('product'));
+        return view('shop-single', compact('product',   'title'));
     }
 
     // Show the form to create a new product

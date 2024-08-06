@@ -10,7 +10,8 @@ class ContactController extends Controller
 {
     public function index()
     {
-        return view('contact');
+        $title = 'Gopal Agri Export – Contact';
+        return view('contact', compact('title'));
     }
 
     public function send(Request $request)

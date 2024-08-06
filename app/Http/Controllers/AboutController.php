@@ -8,6 +8,7 @@ class AboutController extends Controller
 {
     public function index()
     {
-        return view('about');
+        $title = 'Gopal Agri Export – About';
+        return view('about' , compact('title'));
     }
 }

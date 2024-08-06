@@ -6888,21 +6888,21 @@ NaNrem-\[auto\] {
 .section-wrap {
     position: relative;
     z-index: 10;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 @media (max-width: 991px) {
     .section-wrap {
-        padding-top: 90px;
-        padding-bottom: 90px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
 @media (max-width: 767px) {
     .section-wrap {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
@@ -7883,6 +7883,7 @@ NaNrem-\[auto\] {
 .hover\:bg-\[\#00000014\]:hover {
     background-color: #00000014;
 }
+
 .hover\:bg-\[\#F5811Eee\]:hover {
     background-color: #F5811Eee;
 }
@@ -9123,7 +9124,7 @@ NaNrem-\[auto\] {
     color: rgb(59 113 202 / var(--tw-text-opacity));
 }
 
-.home-banner{
+.home-banner {
     height: calc(100vh - 100px);
 }
 
@@ -9237,13 +9238,16 @@ NaNrem-\[auto\] {
 }
 
 @media (max-width: 1199px) {
-    .swiper-button-prev, .swiper-button-next{
+
+    .swiper-button-prev,
+    .swiper-button-next {
         width: 45px;
         height: 45px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .lg\:relative {
         position: relative;
     }
@@ -9424,9 +9428,12 @@ NaNrem-\[auto\] {
 }
 
 @media (max-width: 991px) {
-    .swiper-button-prev, .swiper-button-next {
+
+    .swiper-button-prev,
+    .swiper-button-next {
         display: none;
     }
+
     .md\:bottom-0 {
         bottom: 0px;
     }
@@ -10213,11 +10220,11 @@ NaNrem-\[auto\] {
     }
 
     .col\:mb-\[20px\] {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .col\:mb-\[30px\] {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .col\:mb-\[50px\] {
@@ -10318,6 +10325,10 @@ NaNrem-\[auto\] {
 
     .col\:text-\[16px\] {
         font-size: 16px;
+    }
+
+    .col\:text-\[14px\] {
+        font-size: 14px;
     }
 
     .col\:text-\[25px\] {
@@ -10937,7 +10948,7 @@ NaNrem-\[auto\] {
     overflow: hidden;
 }
 
-.blog-img img{
+.blog-img img {
     height: 100%;
 }
 
@@ -10981,11 +10992,12 @@ video {
     transform: scale(1.1);
 }
 
-.product-box .group{
+.product-box .group {
     border: 1px solid #f2e9e2;
     transition: all .3s ease-in-out;
 }
-.product-box .group:hover{
+
+.product-box .group:hover {
     border: 1px solid #F4801D;
 }
 
@@ -10998,9 +11010,7 @@ video {
     height: 220px;
 }
 
-.product_image-div{
-
-}
+.product_image-div {}
 
 .product-text-div {
     padding: 10px;
@@ -11074,7 +11084,8 @@ video {
     .h-\[550px\] {
         height: 350px;
     }
-    .product_image-div{
+
+    .product_image-div {
         height: 190px;
     }
 }
@@ -11083,14 +11094,16 @@ video {
 
     .theme-btn,
     .view-cart-btn {
-        border-radius: 10px;
+        border-radius: 6px;
+        padding: 2px 8px;
+        font-size: 12px;
     }
 
     .mobile-order-1 {
         order: 1;
     }
 
-    .product_image-div{
+    .product_image-div {
         height: 170px;
     }
 
@@ -11117,8 +11130,8 @@ video {
 
     .header-div .header-bg-div {
         border-radius: 0px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding: 15px;
+        /* padding-bottom: 15px; */
     }
 
     .mobile-order-2 {
@@ -11169,7 +11182,8 @@ video {
     .mb-8 {
         margin-bottom: 1rem;
     }
-    .product_image-div{
+
+    .product_image-div {
         height: 50vw;
     }
 }
@@ -11320,28 +11334,50 @@ video {
     display: none !important;
 }
 
-.icon-div{
+.icon-div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.home-sub-title{
+.home-sub-title {
     font-size: 20px;
 }
 
-.hover-menu  li a{
+.hover-menu li a {
     padding-left: 15px;
 }
 
-.description-text{
+.description-text {
     font-size: 16px;
+}
+
+.shop-single-slider .slider-small {
+    height: 100px;
+    width: 150px !important;
+}
+
+.shop-single-slider .slider-nav .slick-current {
+    border: 1px solid transparent;
+}
+
+.shop-single-slider .slider-nav .slick-current {
+    border: 1px solid #F5811E;
+    opacity: 0.7;
+}
+
+.shop-single-slider .slider-nav .slick-track {
+    width: fit-content !important;
+}
+
+.slider-main-image{
+    height: 315px !important;
 }
 
 @media (max-width: 1399px) {
@@ -11350,7 +11386,8 @@ video {
         padding-left: 12px;
         padding-right: 12px;
     }
-    .blog-img{
+
+    .blog-img {
         height: 180px;
     }
 }
@@ -11364,23 +11401,26 @@ video {
 }
 
 @media (max-width: 991px) {
-    .description-text{
+    .description-text {
         font-size: 14px;
         line-height: 24px;
     }
-    .blog-img{
+
+    .blog-img {
         height: 180px;
     }
 
-    .what-we-do{
+    .what-we-do {
         grid-template-columns: auto;
     }
+
     .wraper {
         max-width: 900px;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .home-sub-title{
+
+    .home-sub-title {
         font-size: 18px;
     }
 }
@@ -11391,7 +11431,8 @@ video {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .home-sub-title{
+
+    .home-sub-title {
         font-size: 16px;
     }
 }
@@ -11400,15 +11441,45 @@ video {
     .home-banner {
         height: 370px;
     }
-    .header-div .header-bg-div{
+
+    .header-div .header-bg-div {
         padding-top: 0px;
         padding-bottom: 0px;
     }
+
     .wraper {
         max-width: 100%;
     }
 
-    .home-sub-title{
+    .home-sub-title {
         font-size: 14px;
     }
+}
+
+@media (max-width: 600px) {
+    .products-slider .slick-slide {
+        padding: 0 15px;
+        /* Adjust the spacing for mobile view */
+    }
+
+
+}
+
+/* Adjust margin to keep the slider aligned properly */
+.products-slider .slick-list {
+    margin: 0 -10px;
+    /* Adjust according to the padding to maintain alignment */
+}
+
+@media (max-width: 600px) {
+    .products-slider .slick-list {
+        margin: 0 -15px;
+        /* Adjust according to the padding for mobile view */
+    }
+
+    .section-wrap {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
 }
