@@ -80,25 +80,24 @@
     <div class="wraper">
 
         <div>
-            @if (count($products) > 0 && $products != null && $products != '' && $products != '[]' && $query !== null) 
+            @if (count($products) > 0 && $products != null && $products != '' && $products != '[]' && $query !== null)
             <div class="grid products-wrap gap-x-3 gap-y-5">
                 @foreach ($products as $product)
-                <div id="product-{{ $product['id'] }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
-                    <a href="{{ route('products.show', $product['id']) }}">
+                <div id="product-{{ $product['id'] }}" class="product-box mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
+                    <a href="{{ route('products.show', $product->id) }}">
                         <div class="group bg-white p-0 transition mb-7 cursor-pointer relative text-center">
-                            <div class="relative bg-[#F3F1EA] py-5 product_image-div max-h-[220px] min-h-[220px] overflow-hidden flex justify-center flex-col">
-                                <div class="mx-auto">
-                                    @if (count($product['images']) > 0)
-                                    <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition group-hover:opacity-[0.8]">
-                                    @else
-                                    <img src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
-                                    @endif
-                                </div>
+                            <div class="relative bg-[#F3F1EA] product_image-div  overflow-hidden flex justify-center flex-col">
+                                @if (count($product->images) > 0)
+                                <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition 
+                                                object-cover w-full h-full group-hover:opacity-[0.8]">
+                                @else
+                                <img src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
+                                @endif
                             </div>
                             <div class="transition product-text-div">
                                 <h2>
-                                    <p href="{{ route('products.show', $product['id']) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">
-                                        {{ $product['name'] }}
+                                    <p href="{{ route('products.show', $product->id) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition group-hover:text-[#F5811E]">
+                                        {{ $product->name }}
                                     </p>
                                 </h2>
                             </div>
@@ -117,8 +116,8 @@
                                         </li>
                                     </ul>
                                     <h2>
-                                        <p href="{{ route('products.show', $product['id']) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">
-                                            {{ $product['name'] }}
+                                        <p href="{{ route('products.show', $product->id) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">
+                                            {{ $product->name }}
                                         </p>
                                     </h2>
                                 </div>

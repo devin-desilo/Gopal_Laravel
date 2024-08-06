@@ -166,7 +166,7 @@
                         <h2 data-wow-duration="1s" class="wow fadeInDown text-4xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Welcome
                             To Gopal Agri Export
                         </h2>
-                        <p data-wow-duration="1s" class="mb-5 wow fadeIn">Established in 2021, Gopal Agri Export is a leading Manufacturer,
+                        <p data-wow-duration="1s" class="mb-5 wow fadeIn description-text">Established in 2021, Gopal Agri Export is a leading Manufacturer,
                             Wholesaler, and Trader of Desi Chana, Groundnut Seeds, Soybean Seeds, Fish
                             Fertilizer, and more. We help farmers with professional advice on managing crops and
                             increasing productivity. Using data and technology, we ensure farmers get
@@ -278,14 +278,13 @@
             <div id="product-{{ $product->id }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
                 <a href="{{ route('products.show', $product->id) }}">
                     <div class="group bg-white p-0 transition mb-7 cursor-pointer relative text-center">
-                        <div class="relative bg-[#F3F1EA] py-5 product_image-div max-h-[220px] min-h-[220px] overflow-hidden flex justify-center flex-col">
-                            <div class="mx-auto">
-                                @if (count($product->images) > 0)
-                                <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition group-hover:opacity-[0.8]">
-                                @else
-                                <img src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
-                                @endif
-                            </div>
+                        <div class="relative bg-[#F3F1EA] product_image-div  overflow-hidden flex justify-center flex-col">
+                            @if (count($product->images) > 0)
+                            <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition 
+                                                object-cover w-full h-full group-hover:opacity-[0.8]">
+                            @else
+                            <img src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
+                            @endif
                         </div>
                         <div class="transition product-text-div">
                             <h2>
@@ -300,10 +299,11 @@
                                     <li class="flex justify-center items-center ml-2 transition-all prodact-modal">
                                         <button class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F5811E] relative group/edit">
                                             <i class="fi ti-eye"></i>
-                                            <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px] opacity-0 invisible
-                                                    -translate-y-1/2 -translate-x-1/2 transition-all-all block w-[120px] before:absolute before:bottom-[-5px] before:left-1/2
+                                            <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
+                                                    -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2
                                                     before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
-                                                     group-hover/edit:opacity-100 group-hover/edit:visible">Quick View</span>
+                                                     group-hover/edit:opacity-100 group-hover/edit:visible">Quick
+                                                View</span>
                                         </button>
                                     </li>
                                 </ul>

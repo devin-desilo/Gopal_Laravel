@@ -34,21 +34,20 @@
                 <div class="grid products-wrap gap-x-3 gap-y-5">
                     @foreach ($products as $product)
                         <div id="product-{{ $product->id }}"
-                            class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn"
+                            class="product-box  sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn"
                             data-wow-duration="2000ms">
                             <a href="{{ route('products.show', $product->id) }}">
                                 <div class="group bg-white p-0 transition mb-7 cursor-pointer relative text-center">
                                     <div
-                                        class="relative bg-[#F3F1EA] py-5 product_image-div max-h-[220px] min-h-[220px] overflow-hidden flex justify-center flex-col">
-                                        <div class="mx-auto">
-                                            @if (count($product->images) > 0)
-                                                <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}"
-                                                    alt="" class="relative transition group-hover:opacity-[0.8]">
-                                            @else
-                                                <img src="assets/images/default-product.jpg" alt=""
-                                                    class="relative transition group-hover:opacity-[0.8]">
-                                            @endif
-                                        </div>
+                                        class="relative bg-[#F3F1EA] product_image-div  overflow-hidden flex justify-center flex-col">
+                                        @if (count($product->images) > 0)
+                                            <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}"
+                                                alt="" class="relative transition 
+                                                object-cover w-full h-full group-hover:opacity-[0.8]">
+                                        @else
+                                            <img src="assets/images/default-product.jpg" alt=""
+                                                class="relative transition group-hover:opacity-[0.8]">
+                                        @endif
                                     </div>
                                     <div class="transition product-text-div">
                                         <h2>

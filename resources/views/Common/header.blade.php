@@ -175,7 +175,7 @@
                         </a>
                         <ul class="absolute w-[240px] left-0 top-[110%] pt-[20px] pb-[15px] px-[7px] z-[111] bg-[#fff]
             shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
-            group-hover:opacity-100 group-hover:top-full group-hover:visible">
+            group-hover:opacity-100 group-hover:top-full group-hover:visible hover-menu">
                             <li>
                                 <a href="products/1" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
                 text-[#0a272c] group relative overflow-hidden font-medium transition-all
