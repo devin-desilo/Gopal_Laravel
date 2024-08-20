@@ -56,7 +56,7 @@
                             <li class="relative z-[1] py-[6px]">
                                 <a href="/about" class="text-[16px] font-heading-font transition-all-all text-white
                                            duration-300 hover:text-[#F5811E]">
-                                    About Us
+                                    About us
                                 </a>
                             </li>
                             <li class="relative z-[1] py-[6px]">

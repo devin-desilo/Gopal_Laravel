@@ -49,7 +49,7 @@
             </div>
             <div class="col-span-6 md:col-span-12">
                 <div class="p-[15px_30px_80px] lg:p-[10px_30px_15px] md:p-[40px_30px] md:mt-[45px] sm:p-0">
-                    <h2 class="text-[35px] text-[#0a272c] leading-[40px] font-bold mb-[15px] sm:text-[22px]">
+                    <h2 class="text-[35px] text-[#0a272c] leading-[40px] font-bold  sm:text-[22px]">
                         {{ $product['name'] }}
                     </h2>
 
@@ -59,7 +59,7 @@
                             </span>
                             <span class="current">${{ $product['price'] }}</span>
                         </div> -->
-                    <p class="text-[16px] text-[#687693] leading-[25px]">{{ $product['description'] }}</p>
+                    <!-- <p class="text-[16px] text-[#687693] leading-[25px] mt-[10px]">{{ $product['description'] }}</p> -->
 
 
                     <!-- <div class="product-option">
@@ -79,15 +79,15 @@
                             </form>
                         </div>  -->
                     <!-- end option -->
-                    <div class="mt-[25px]">
+                    <div class="mt-[10px]">
                         <p><span class="font-bold text-[#0a272c] mr-[2px]">Categories:</span>
                             {{ $product['category'] }}
                         </p>
-                        <p><span class="font-bold text-[#0a272c] mr-[2px]">Tags:</span>
+                        <!-- <p><span class="font-bold text-[#0a272c] mr-[2px]">Tags:</span>
                             {{ implode(', ', $product['tags']) }}
-                        </p>
+                        </p> -->
                     </div>
-                    <div class="mt-[20px]">
+                    <div class="mt-[10px]">
                         <!-- Tabs navigation -->
                         <ul class="flex list-none flex-row flex-wrap border-b-0 pl-0" role="tablist" data-te-nav-ref>
                             <li role="presentation">

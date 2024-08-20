@@ -6,6 +6,9 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ProductController;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactFormMail;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -21,10 +24,12 @@ use App\Http\Controllers\ProductController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 // Route for displaying the contact form
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact-form', [ContactController::class, 'submit'])->name('contact-form.submit');
+
+
 
 // Route for handling form submission
-Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.show');
 // Route::get('/service', [ServiceController::class, 'index'])->name('service');
 
 // Product Routes

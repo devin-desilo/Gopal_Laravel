@@ -173,14 +173,14 @@
                             high-quality agricultural inputs and close the knowledge gap.</p>
                         <ul class="mb-8 flex col:block">
                             <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
-                                <i class="absolute left-0 top-1">
+                                <i class="absolute left-0 top-2">
                                     <img src="assets/images/about/4.png" alt="">
                                 </i>
                                 <p>It has survived not only
                                     five centuries the leap into.</p>
                             </li>
                             <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
-                                <i class="absolute left-0 top-1">
+                                <i class="absolute left-0 top-2">
                                     <img src="assets/images/about/5.png" alt="">
                                 </i>
                                 <p>It has survived not only
@@ -277,7 +277,7 @@
             @foreach($latestProducts as $product)
             <div id="product-{{ $product->id }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
                 <a href="{{ route('products.show', $product->id) }}">
-                    <div class="group bg-white p-0 transition mb-7 cursor-pointer relative text-center">
+                    <div class="group bg-white p-0 transition  cursor-pointer relative text-center">
                         <div class="relative bg-[#F3F1EA] product_image-div  overflow-hidden flex justify-center flex-col">
                             @if (count($product->images) > 0)
                             <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition 

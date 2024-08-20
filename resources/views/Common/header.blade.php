@@ -95,6 +95,10 @@
         .search-form .search-submit {
             display: none;
         }
+
+        .active-text {
+    color: #f78914 !important;
+}
     </style>
 </head>
 
@@ -261,7 +265,7 @@
                 </div>
                 <!-- movile menu  -->
                 <div class="hidden md:flex gap-2">
-                    <div class="">
+                    <div class="pl-2">
                         <form action="{{ route('products.search') }}" role="search" method="get" class="search-form m-0">
                             <label>
                                 <input type="text" class="search-field" placeholder="Search …" value="" name="query" title="Search for:" />
@@ -271,14 +275,14 @@
                     </div>
                     <div class="flex-center">
                         <button id="toggleDrawer" class="dl-trigger">
-                            <svg id="openIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
-                                <line x1="4" x2="20" y1="12" y2="12" />
-                                <line x1="4" x2="20" y1="6" y2="6" />
-                                <line x1="4" x2="20" y1="18" y2="18" />
+                            <svg id="openIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-right">
+                                <line class="store-black" x1="21" x2="3" y1="6" y2="6" />
+                                <line class="store-black" x1="21" x2="9" y1="12" y2="12" />
+                                <line class="store-black" x1="21" x2="7" y1="18" y2="18" />
                             </svg>
-                            <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x hidden">
-                                <line x1="18" x2="6" y1="6" y2="18" />
-                                <line x1="6" x2="18" y1="6" y2="18" />
+                            <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x hidden">
+                                <path class="store-black" d="M18 6 6 18" />
+                                <path class="store-black" d="m6 6 12 12" />
                             </svg>
                         </button>
                     </div>
@@ -286,13 +290,13 @@
             </div>
         </div>
     </div>
-    <div class="mobile-drawer" id="drawer">
+    <div class="mobile-drawer bg-[#F7F6F1]" id="drawer">
         <nav class="">
             <ul class="font-heading-font">
-                <li><a class="" href="#home">Home</a></li>
-                <li><a class="" href="#about">About</a></li>
-                <li><a class="" href="#products">Products</a></li>
-                <li><a class="" href="#contact">Contact Us</a></li>
+                <li><a class="{{ Request::is('/') ? 'active-text' : '' }}" href="/">Home</a></li>
+                <li><a class="{{ Request::is('/about') ? 'active-text' : '' }}" href="/about">About</a></li>
+                <li><a class="{{ Request::is('/products') ? 'active-text' : '' }}" href="/products">Products</a></li>
+                <li><a class="{{ Request::is('/contact') ? 'active-text' : '' }}" href="/contact">Contact Us</a></li>
             </ul>
         </nav>
     </div>
