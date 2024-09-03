@@ -277,13 +277,12 @@
             @foreach($latestProducts as $product)
             <div id="product-{{ $product->id }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
                 <a href="{{ route('products.show', $product->id) }}">
-                    <div class="group bg-white p-0 transition  cursor-pointer relative text-center">
-                        <div class="relative bg-[#F3F1EA] product_image-div  overflow-hidden flex justify-center flex-col">
+                    <div class="group bg-white p-0 transition cursor-pointer relative text-center">
+                        <div class="relative bg-[#F3F1EA] product_image-div overflow-hidden flex justify-center flex-col">
                             @if (count($product->images) > 0)
-                            <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition 
-                                                object-cover w-full h-full group-hover:opacity-[0.8]">
+                            <img loading="lazy" src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition object-cover w-full h-full group-hover:opacity-[0.8]">
                             @else
-                            <img src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
+                            <img loading="lazy" src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
                             @endif
                         </div>
                         <div class="transition product-text-div">
@@ -293,32 +292,12 @@
                                 </p>
                             </h2>
                         </div>
-                        <div class="hidden">
-                            <div class="transition-all text-center absolute top-0 left-0 z-20 scale-0 flex justify-center flex-col w-full h-full group-hover:scale-100">
-                                <ul class="flex items-center justify-center transition-all mb-5">
-                                    <li class="flex justify-center items-center ml-2 transition-all prodact-modal">
-                                        <button class="prodact-modal-open block w-[45px] h-[45px] leading-[45px] transition-all-all bg-transparent text-white rounded-[50px] border-white border-solid border hover:bg-white hover:text-[#F5811E] relative group/edit">
-                                            <i class="fi ti-eye"></i>
-                                            <span class="bg-black text-white text-center text-sm rounded-[6px] py-1 px-3 absolute left-1/2 top-[-20px]  opacity-0 invisible
-                                                    -translate-y-1/2 -translate-x-1/2 transition-all-all block  w-[120px] before:absolute before:bottom-[-5px] before:left-1/2
-                                                    before:w-[5px] before:h-[5px] before:[clip-path:polygon(0_0,50%_100%,100%_0);] before:bg-black before:border-[#000]
-                                                     group-hover/edit:opacity-100 group-hover/edit:visible">Quick
-                                                View</span>
-                                        </button>
-                                    </li>
-                                </ul>
-                                <h2>
-                                    <p href="{{ route('products.show', $product->id) }}" class="font-normal text-xl text-[#232323] font-heading-font mb-2 mt-1 transition hover:text-[#F5811E]">
-                                        {{ $product->name }}
-                                    </p>
-                                </h2>
-                            </div>
-                        </div>
                     </div>
                 </a>
             </div>
             @endforeach
         </div>
+
         <div class="flex-center pt-5">
             <a href="/products" data-wow-duration="1s" class="wow fadeInUp theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">View all Products</a>
 
@@ -453,33 +432,36 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $('.products-slider').slick({
-            autoplay: true,
-            autoplaySpeed: 1000,
-            dots: true,
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            speed: 500, // This controls the slide transition speed (in milliseconds)
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
-        });
+    $('.products-slider').on('init', function(event, slick){
+        console.log('Slider initialized');
+    }).slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 500,
+        lazyLoad: 'ondemand', // Lazy load images as they come into view
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
     });
+});
+
 </script>
 
 <!-- Include Slick Slider CSS -->

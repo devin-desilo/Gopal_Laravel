@@ -34,10 +34,10 @@
                         <div class="group bg-white p-0 transition cursor-pointer relative text-center">
                             <div class="relative bg-[#F3F1EA] product_image-div  overflow-hidden flex justify-center flex-col">
                                 @if (count($product->images) > 0)
-                                <img src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition 
+                                <img loading="lazy" src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition 
                                                 object-cover w-full h-full group-hover:opacity-[0.8]">
                                 @else
-                                <img src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
+                                <img loading="lazy" src="assets/images/default-product.jpg" alt="" class="relative transition group-hover:opacity-[0.8]">
                                 @endif
                             </div>
                             <div class="transition product-text-div">
