@@ -41,14 +41,14 @@
                             increasing productivity. Using data and technology, we ensure farmers get
                             high-quality agricultural inputs and close the knowledge gap.</p>
                         <ul class="mb-8 flex col:block">
-                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#E1D4D1]">
                                 <i class="absolute left-0 top-1">
                                     <img src="assets/images/about/4.png" alt="">
                                 </i>
                                 <p>It has survived not only
                                     five centuries the leap into.</p>
                             </li>
-                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#E1D4D1]">
                                 <i class="absolute left-0 top-1">
                                     <img src="assets/images/about/5.png" alt="">
                                 </i>
@@ -95,35 +95,35 @@
             <div class="grid grid-cols-12 gap-x-4">
                 <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                     <div>
-                        <h3 class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                        <h3 class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                             <span class="odometer" data-count="250">00</span>+
                         </h3>
-                        <p class="text-base text-black md:text-sm">Trusted By Customers</p>
+                        <p class="text-base text-white md:text-sm">Trusted By Customers</p>
                     </div>
                 </div>
                 <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                     <div>
-                        <h3 class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                        <h3 class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                             <span class="odometer" data-count="46">00</span>+
                         </h3>
-                        <p class="text-base text-black md:text-sm">Product Sale Per Day</p>
+                        <p class="text-base text-white md:text-sm">Product Sale Per Day</p>
 
                     </div>
                 </div>
                 <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                     <div>
-                        <h3 class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                        <h3 class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                             <span class="odometer" data-count="9">00 </span>+
                         </h3>
-                        <p class="text-base text-black md:text-sm">Years Of Foundation</p>
+                        <p class="text-base text-white md:text-sm">Years Of Foundation</p>
                     </div>
                 </div>
                 <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                     <div>
-                        <h3 class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                        <h3 class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                             <span class="odometer" data-count="86">00</span>+
                         </h3>
-                        <p class="text-base text-black md:text-sm">Monthly Product Order</p>
+                        <p class="text-base text-white md:text-sm">Monthly Product Order</p>
                     </div>
                 </div>
             </div>
@@ -148,14 +148,14 @@
                     </p>
                     <ul class="mb-8 flex col:block">
 
-                        <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
+                        <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#E1D4D1]">
                                 <i class="absolute left-0 top-1">
                                     <img src="assets/images/about/4.png" alt="">
                                 </i>
                                 <p>Our aim is to establish Agri clinics in every state and reach every district down to the
                                 village level, focusing on comprehensive agricultural consultancy.</p>
                             </li>
-                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#E1D4D1]">
                                 <i class="absolute left-0 top-1">
                                     <img src="assets/images/about/5.png" alt="">
                                 </i>

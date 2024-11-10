@@ -7,88 +7,72 @@
                  ">
         <div class="swiper-container w-full h-full absolute left-0 top-0">
             <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
                 <div class="swiper-slide">
-                    <div class="slide-inner slide-bg-image before:absolute before:left-0
-                            before:top-0 before:w-full before:h-full before:bg-[#040128] before:opacity-[0.6] pt-[35px] lg:pt-0" data-background="assets/images/slider/slide-1.jpg">
-                        <!-- <div class="gradient-overlay"></div> -->
+                    <div class="slide-inner slide-bg-image before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#040128] before:opacity-[0.6] pt-[35px] lg:pt-0"
+                        style="background-image: url('{{ asset('assets/images/slider/slide-1.jpg') }}');">
                         <div class="wraper">
                             <div class="relative home-banner">
-                                <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2  lg:pb-0">
-
+                                <div class="max-w-[720px] lg:w-[600px] md:w-full absolute top-1/2 left-0 transform -translate-y-1/2 lg:pb-0">
                                     <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                        <p class="text-[16px] col:text-[14px] text-white  capitalize
-                                                     font-normal tracking-[2px]">
-                                            “<span class="text-[#F5811E]">SUPPLIER</span>”</p>
+                                        <p class="text-[16px] col:text-[14px] text-white capitalize font-normal tracking-[2px]">
+                                            “<span class="text-[#F5811E]">SUPPLIER</span>”
+                                        </p>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-title">
                                         <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] col:mt-[0] mb-[10px]
-                                                     lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px]
-                                                     col:leading-[35px] text-white col:mb-[20px]">
-                                            Highest <span class="text-[#F5811E]">Quality</span> Seeds Supplier</h2>
-                                    </div>
-                                    <div data-swiper-parallax="400" class="slide-text">
-                                        <p class="home-sub-title text-[#e2e2e2]
-                                                    leading-[35px]
-                                                     mb-[20px]
-                                                     col:leading-[25px]
-                                                    col:mb-[30px]">
-                                            Manufacturer, Wholesaler, and Trader of Desi Chana, Groundnut
-                                            Seeds, Soybean Seeds, Fish Fertilizer & many more</p>
-                                    </div>
-
-                                    <div data-swiper-parallax="500" class="slide-btn">
-                                        <a href="/about" class="btn theme-btn">
-                                            Explore more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- end slide-inner -->
-                </div> <!-- end swiper-slide -->
-                <div class="swiper-slide">
-                    <div class="slide-inner slide-bg-image before:absolute before:left-0
-                            before:top-0 before:w-full before:h-full before:bg-[#040128] before:opacity-[0.6] pt-[35px] lg:pt-0" data-background="assets/images/slider/slide-4.jpg">
-                        <!-- <div class="gradient-overlay"></div> -->
-                        <div class="wraper">
-                            <div class="relative home-banner">
-                                <div class="max-w-[720px] lg:w-[600px] md:w-full  absolute top-1/2 left-0 transform  -translate-y-1/2  lg:pb-0">
-
-                                    <div data-swiper-parallax="200" class="wpo-hero-title-top">
-                                        <p class="text-[16px] col:text-[14px] text-white  capitalize
-                                                     font-normal tracking-[2px]">
-                                            “<span class="text-[#F5811E]">SEEDS</span>”</p>
-                                    </div>
-                                    <div data-swiper-parallax="300" class="slide-title">
-                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] mb-[10px]
-                                                     lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px]
-                                                     col:leading-[35px] text-white col:mb-[20px]">
-                                            We Fulfill Your All
-                                            <span class="text-[#F5811E]">Agriculture Requirements</span>!
+                                        lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px] col:leading-[35px] text-white col:mb-[20px]">
+                                            Highest <span class="text-[#F5811E]">Quality</span> Seeds Supplier
                                         </h2>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text">
-                                        <p class="home-sub-title text-[#e2e2e2]
-                                                    leading-[35px]
-                                                     mb-[20px]
-                                                     col:leading-[25px]
-                                                    col:mb-[30px]">
-                                            All Agri Commodities Cleaning Plant & Coriander Seeds Processors</p>
+                                        <p class="home-sub-title text-[#e2e2e2] leading-[35px] mb-[20px] col:leading-[25px] col:mb-[30px]">
+                                            Manufacturer, Wholesaler, and Trader of Desi Chana, Groundnut Seeds, Soybean Seeds, Fish Fertilizer & many more
+                                        </p>
                                     </div>
-
                                     <div data-swiper-parallax="500" class="slide-btn">
-                                        <a href="/about" class="btn theme-btn">
-                                            Explore more</a>
+                                        <a href="/about" class="btn theme-btn">Explore more</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- end slide-inner -->
-                </div> <!-- end swiper-slide -->
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="slide-inner slide-bg-image before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#040128] before:opacity-[0.6] pt-[35px] lg:pt-0"
+                        style="background-image: url('{{ asset('assets/images/slider/slide-4.jpg') }}');">
+                        <div class="wraper">
+                            <div class="relative home-banner">
+                                <div class="max-w-[720px] lg:w-[600px] md:w-full absolute top-1/2 left-0 transform -translate-y-1/2 lg:pb-0">
+                                    <div data-swiper-parallax="200" class="wpo-hero-title-top">
+                                        <p class="text-[16px] col:text-[14px] text-white capitalize font-normal tracking-[2px]">
+                                            “<span class="text-[#F5811E]">SEEDS</span>”
+                                        </p>
+                                    </div>
+                                    <div data-swiper-parallax="300" class="slide-title">
+                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] mb-[10px] lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px] col:leading-[35px] text-white col:mb-[20px]">
+                                            We Fulfill Your All <span class="text-[#F5811E]">Agriculture Requirements</span>!
+                                        </h2>
+                                    </div>
+                                    <div data-swiper-parallax="400" class="slide-text">
+                                        <p class="home-sub-title text-[#e2e2e2] leading-[35px] mb-[20px] col:leading-[25px] col:mb-[30px]">
+                                            All Agri Commodities Cleaning Plant & Coriander Seeds Processors
+                                        </p>
+                                    </div>
+                                    <div data-swiper-parallax="500" class="slide-btn">
+                                        <a href="/about" class="btn theme-btn">Explore more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-            <!-- end swiper-wrapper -->
-
-            <!-- swipper controls -->
+            <!-- Swiper Controls -->
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -172,14 +156,14 @@
                             increasing productivity. Using data and technology, we ensure farmers get
                             high-quality agricultural inputs and close the knowledge gap.</p>
                         <ul class="mb-8 flex col:block">
-                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#E1D4D1]">
                                 <i class="absolute left-0 top-2">
                                     <img src="assets/images/about/4.png" alt="">
                                 </i>
                                 <p>It has survived not only
                                     five centuries the leap into.</p>
                             </li>
-                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#687693]">
+                            <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#E1D4D1]">
                                 <i class="absolute left-0 top-2">
                                     <img src="assets/images/about/5.png" alt="">
                                 </i>
@@ -212,7 +196,7 @@
         </div>
     </div>
     <div class="absolute left-[40px] top-1/2 -translate-y-1/2 -z-10 xl:hidden "><img src="assets/images/about/2.png" alt=""></div>
-    <div class="absolute right-[40px] top-1/2 -translate-y-1/2 -z-10 xl:hidden"><img src="assets/images/about/3.png" alt=""></div>
+    <div class="absolute opacity-90 right-[40px] top-1/2 -translate-y-1/2 -z-10 xl:hidden"><img src="assets/images/about/3.png" alt=""></div>
 </section>
 <!-- end of orico-about-section -->
 
@@ -225,35 +209,35 @@
             <div class="grid grid-cols-12 gap-x-4">
                 <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                     <div>
-                        <h3 class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                        <h3 class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                             <span class="odometer" data-count="250">00</span>+
                         </h3>
-                        <p class="text-base text-black md:text-sm">Trusted By Customers</p>
+                        <p class="text-base text-white md:text-sm">Trusted By Customers</p>
                     </div>
                 </div>
                 <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                     <div>
-                        <h3 class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                        <h3 class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                             <span class="odometer" data-count="46">00</span>+
                         </h3>
-                        <p class="text-base text-black md:text-sm">Product Sale Per Day</p>
+                        <p class="text-base text-white md:text-sm">Product Sale Per Day</p>
 
                     </div>
                 </div>
                 <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                     <div>
-                        <h3 class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                        <h3 class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                             <span class="odometer" data-count="9">00 </span>+
                         </h3>
-                        <p class="text-base text-black md:text-sm">Years Of Foundation</p>
+                        <p class="text-base text-white md:text-sm">Years Of Foundation</p>
                     </div>
                 </div>
                 <div class="col-span-3 md:col-span-6 col:col-span-12 md:mb-8">
                     <div>
-                        <h3 class="text-7xl text-black font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
+                        <h3 class="text-7xl text-white font-heading-font lg:text-6xl sm:text-5xl flex items-center justify-center">
                             <span class="odometer" data-count="86">00</span>+
                         </h3>
-                        <p class="text-base text-black md:text-sm">Monthly Product Order</p>
+                        <p class="text-base text-white md:text-sm">Monthly Product Order</p>
                     </div>
                 </div>
             </div>
@@ -277,7 +261,7 @@
             @foreach($latestProducts as $product)
             <div id="product-{{ $product->id }}" class="product-box w-[400px] xl:w-[400px] lg:w-[280px] md:w-[44%] sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
                 <a href="{{ route('products.show', $product->id) }}">
-                    <div class="group bg-white p-0 transition cursor-pointer relative text-center">
+                    <div class="group bg-box p-0 transition cursor-pointer relative text-center">
                         <div class="relative bg-[#F3F1EA] product_image-div overflow-hidden flex justify-center flex-col">
                             @if (count($product->images) > 0)
                             <img loading="lazy" src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition object-cover w-full h-full group-hover:opacity-[0.8]">
@@ -303,10 +287,10 @@
 
         </div>
     </div>
-    <div class="absolute opacity-50 left-0 bottom-0 -z-10">
+    <div class="absolute opacity-90 left-0 bottom-0 -z-10">
         <img src="assets/images/product/shape-1.png" alt="">
     </div>
-    <div class="absolute opacity-50 right-0 top-0 -z-10">
+    <div class="absolute opacity-90 right-0 top-0 -z-10">
         <img src="assets/images/product/shape-2.png" alt="">
     </div>
 </section>
@@ -333,7 +317,7 @@
                                 rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
                                                 <img src="assets/images/service/icon-1.svg" alt="" class="max-w-[55px]">
                                             </div> -->
-                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">
+                        <h4 class="font-normal text-xl text-center text-black my-5 sm:text-lg font-heading-font">
                             Manufacturer</h4>
                     </div>
                 </div>
@@ -348,7 +332,7 @@
                                 rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
                                                 <img src="assets/images/service/icon-2.svg" alt="" class="max-w-[55px]">
                                             </div> -->
-                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">Wholesaler
+                        <h4 class="font-normal text-xl text-center text-black my-5 sm:text-lg font-heading-font">Wholesaler
                         </h4>
                     </div>
                 </div>
@@ -363,7 +347,7 @@
                                 rounded-full mx-auto relative mt-[-60px] mb-[20px] text-center">
                                                 <img src="assets/images/service/icon-3.svg" alt="" class="max-w-[55px]">
                                             </div> -->
-                        <h4 class="font-normal text-xl text-center my-5 sm:text-lg font-heading-font">Trader
+                        <h4 class="font-normal text-xl text-center text-black my-5 sm:text-lg font-heading-font">Trader
                         </h4>
                     </div>
                 </div>
@@ -432,36 +416,36 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-    $('.products-slider').on('init', function(event, slick){
-        console.log('Slider initialized');
-    }).slick({
-        autoplay: true,
-        autoplaySpeed: 1000,
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        speed: 500,
-        lazyLoad: 'ondemand', // Lazy load images as they come into view
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
+        $('.products-slider').on('init', function(event, slick) {
+            console.log('Slider initialized');
+        }).slick({
+            autoplay: false,
+            autoplaySpeed: 1000,
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            speed: 500,
+            lazyLoad: 'ondemand', // Lazy load images as they come into view
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
     });
-});
-
 </script>
 
 <!-- Include Slick Slider CSS -->

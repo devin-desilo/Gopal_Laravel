@@ -31,7 +31,7 @@
                 @foreach ($products as $product)
                 <div id="product-{{ $product->id }}" class="product-box  sm:w-full mx-[15px] sm:mx-0 milk fruit zoomIn" data-wow-duration="2000ms">
                     <a href="{{ route('products.show', $product->id) }}">
-                        <div class="group bg-white p-0 transition cursor-pointer relative text-center">
+                        <div class="group bg-box p-0 transition cursor-pointer relative text-center">
                             <div class="relative bg-[#F3F1EA] product_image-div  overflow-hidden flex justify-center flex-col">
                                 @if (count($product->images) > 0)
                                 <img loading="lazy" src="{{ asset('assets/images/product/' . $product['images'][0]) }}" alt="" class="relative transition 

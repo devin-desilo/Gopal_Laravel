@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CertificationController;
+use App\Http\Controllers\InfrastructureController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
@@ -23,6 +25,8 @@ use App\Mail\ContactFormMail;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+Route::get('/certifications', [CertificationController::class, 'index'])->name('certifications');
+Route::get('/infrastructure', [InfrastructureController::class, 'index'])->name('infrastructure');
 // Route for displaying the contact form
 Route::post('/contact-form', [ContactController::class, 'submit'])->name('contact-form.submit');
 

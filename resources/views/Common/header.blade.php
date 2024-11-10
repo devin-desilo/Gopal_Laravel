@@ -23,6 +23,7 @@
     <link href="{{ url('assets/css/odometer-theme-default.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/global.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
 
@@ -64,7 +65,7 @@
 
         .search-field {
             background-color: transparent;
-            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2724%27%20height%3D%2724%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27currentColor%27%20stroke-width%3D%271.75%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%20class%3D%27lucide%20lucide-search%27%3E%3Ccircle%20cx%3D%2711%27%20cy%3D%2711%27%20r%3D%278%27%2F%3E%3Cpath%20d%3D%27m21%2021-4.3-4.3%27%2F%3E%3C%2Fsvg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2211%22%20cy%3D%2211%22%20r%3D%228%22%2F%3E%3Cpath%20d%3D%22m21%2021-4.3-4.3%22%2F%3E%3C%2Fsvg%3E");
             background-position: 5px center;
             background-repeat: no-repeat;
             background-size: 24px 24px;
@@ -78,18 +79,20 @@
             transition: width 400ms ease, background 400ms ease;
             width: 0px;
             cursor: pointer;
+            color: #FFF;
         }
 
 
+
         .search-field:focus {
-            background-color: #FFF;
-            border: 1px solid #c3c0ab;
+            background-color: #210805;
+            border: 1px solid #210805;
             background-size: 24px 20px;
             border-radius: 10px;
             cursor: text;
             outline: 0;
             width: 250px;
-            color: #000;
+            color: #FFF;
         }
 
         .search-form .search-submit {
@@ -97,8 +100,8 @@
         }
 
         .active-text {
-    color: #f78914 !important;
-}
+            color: #f78914 !important;
+        }
     </style>
 </head>
 
@@ -120,7 +123,7 @@
         </div>
 
         <!-- start header-section -->
-        <header class="relative z-[111]">
+        <header class="relative z-[111] Scroller-bg">
             {{-- <div class="absolute left-0 top-0 z-10 sm:hidden">
                 <img src="{{ url('assets/images/header-shape1.png') }}" alt="">
     </div>
@@ -172,17 +175,17 @@
                 <div class="">
                     <ul class="text-right md:text-center md:mt-2">
                         <!-- <li class="inline-block ml-2">Visit our social pages</li> -->
-                        <li class="inline-block ml-2"><a href="#" class="text-[#F5811E] text-sm transition-all hover:text-[#687693]"><i class="ti-facebook"></i></a></li>
-                        <li class="inline-block ml-2"><a href="#" class="text-[#F5811E] text-sm transition-all hover:text-[#687693]"><i class="ti-twitter-alt"></i></a></li>
-                        <li class="inline-block ml-2"><a href="#" class="text-[#F5811E] text-sm transition-all hover:text-[#687693]"><i class="ti-linkedin"></i></a></li>
-                        <li class="inline-block ml-2"><a href="#" class="text-[#F5811E] text-sm transition-all hover:text-[#687693]"><i class="ti-pinterest"></i></a></li>
+                        <li class="inline-block ml-2"><a href="#" class="text-[#F5811E] text-sm transition-all hover:text-[#E1D4D1]"><i class="ti-facebook"></i></a></li>
+                        <li class="inline-block ml-2"><a href="#" class="text-[#F5811E] text-sm transition-all hover:text-[#E1D4D1]"><i class="ti-twitter-alt"></i></a></li>
+                        <li class="inline-block ml-2"><a href="#" class="text-[#F5811E] text-sm transition-all hover:text-[#E1D4D1]"><i class="ti-linkedin"></i></a></li>
+                        <li class="inline-block ml-2"><a href="#" class="text-[#F5811E] text-sm transition-all hover:text-[#E1D4D1]"><i class="ti-pinterest"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <div class=" header-div">
-        <div class="bg-[#F7F6F1] header-bg-div">
+        <div class=" header-bg-div">
             <div class="flex items-center justify-between  wraper    relative z-10 p-[20px] header-box ">
                 <div class="w-[70px] md:w-[70px] sm:w-[70px]  ">
                     <a class="flex items-center md:justify-center text-white" href="/">
@@ -213,7 +216,7 @@
         hover:before:opacity-100 hover:before:visible {{ Request::is('products') ? 'active-text' : '' }}">
                             Products
                         </a>
-                        <ul class="absolute w-[240px] left-0 top-[110%] pt-[20px] pb-[15px] px-[7px] z-[111] bg-[#fff]
+                        <ul class="absolute w-[240px] left-0 rounded-lg top-[110%] pt-[20px] pb-[15px] px-[7px] z-[111] bg-[#210805]
             shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
             group-hover:opacity-100 group-hover:top-full group-hover:visible hover-menu">
                             <li>
@@ -250,6 +253,21 @@
                             </li>
                         </ul>
                     </div>
+
+                    <a href="/certifications" class="relative text-[16px] lg:text-[17px] py-[25px] xl:py-[25px] menu-nav-item
+    text-[#14212b] block capitalize font-medium transition-all-all hover:text-[#ea7c08]
+    before:absolute before:left-0 before:top-0 before:w-full before:h-[4px] before:bg-[#ea7c08] before:content
+    before:opacity-0 before:invisible before:transition-all-all before:rounded-[3px]
+    hover:before:opacity-100 hover:before:visible {{ Request::is('certifications') ? 'active-text' : '' }}">
+                        Certifications
+                    </a>
+                    <a href="/infrastructure" class="relative text-[16px] lg:text-[17px] py-[25px] xl:py-[25px] menu-nav-item
+    text-[#14212b] block capitalize font-medium transition-all-all hover:text-[#ea7c08]
+    before:absolute before:left-0 before:top-0 before:w-full before:h-[4px] before:bg-[#ea7c08] before:content
+    before:opacity-0 before:invisible before:transition-all-all before:rounded-[3px]
+    hover:before:opacity-100 hover:before:visible {{ Request::is('infrastructure') ? 'active-text' : '' }}">
+                        Facility Tour
+                    </a>
 
                     <form action="{{ route('products.search') }}" role="search" method="get" class="search-form m-0">
                         <label>
@@ -296,6 +314,8 @@
                 <li><a class="{{ Request::is('/') ? 'active-text' : '' }}" href="/">Home</a></li>
                 <li><a class="{{ Request::is('/about') ? 'active-text' : '' }}" href="/about">About</a></li>
                 <li><a class="{{ Request::is('/products') ? 'active-text' : '' }}" href="/products">Products</a></li>
+                <li><a class="{{ Request::is('/certifications') ? 'active-text' : '' }}" href="/products">Certifications</a></li>
+                <li><a class="{{ Request::is('/infrastructure') ? 'active-text' : '' }}" href="/products">infrastructure</a></li>
                 <li><a class="{{ Request::is('/contact') ? 'active-text' : '' }}" href="/contact">Contact Us</a></li>
             </ul>
         </nav>

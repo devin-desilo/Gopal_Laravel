@@ -71,7 +71,7 @@
                                     mb-[20px]">
                             Have
                             Any Question?</h2>
-                        <p class="text-[#687693] text-[16px] leading-[22px]">It is a long established fact that a
+                        <p class="text-[#E1D4D1] text-[16px] leading-[22px]">It is a long established fact that a
                             reader will be distracted
                             content of a page when looking.</p>
                     </div>

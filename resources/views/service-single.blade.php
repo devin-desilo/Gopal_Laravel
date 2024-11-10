@@ -528,14 +528,14 @@
                         <img class="mb-7" src="assets/images/service-single/1.jpg" alt="">
                         <h3 class="font-medium font-heading-font text-[#0a272c] text-[35px] leading-[130.5%] mb-[20px]
                             md:text-[25px] ">Agricultural And Farming Services</h3>
-                        <p class="text-[16px] leading-[26px] font-normal text-[#687693] mb-[20px]">Lorem ipsum dolor sit
+                        <p class="text-[16px] leading-[26px] font-normal text-[#E1D4D1] mb-[20px]">Lorem ipsum dolor sit
                             amet, consectetur adipiscing elit. Metus dis posuere amet
                             tincidunt commodo, velit. Ipsum, hac nibh fermentum nisi, platea condimentum cursus
                             velit dui. Massa volutpat odio facilisis purus sit elementum. Non, sed velit dictum
                             quam. Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt. Id aliquet duis
                             sollicitudin diam, elit sit. Et nisi in libero facilisis sed est. Elit curabitur
                             amet risus bibendum. Posuere et eget orci, tempor enim.</p>
-                        <p class="text-[16px] leading-[26px] font-normal text-[#687693] mb-[20px]">Hac nibh fermentum
+                        <p class="text-[16px] leading-[26px] font-normal text-[#E1D4D1] mb-[20px]">Hac nibh fermentum
                             nisi, platea condimentum cursus velit dui. Massa volutpat odio
                             facilisis purus sit elementum. Non, sed velit dictum quam. Id risus pharetra est, at
                             rhoncus, nec ullamcorper tincidunt. Id aliquet duis sollicitudin diam, elit sit.</p>
@@ -551,32 +551,32 @@
                             <h3 class="font-medium font-heading-font text-[#0a272c] text-[35px] leading-[130.5%]
                                 mb-[20px] md:text-[25px]">
                                 Our Capabilities</h3>
-                            <p class="text-[16px] leading-[26px] font-normal text-[#687693] mb-[20px]">Massa volutpat
+                            <p class="text-[16px] leading-[26px] font-normal text-[#E1D4D1] mb-[20px]">Massa volutpat
                                 odio facilisis purus sit elementum. Non, sed velit dictum quam. Id
                                 risus pharetra est, at rhoncus, nec ullamcorper tincidunt. Id aliquet duis
                                 sollicitudin diam.</p>
                             <ul>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Non saed velit dictum quam risus pharetra esta.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Hac nibh fermentum nisi, platea condimentum cursus.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Massa volutpat odio facilisis purus sit elementum.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Elit curabitur amet risus bibendum.</li>
                             </ul>
                         </div>
                         <h3 class="font-medium mt-[40px] font-heading-font text-[#0a272c] text-[35px] leading-[130.5%]
                             mb-[20px] md:text-[25px] ">
                             Our approach</h3>
-                        <p class="text-[16px] leading-[26px] font-normal text-[#687693] mb-[20px]">Lorem ipsum dolor sit
+                        <p class="text-[16px] leading-[26px] font-normal text-[#E1D4D1] mb-[20px]">Lorem ipsum dolor sit
                             amet, consectetur adipiscing elit. Consequat suspendisse aenean
                             tellus augue morbi risus. Sit morbi vitae morbi sed urna sed purus. Orci facilisi
                             eros sed pellentesque. Risus id sed tortor sed scelerisque. Vestibulum elit
@@ -590,16 +590,16 @@
                                 Our Work Process</h3>
                             <ul>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Non saed velit dictum quam risus pharetra esta.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Hac nibh fermentum nisi, platea condimentum cursus.</li>
                                 <li
-                                    class="py-[10px] text-[#687693] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
+                                    class="py-[10px] text-[#E1D4D1] pl-[35px] relative before:absolute before:left-0 before:top-1/2 before:transform before:w-[25px] before:h-[25px] before:leading-[25px] before:rounded-[50%] before:text-center before:text-[14px] before:text-[#F5811E] before:bg-[rgba(255,74,23,0.1)] before:-translate-y-1/2 before:font-['themify'] before:content-['\e64c']">
                                     Massa volutpat odio facilisis purus sit elementum.</li>
                             </ul>
                         </div>
@@ -610,24 +610,24 @@
                                 <h2
                                     class="font-semibold  font-heading-font text-[#0a272c] text-[35px] leading-[130.5%] md:text-[25px]">
                                     Have project in mind? Let's discuss</h2>
-                                <p class="text-[16px] leading-[26px] font-normal text-[#687693]">Get in touch with us to
+                                <p class="text-[16px] leading-[26px] font-normal text-[#E1D4D1]">Get in touch with us to
                                     see how we can help you with your project</p>
                             </div>
                             <form method="post" class="contact-validation-active" id="contact-form-main">
                                 <div class="grid grid-cols-12 gap-3">
                                     <div class="col-span-6 md:col-span-6 sm:col-span-12 mb-3">
                                         <input type="text"
-                                            class="form-control w-full h-[50px] border-b-[1px] border-[#ebebeb] pl-[10px] focus:outline-0 focus:shadow-none bg-transparent text-[#687693]"
+                                            class="form-control w-full h-[50px] border-b-[1px] border-[#ebebeb] pl-[10px] focus:outline-0 focus:shadow-none bg-transparent text-[#E1D4D1]"
                                             name="name" id="name" placeholder="Your Name*">
                                     </div>
                                     <div class="col-span-6 md:col-span-6 sm:col-span-12 mb-3">
                                         <input type="email"
-                                            class="form-control w-full h-[50px] border-b-[1px] border-[#ebebeb] pl-[10px] focus:outline-0 focus:shadow-none bg-transparent text-[#687693]"
+                                            class="form-control w-full h-[50px] border-b-[1px] border-[#ebebeb] pl-[10px] focus:outline-0 focus:shadow-none bg-transparent text-[#E1D4D1]"
                                             name="email" id="email" placeholder="Your Email*">
                                     </div>
                                     <div class="col-span-12 mb-3">
                                         <select name="service"
-                                            class="form-control w-full h-[50px] border-b-[1px] border-[#ebebeb] pl-[10px] focus:outline-0 focus:shadow-none bg-transparent text-[#687693]">
+                                            class="form-control w-full h-[50px] border-b-[1px] border-[#ebebeb] pl-[10px] focus:outline-0 focus:shadow-none bg-transparent text-[#E1D4D1]">
                                             <option disabled="disabled" selected="">Services</option>
                                             <option>Agricultural Services</option>
                                             <option>Product Delivery</option>
@@ -636,7 +636,7 @@
                                     </div>
                                     <div class="col-span-12">
                                         <textarea class="form-control w-full h-[120px] border-b-[1px] border-[#ebebeb]
-                                            pl-[10px] focus:outline-0 focus:shadow-none bg-transparent text-[#687693]"
+                                            pl-[10px] focus:outline-0 focus:shadow-none bg-transparent text-[#E1D4D1]"
                                             name="note" id="note" placeholder="Message..."></textarea>
                                     </div>
                                 </div>
@@ -662,7 +662,7 @@
                                 <form>
                                     <div class="relative">
                                         <input type="text"
-                                            class="form-control w-full text-[16px] rounded-[5px] h-[70px] p] border-0 pl-[10px] focus:outline-0 focus:shadow-none bg-white text-[#687693]"
+                                            class="form-control w-full text-[16px] rounded-[5px] h-[70px] p] border-0 pl-[10px] focus:outline-0 focus:shadow-none bg-white text-[#E1D4D1]"
                                             placeholder="Search Post..">
                                         <button type="submit" class="text-[20px] text-white  bg-[#F5811E] absolute right-[10px] top-[52%] h-[50px]
                                 leading-[50px] w-[50px] rounded-[6px] transform -translate-y-1/2">
@@ -676,11 +676,11 @@
                             ">Post Categories</h3>
                                 <ul>
                                     <li class=" mt-[15px] group transition-all "><a href="service-single.html"
-                                            class="text-[#687693] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
+                                            class="text-[#E1D4D1] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
                                             block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Agricultural Services</a>
                                     </li>
                                     <li class="mt-[15px] group transition-all "><a href="service-single.html"
-                                            class="text-[#687693] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
+                                            class="text-[#E1D4D1] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
                                             block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Product Delivery</a>
                                     </li>
                                     <li class="mt-[15px] group transition-all "><a href="service-single.html"
@@ -689,11 +689,11 @@
                                             block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Fries Marine Fish</a>
                                     </li>
                                     <li class="mt-[15px] group transition-all "><a href="service-single.html"
-                                            class="text-[#687693] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
+                                            class="text-[#E1D4D1] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
                                             block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Natural food</a>
                                     </li>
                                     <li class="mt-[15px] group transition-all "><a href="service-single.html"
-                                            class="text-[#687693] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
+                                            class="text-[#E1D4D1] bg-white rounded-[5px] p-[10px_20px]  group font-base-font text-[16px] font-normal
                                             block transition-all relative  group-hover:bg-[#F5811E] group-hover:text-white">Natural Dairy Milk</a>
                                     </li>
                                 </ul>

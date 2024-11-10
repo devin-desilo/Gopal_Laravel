@@ -1,5 +1,5 @@
 <!-- start footer -->
-<section class="bg-[#1e2845] relative z-[1]">
+<section class="bg-[#1e2845] Scroller-bg relative z-[1]">
     <div class="py-[80px] md:py-[60px] relative overflow-hidden">
         <div class="wraper">
             <div class="grid grid-cols-12 gap-4">

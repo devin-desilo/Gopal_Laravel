@@ -59,7 +59,7 @@
                             </span>
                             <span class="current">${{ $product['price'] }}</span>
                         </div> -->
-                    <!-- <p class="text-[16px] text-[#687693] leading-[25px] mt-[10px]">{{ $product['description'] }}</p> -->
+                    <!-- <p class="text-[16px] text-[#E1D4D1] leading-[25px] mt-[10px]">{{ $product['description'] }}</p> -->
 
 
                     <!-- <div class="product-option">
@@ -83,42 +83,12 @@
                         <p><span class="font-bold text-[#0a272c] mr-[2px]">Categories:</span>
                             {{ $product['category'] }}
                         </p>
+                        <!-- <p><span class="font-bold text-[#0a272c] mr-[2px]">Description:</span> -->
+                        <p class="text-[16px] text-[#E1D4D1] mb-[20px]">{{ $product['description'] }}</p>
+                        </p>
                         <!-- <p><span class="font-bold text-[#0a272c] mr-[2px]">Tags:</span>
                             {{ implode(', ', $product['tags']) }}
                         </p> -->
-                    </div>
-                    <div class="mt-[10px]">
-                        <!-- Tabs navigation -->
-                        <ul class="flex list-none flex-row flex-wrap border-b-0 pl-0" role="tablist" data-te-nav-ref>
-                            <li role="presentation">
-                                <a href="#tabs-home" class=" block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4
-                                text-[18px] font-medium capitalize leading-tight text-[#6e6e6e] hover:isolate
-                                hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent
-                                data-[te-nav-active]:border-[#F5811E] data-[te-nav-active]:text-[#F5811E]
-                                dark:text-[#6e6e6e] dark:hover:bg-transparent
-                                dark:data-[te-nav-active]:border-[#F5811E] dark:data-[te-nav-active]:text-[#F5811E]" data-te-toggle="pill" data-te-target="#tabs-home" data-te-nav-active role="tab" aria-controls="tabs-home" aria-selected="true">Description</a>
-                            </li>
-                        </ul>
-                        <!-- Tabs content -->
-                        <div class="pt-6 border-t-[rgba(255,74,23,0.3)] border-t-[1px]">
-                            <div class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block" id="tabs-home" role="tabpanel" data-te-tab-active>
-                                <div class="content">
-                                    <p class="text-[16px] text-[#687693] mb-[20px]">{{ $product['description'] }}</p>
-                                    <p class="text-[16px] text-[#687693] mb-[20px]">
-                                        <strong>Dimensions:</strong>
-                                        Width: {{ $product['dimensions']['width'] }} cm,
-                                        Height: {{ $product['dimensions']['height'] }} cm,
-                                        Depth: {{ $product['dimensions']['depth'] }} cm
-                                    </p>
-                                    <p class="text-[16px] text-[#687693] mb-[20px]">
-                                        <strong>Manufacturer:</strong> {{ $product['manufacturer'] }}
-                                    </p>
-                                    <p class="text-[16px] text-[#687693] mb-[20px]">
-                                        <strong>Expiry Date:</strong> {{ $product['expiry_date'] }}
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div> <!-- end product details -->
             </div> <!-- end col -->

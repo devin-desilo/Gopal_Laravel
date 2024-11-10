@@ -145,12 +145,6 @@
     //Active heor slider
     heroSlider();
 
-    // HERO SLIDER
-    var menu = [];
-    jQuery('.swiper-slide').each(function (index) {
-        menu.push(jQuery(this).find('.slide-inner').attr("data-text"));
-    });
-    var interleaveOffset = 0.5;
     var swiperOptions = {
         loop: true,
         speed: 1000,
@@ -164,44 +158,38 @@
             el: '.swiper-pagination',
             clickable: true,
         },
-
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-
         on: {
-            progress: function () {
-                var swiper = this;
-                for (var i = 0; i < swiper.slides.length; i++) {
-                    var slideProgress = swiper.slides[i].progress;
-                    var innerOffset = swiper.width * interleaveOffset;
-                    var innerTranslate = slideProgress * innerOffset;
-                    swiper.slides[i].querySelector(".slide-inner").style.transform =
-                        "translate3d(" + innerTranslate + "px, 0, 0)";
-                }
+            init: function () {
+                animateText(this.slides[this.activeIndex]);
             },
-
-            touchStart: function () {
-                var swiper = this;
-                for (var i = 0; i < swiper.slides.length; i++) {
-                    swiper.slides[i].style.transition = "";
-                }
+            slideChangeTransitionStart: function () {
+                animateText(this.slides[this.activeIndex]);
             },
-
-            setTransition: function (speed) {
-                var swiper = this;
-                for (var i = 0; i < swiper.slides.length; i++) {
-                    swiper.slides[i].style.transition = speed + "ms";
-                    swiper.slides[i].querySelector(".slide-inner").style.transition =
-                        speed + "ms";
-                }
-            }
         }
     };
-
+    
+    // Initialize Swiper
     var swiper = new Swiper(".swiper-container", swiperOptions);
-
+    
+    // Function to add animations to text elements
+    function animateText(slide) {
+        // Remove existing animations
+        const allAnimatedElements = slide.querySelectorAll('.animate__animated');
+        allAnimatedElements.forEach(el => el.classList.remove('animate__fadeInUp', 'animate__fadeIn'));
+    
+        // Add animation classes with a slight delay
+        setTimeout(() => {
+            slide.querySelectorAll('[data-swiper-parallax]').forEach((el, index) => {
+                el.classList.add('animate__animated', 'animate__fadeInUp');
+                el.style.animationDelay = `${index * 0.2}s`; // Stagger animations
+            });
+        }, 200);
+    }
+    
     // DATA BACKGROUND IMAGE
     var sliderBgSetting = $(".slide-bg-image");
     sliderBgSetting.each(function (indx) {
