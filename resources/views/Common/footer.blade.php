@@ -87,8 +87,7 @@
                                     <i class="ti-location-pin text-[#F5811E]"></i>
                                 </div>
                                 <div>
-                                    <span>Plot No. 11/12, Yamunaji
-                                        Ind. Estate, Bhesan Road, Bamangam, Junagadh 362310</span>
+                                    <span>Plot no. 5 , jay industrial, 3, Junagadh</span>
                                 </div>
                             </li>
                             <li class="mb-[10px]  flex items-start gap-2 text-white text-[15px] font-heading-font">

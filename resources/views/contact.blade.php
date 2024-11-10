@@ -37,7 +37,7 @@
                                 <i class="fi flaticon-placeholder icon"></i>
                             </div>
                             <h2 class="contact-title address-title">Address</h2>
-                            <p class="contact-text address-text">Yamunaji Ind. Estate, Bhesan Road, Bamangam, Junagadh
+                            <p class="contact-text address-text">Plot no. 5 , jay industrial, 3, Junagadh, Gujarat 362037
                             </p>
                         </div>
                         <div class="contact-item email-item">
@@ -94,7 +94,7 @@
                                 <div class="flex-center pt-5">
                                     <button type="submit" data-wow-duration="1s" class="wow fadeInUp theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]">Get
                                         in Touch</button>
-    
+
                                 </div>
                                 <div id="loader">
                                     <i class="ti-reload"></i>
@@ -105,8 +105,8 @@
                                 <div id="error"> Error occurred while sending email. Please try again later. </div>
                             </div>
                         </form>
-    
-    
+
+
                     </div>
                 </div>
                 <!-- hidden Form End -->
@@ -120,7 +120,8 @@
 <section class="wpo-contact-map-section">
     <h2 class="hidden">Contact map</h2>
     <div class="h-[550px]">
-        <iframe class="w-full h-full border-0 outline-0 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.3433580732576!2d70.48349356386727!3d21.58657117209968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39580304681e7f27%3A0xf7bc021acd6cd29a!2sShakti%20Enterprise!5e0!3m2!1sen!2sin!4v1722148666610!5m2!1sen!2sin" allowfullscreen></iframe>
+        <!-- <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.3433580732576!2d70.48349356386727!3d21.58657117209968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39580304681e7f27%3A0xf7bc021acd6cd29a!2sShakti%20Enterprise!5e0!3m2!1sen!2sin!4v1722148666610!5m2!1sen!2sin" allowfullscreen></iframe> -->
+        <iframe class="w-full h-full border-0 outline-0 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.7148614552602!2d70.45979187433686!3d21.600431880195845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39580396de834f6f%3A0x91ddc5d0c38ec0b5!2sGopal%20Agri%20Export!5e1!3m2!1sen!2sin!4v1731243418491!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </div>
 </section>

@@ -32,7 +32,7 @@
                                         </p>
                                     </div>
                                     <div data-swiper-parallax="500" class="slide-btn">
-                                        <a href="/about" class="btn theme-btn">Explore more</a>
+                                        <a href="#about" class="btn theme-btn">Explore more</a>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                                         </p>
                                     </div>
                                     <div data-swiper-parallax="500" class="slide-btn">
-                                        <a href="/about" class="btn theme-btn">Explore more</a>
+                                        <a href="#about" class="btn theme-btn">Explore more</a>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@
 </div>
 
 <!-- start of orico-about-section -->
-<section class="relative flex justify-center flex-col z-20 py-[120px] md:pt-[70px] md:py-[90px] sm:py-[80px] sm:pt-[60px] ">
+<section id="about" class="relative flex justify-center flex-col z-20 py-[120px] md:pt-[70px] md:py-[90px] sm:py-[80px] sm:pt-[60px] ">
     <div class="wraper">
         <div class="grid grid-cols-12 gap-x-4 items-center">
             <div class="col-span-6 md:col-span-12 mobile-order-2">
