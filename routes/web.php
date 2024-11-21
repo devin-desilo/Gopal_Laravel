@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Mail;
@@ -29,6 +30,19 @@ Route::get('/certifications', [CertificationController::class, 'index'])->name('
 Route::get('/infrastructure', [InfrastructureController::class, 'index'])->name('infrastructure');
 // Route for displaying the contact form
 Route::post('/contact-form', [ContactController::class, 'submit'])->name('contact-form.submit');
+Route::post('/newsletter', [NewsletterController::class, 'store'])->name('newsletter.store');
+Route::get('/test-mail', function () {
+    try {
+        Mail::raw('This is a test email from Gopal Agri Export.', function ($message) {
+            $message->to('test@example.com')
+                    ->subject('Test Email');
+        });
+        return 'Mail sent successfully!';
+    } catch (\Exception $e) {
+        return 'Error: ' . $e->getMessage();
+    }
+});
+
 
 
 

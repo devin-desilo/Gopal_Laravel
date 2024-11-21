@@ -10,10 +10,10 @@ class CertificationController extends Controller
     {
         // Define an array of certification images
         $certifications = [
-            ['name' => 'ISO 9001 Certification', 'filename' => 'certification.webp'],
-            ['name' => 'Organic Certification', 'filename' => 'certification.webp'],
-            ['name' => 'GMP Certification', 'filename' => 'certification.webp'],
-            ['name' => 'FDA Certification', 'filename' => 'certification.webp'],
+            ['name' => 'OfIEC Certificate', 'filename' => 'certificateOfIEC.jpg'],
+            ['name' => 'Yard License', 'filename' => 'Gopal_agri_export_yard_license.jpg'],
+            ['name' => 'GST Number', 'filename' => 'Gopal_agri_gst_number_images.jpg'],
+            ['name' => 'Udyam Certificate', 'filename' => 'Gopal_agri_export_Udyam_certificate.jpg'],
             // Add more certifications as needed
         ];
 

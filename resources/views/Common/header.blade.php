@@ -33,7 +33,7 @@
             width: 100vw;
             height: 0;
             overflow: hidden;
-            background-color: #f0f0f0;
+            background-color: #210805;
             transition: height 0.3s ease;
         }
 
@@ -54,7 +54,7 @@
 
         .mobile-drawer nav ul li a {
             text-decoration: none;
-            color: #333;
+            color: #fff;
             font-size: 18px;
         }
 
@@ -259,7 +259,7 @@
     before:absolute before:left-0 before:top-0 before:w-full before:h-[4px] before:bg-[#ea7c08] before:content
     before:opacity-0 before:invisible before:transition-all-all before:rounded-[3px]
     hover:before:opacity-100 hover:before:visible {{ Request::is('certifications') ? 'active-text' : '' }}">
-                        Certifications
+    Our Credentials
                     </a>
                     <a href="/infrastructure" class="relative text-[16px] lg:text-[17px] py-[25px] xl:py-[25px] menu-nav-item
     text-[#14212b] block capitalize font-medium transition-all-all hover:text-[#ea7c08]
@@ -294,13 +294,13 @@
                     <div class="flex-center">
                         <button id="toggleDrawer" class="dl-trigger">
                             <svg id="openIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-right">
-                                <line class="store-black" x1="21" x2="3" y1="6" y2="6" />
-                                <line class="store-black" x1="21" x2="9" y1="12" y2="12" />
-                                <line class="store-black" x1="21" x2="7" y1="18" y2="18" />
+                                <line class="store-white" x1="21" x2="3" y1="6" y2="6" />
+                                <line class="store-white" x1="21" x2="9" y1="12" y2="12" />
+                                <line class="store-white" x1="21" x2="7" y1="18" y2="18" />
                             </svg>
                             <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x hidden">
-                                <path class="store-black" d="M18 6 6 18" />
-                                <path class="store-black" d="m6 6 12 12" />
+                                <path class="store-white" d="M18 6 6 18" />
+                                <path class="store-white" d="m6 6 12 12" />
                             </svg>
                         </button>
                     </div>
@@ -314,8 +314,8 @@
                 <li><a class="{{ Request::is('/') ? 'active-text' : '' }}" href="/">Home</a></li>
                 <li><a class="{{ Request::is('/about') ? 'active-text' : '' }}" href="/about">About</a></li>
                 <li><a class="{{ Request::is('/products') ? 'active-text' : '' }}" href="/products">Products</a></li>
-                <li><a class="{{ Request::is('/certifications') ? 'active-text' : '' }}" href="/products">Certifications</a></li>
-                <li><a class="{{ Request::is('/infrastructure') ? 'active-text' : '' }}" href="/products">infrastructure</a></li>
+                <li><a class="{{ Request::is('/certifications') ? 'active-text' : '' }}" href="/certifications">Our Credentials</a></li>
+                <li><a class="{{ Request::is('/infrastructure') ? 'active-text' : '' }}" href="/infrastructure">infrastructure</a></li>
                 <li><a class="{{ Request::is('/contact') ? 'active-text' : '' }}" href="/contact">Contact Us</a></li>
             </ul>
         </nav>

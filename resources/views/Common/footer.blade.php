@@ -127,16 +127,38 @@
                     <p class="mb-[10px] text-white text-[16px] leading-[30px] font-heading-font">
                         Never Miss Anything From Gopal Agri Export By Signing Up To Our Newsletter.
                     </p>
-                    <form class="mt-[25px] relative">
-                        <input type="email" class="bg-[#141d37] h-[55px] text-white p-[6px_15px]
-                                border-[1px] border-[#28343e] w-full focus:outline-0 rounded-[5px] " placeholder="Email Address *" required="">
+                    <form class="mt-[25px] relative" method="POST" action="{{ route('newsletter.store') }}" id="newsletter-form">
+                        @csrf
+                        <input type="email" name="email" class="text-black footer-email bg-[#141d37] h-[55px] text-white p-[6px_15px] border-[1px] border-[#28343e] w-full focus:outline-0 rounded-[5px]" placeholder="Email Address *" required>
                         <div class="absolute right-[5px] top-[-17px] translate-y-1/2">
-                            <button type="submit" class="bg-[#F5811E] border-0 outline-0
-                                     text-white w-[40px] h-[45px] leading-[45px] transition-all-all rounded-[5px] ">
-                                <i class="ti-angle-right"></i>
+                            <button type="submit" class="bg-[#F5811E] border-0 outline-0 text-white w-[40px] h-[45px] leading-[45px] transition-all-all rounded-[5px]" id="submit-btn">
+                                <i class="ti-angle-right" id="submit-icon"></i>
+                                <div id="spinner" class="spinner" style="display: none;">
+                                    <!-- Your spinner (or use a loading icon) -->
+                                    <div class="spinner-border spinner-border-sm text-light" role="status">
+
+                                        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
+                                            <circle fill='#FFFFFF' stroke='#FFFFFF' stroke-width='15' r='15' cx='40' cy='100'>
+                                                <animate attributeName='opacity' calcMode='spline' dur='2' values='1;0;1;' keySplines='.5 0 .5 1;.5 0 .5 1' repeatCount='indefinite' begin='-.4'></animate>
+                                            </circle>
+                                            <circle fill='#FFFFFF' stroke='#FFFFFF' stroke-width='15' r='15' cx='100' cy='100'>
+                                                <animate attributeName='opacity' calcMode='spline' dur='2' values='1;0;1;' keySplines='.5 0 .5 1;.5 0 .5 1' repeatCount='indefinite' begin='-.2'></animate>
+                                            </circle>
+                                            <circle fill='#FFFFFF' stroke='#FFFFFF' stroke-width='15' r='15' cx='160' cy='100'>
+                                                <animate attributeName='opacity' calcMode='spline' dur='2' values='1;0;1;' keySplines='.5 0 .5 1;.5 0 .5 1' repeatCount='indefinite' begin='0'></animate>
+                                            </circle>
+                                        </svg>
+                                    </div>
+                                </div>
                             </button>
                         </div>
                     </form>
+
+
+                    <!-- Add a Success Message Div -->
+                    <div id="success-message" style="display:none;"></div>
+
+
                 </div>
             </div>
         </div>
@@ -163,6 +185,50 @@
 <!-- All JavaScript files
     ================================================== -->
 <script src="{{ url('assets/js/jquery.min.js') }}"></script>
+<script>
+    $(document).ready(function() {
+        $('#newsletter-form').submit(function(e) {
+            e.preventDefault(); // Prevent the default form submission
+
+            var email = $('input[name="email"]').val(); // Get the email value
+            var $submitButton = $('#submit-btn');
+            var $submitIcon = $('#submit-icon');
+            var $spinner = $('#spinner');
+
+            // Hide the submit icon and show the spinner
+            $submitIcon.hide();  // Hide the icon
+            $spinner.show();     // Show the spinner
+            $submitButton.prop('disabled', true); // Disable the submit button
+
+            $.ajax({
+                url: $(this).attr('action'), // Form action (route)
+                method: 'POST', // HTTP method
+                data: {
+                    _token: $('input[name="_token"]').val(), // CSRF Token
+                    email: email
+                },
+                success: function(response) {
+                    // Show success message
+                    $('#success-message').text(response.message).show();
+                    // Optionally, clear the form
+                    $('#newsletter-form')[0].reset();
+                },
+                error: function(response) {
+                    // Handle error response
+                    alert('Something went wrong, please try again.');
+                },
+                complete: function() {
+                    // Hide the spinner, show the submit icon and enable the submit button after the request is complete
+                    $spinner.hide();
+                    $submitIcon.show();  // Show the icon again
+                    $submitButton.prop('disabled', false);
+                }
+            });
+        });
+    });
+</script>
+
+
 <script>
     document.getElementById('toggleDrawer').addEventListener('click', function() {
         var drawer = document.getElementById('drawer');

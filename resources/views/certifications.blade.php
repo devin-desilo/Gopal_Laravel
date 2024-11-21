@@ -26,7 +26,7 @@
 <!-- certifications-section start-->
 <div class="bg-[#f9f9f9] py-[120px] md:py-[90px] sm:py-[80px]">
     <div class="wraper">
-        <div class="grid grid-cols-3 gap-6">
+        <div class="grid infrastructure-wrap ">
             @foreach ($certifications as $certification)
                 <a href={{ asset('assets/images/certifications/' . $certification['filename']) }} class="bg-white p-4 rounded-lg shadow-lg text-center">
                     <img src="{{ asset('assets/images/certifications/' . $certification['filename']) }}" alt="{{ $certification['name'] }}" class="w-full h-auto mb-4 rounded cursor-pointer" >

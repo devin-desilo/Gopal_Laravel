@@ -11416,6 +11416,9 @@ video {
 .store-black {
     stroke: #000000;
 }
+.store-white {
+    stroke: #FFF;
+}
 
 @media (max-width: 1399px) {
     .wraper {
@@ -11549,4 +11552,8 @@ video {
 
 .bg-box{
     background-color: #432C25;
+}
+
+.footer-email{
+    color: #333;
 }

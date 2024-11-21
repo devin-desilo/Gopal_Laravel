@@ -35,7 +35,7 @@
                         <h2 data-wow-duration="1s" class="wow fadeInDown text-4xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Welcome
                             To Gopal Agri Export
                         </h2>
-                        <p data-wow-duration="1s" class="mb-5 wow fadeIn description-text">Established in 2021, Gopal Agri Export is a leading Manufacturer,
+                        <p data-wow-duration="1s" class="mb-5 wow fadeIn description-text">Established in 2018, Gopal Agri Export is a leading Manufacturer,
                             Wholesaler, and Trader of Desi Chana, Groundnut Seeds, Soybean Seeds, Fish
                             Fertilizer, and more. We help farmers with professional advice on managing crops and
                             increasing productivity. Using data and technology, we ensure farmers get
@@ -141,7 +141,7 @@
                 <div class="orico-about-text">
                     <h2 class="text-4xl font-normal font-heading-font mb-5 lg:text-4xl sm:text-3xl">Why Choose Us</h2>
                     <p class="mb-5 description-text">
-                        Established in 2021, Gopal Agri Export is a leading Manufacturer, Wholesaler, and Trader of Desi
+                        Established in 2018, Gopal Agri Export is a leading Manufacturer, Wholesaler, and Trader of Desi
                         Chana, Groundnut Seeds, Soybean Seeds, Fish Fertilizer, and more. We help farmers with
                         professional advice on managing crops and increasing productivity. Using data and technology, we
                         ensure farmers get high-quality agricultural inputs and close the knowledge gap.
