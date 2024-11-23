@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'mailtrap' => [
+        'base_url' => env('MAILTRAP_HOST', 'https://api.mailtrap.io/v1'),
+        'api_token' => env('MAILTRAP_API_KEY'),
+    ],
+
 ];

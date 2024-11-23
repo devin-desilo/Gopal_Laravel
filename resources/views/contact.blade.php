@@ -1,5 +1,78 @@
 @extends('Common.main')
 @section('content')
+
+<style>
+    .contact-form {
+        /* background: #ffffff; */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .contact-form h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #FFF;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #FFF;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .form-group textarea {
+        resize: none;
+        height: 100px;
+    }
+
+    .submit-btn {
+        background: #28a745;
+        color: #ffffff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .submit-btn:hover {
+        background: #218838;
+    }
+
+    .alert {
+        padding: 10px;
+        margin-bottom: 15px;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+
+    .alert-success {
+        background: #28a745;
+    }
+
+    .alert-error {
+        background: #dc3545;
+    }
+</style>
 <!-- start wpo-page-title -->
 <section class="relative bg-[url(../images/page-title.jpg)] bg-no-repeat bg-center bg-cover min-h-[450px] flex justify-center flex-col z-10
                 sm:min-h-[250px]  before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#040128] before:-z-10 before:opacity-[0.65]">
@@ -27,6 +100,37 @@
 <!-- start contact -->
 <section class="relative pt-[120px] pb-0  z-1">
     <div class="wraper">
+        
+        <form class="contact-form contact-item  " method="POST" action="{{ route('contact-form.submit') }}">
+            @csrf
+            <h2>Contact Us</h2>
+            @if (session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+            @endif
+            @if ($errors->any())
+            <div class="alert alert-error">
+                Please fix the errors below.
+            </div>
+            @endif
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" value="{{ old('name') }}" placeholder="Enter your name" required>
+                @error('name') <small class="text-danger">{{ $message }}</small> @enderror
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="{{ old('email') }}" placeholder="Enter your email" required>
+                @error('email') <small class="text-danger">{{ $message }}</small> @enderror
+            </div>
+            <div class="form-group">
+                <label for="note">Message</label>
+                <textarea id="note" name="note" placeholder="Write your message here" required>{{ old('note') }}</textarea>
+                @error('note') <small class="text-danger">{{ $message }}</small> @enderror
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
         <div class="grid grid-cols-12">
             <div class="col-span-1"></div>
             <div class="col-span-10 md:col-span-12">

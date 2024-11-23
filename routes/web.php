@@ -29,18 +29,30 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/certifications', [CertificationController::class, 'index'])->name('certifications');
 Route::get('/infrastructure', [InfrastructureController::class, 'index'])->name('infrastructure');
 // Route for displaying the contact form
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.show');
 Route::post('/contact-form', [ContactController::class, 'submit'])->name('contact-form.submit');
 Route::post('/newsletter', [NewsletterController::class, 'store'])->name('newsletter.store');
-Route::get('/test-mail', function () {
-    try {
-        Mail::raw('This is a test email from Gopal Agri Export.', function ($message) {
-            $message->to('test@example.com')
-                    ->subject('Test Email');
-        });
-        return 'Mail sent successfully!';
-    } catch (\Exception $e) {
-        return 'Error: ' . $e->getMessage();
-    }
+// Route::get('/test-mail', function () {
+//     try {
+//         Mail::raw('This is a test email from Gopal Agri Export.', function ($message) {
+//             $message->to('test@example.com')
+//                     ->subject('Test Email');
+//         });
+//         return 'Mail sent successfully!';
+//     } catch (\Exception $e) {
+//         return 'Error: ' . $e->getMessage();
+//     }
+// });
+Route::get('/test-email', function () {
+    $details = [
+        'name' => 'Test User',
+        'email' => 'testuser@example.com',
+        'note' => 'This is a test email.'
+    ];
+
+    Mail::to('devinpatel2708@gmail.com')->send(new ContactFormMail($details));
+
+    return 'Test email sent!';
 });
 
 
