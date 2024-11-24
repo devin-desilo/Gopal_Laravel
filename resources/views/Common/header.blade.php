@@ -23,6 +23,9 @@
     <link href="{{ url('assets/css/odometer-theme-default.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/global.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/style.css') }}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
@@ -278,7 +281,7 @@
 
 
                     <div class="flex items-center pr-[15px] lg:pr-[4px] sm:pr-0">
-                        <a class="theme-btn content-btn py-[10px] px-[25px] bg-[#72a01e] md:hidden before:hidden" href="/contact">Contact Us</a>
+                        <a class="conatct-btn content-btn py-[10px] px-[25px] bg-[#72a01e] md:hidden before:hidden" href="/contact">Contact Us</a>
                     </div>
                 </div>
                 <!-- movile menu  -->

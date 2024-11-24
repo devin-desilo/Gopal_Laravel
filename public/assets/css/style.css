@@ -48,7 +48,8 @@ html,
     -o-tab-size: 4;
     tab-size: 4;
     /* 3 */
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
+    font-family: "Nunito", sans-serif;
     /* 4 */
     font-feature-settings: normal;
     /* 5 */
@@ -4580,9 +4581,9 @@ h6 {
     background-image: url(../images/banner/IMG_9781-min.webp);
 }
 
-.bg-\[url\(\.\.\/images\/partner\/bg\.jpg\)\] {
+/* .bg-\[url\(\.\.\/images\/partner\/bg\.jpg\)\] {
     background-image: url(../images/partner/bg.jpg);
-}
+} */
 
 .bg-\[url\(\.\.\/images\/slider\/hero-s2\.jpg\)\] {
     background-image: url(../images/slider/hero-s2.jpg);
@@ -5439,10 +5440,13 @@ NaNrem-\[auto\] {
 }
 
 .font-base-font {
-    font-family: Outfit, serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .font-heading-font {
+    /* font-family: themify; */
+}
+.home-heading-font {
     font-family: themify;
 }
 
@@ -7339,7 +7343,7 @@ NaNrem-\[auto\] {
 .before\:bg-\[\#8AC224\]::before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(138 194 36 / var(--tw-bg-opacity));
+    background-color: #432C25;
 }
 
 .before\:bg-\[\#8B8B8B\]::before {
@@ -10346,7 +10350,7 @@ NaNrem-\[auto\] {
     }
 
     .col\:text-\[14px\] {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .col\:text-\[25px\] {
@@ -10354,7 +10358,7 @@ NaNrem-\[auto\] {
     }
 
     .col\:text-\[28px\] {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .col\:text-\[35px\] {
@@ -11029,7 +11033,7 @@ video {
     align-items: center;
     justify-self: center;
     overflow: hidden;
-    /* height: 220px; */
+    max-height: 220px;
 }
 
 .product-text-div {
@@ -11420,13 +11424,17 @@ video {
     stroke: #FFF;
 }
 
+.footer-link-title{
+    margin-bottom: 30px;
+}
+
 @media (max-width: 1399px) {
     .wraper {
         max-width: 1140px;
         padding-left: 12px;
         padding-right: 12px;
     }
-
+    
     .blog-img {
         height: 180px;
     }
@@ -11437,6 +11445,9 @@ video {
         max-width: 960px;
         padding-left: 12px;
         padding-right: 12px;
+    }
+    .footer-link-title{
+        margin-bottom: 20px;
     }
 }
 
@@ -11459,7 +11470,7 @@ video {
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    
     .home-sub-title {
         font-size: 18px;
     }
@@ -11471,9 +11482,12 @@ video {
         padding-left: 20px;
         padding-right: 20px;
     }
-
+    
     .home-sub-title {
         font-size: 16px;
+    }
+    .footer-link-title{
+        margin-bottom: 10px;
     }
 }
 
@@ -11555,5 +11569,6 @@ video {
 }
 
 .footer-email{
-    color: #333;
+    color: #FFF;
+    background-color: #210805;
 }

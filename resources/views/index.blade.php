@@ -21,7 +21,7 @@
                                         </p>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-title">
-                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] col:mt-[0] mb-[10px]
+                                        <h2 class="text-[75px] home-heading-font font-normal uppercase leading-[60px]   col:mt-[0] mb-[10px]
                                         lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px] col:leading-[35px] text-white col:mb-[20px]">
                                             Highest <span class="text-[#F5811E]">Quality</span> Seeds Supplier
                                         </h2>
@@ -53,13 +53,13 @@
                                         </p>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-title">
-                                        <h2 class="text-[75px] font-heading-font font-normal uppercase leading-[60px] mt-[10px] mb-[10px] lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px] col:leading-[35px] text-white col:mb-[20px]">
+                                        <h2 class="text-[75px] home-heading-font font-normal uppercase leading-[60px]   mb-[10px] lg:text-[50px] md:text-[40px] md:leading-[55px] col:text-[28px] col:leading-[35px] text-white col:mb-[20px]">
                                             We Fulfill Your All <span class="text-[#F5811E]">Agriculture Requirements</span>!
                                         </h2>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text">
                                         <p class="home-sub-title text-[#e2e2e2] leading-[35px] mb-[20px] col:leading-[25px] col:mb-[30px]">
-                                            All Agri Commodities Cleaning Plant & Coriander Seeds Processors
+                                            All Agri Commodities Cleaning Plant & Agri Seeds supplier
                                         </p>
                                     </div>
                                     <div data-swiper-parallax="500" class="slide-btn">
@@ -419,7 +419,7 @@
         $('.products-slider').on('init', function(event, slick) {
             console.log('Slider initialized');
         }).slick({
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 1000,
             dots: true,
             infinite: true,

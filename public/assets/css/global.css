@@ -343,6 +343,29 @@
     visibility: visible;
 }
 
+.conatct-btn {
+    background-color: #432C25;
+    border: 1px solid #FFF;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    padding: 8px 24px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    -webkit-backface-visibility: hidden;
+    z-index: 1;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conatct-btn:hover,
+.conatct-btn:focus,
+.conatct-btn:active {
+    background-color: #3e2922;
+    color: #fff;
+}
+
 .theme-btn,
 .view-cart-btn {
     background-color: #72a01e;
