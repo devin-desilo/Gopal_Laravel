@@ -100,39 +100,7 @@
 <!-- start contact -->
 <section class="relative pt-[120px] pb-0  z-1">
     <div class="wraper">
-        
-        <form class="contact-form contact-item  " method="POST" action="{{ route('contact-form.submit') }}">
-            @csrf
-            <h2>Contact Us</h2>
-            @if (session('success'))
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
-            @endif
-            @if ($errors->any())
-            <div class="alert alert-error">
-                Please fix the errors below.
-            </div>
-            @endif
-            <div class="infrastructure-wrap grid">
-                <div class="form-group ">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" value="{{ old('name') }}" placeholder="Enter your name" required>
-                    @error('name') <small class="text-danger">{{ $message }}</small> @enderror
-                </div>
-                <div class="form-group ">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" value="{{ old('email') }}" placeholder="Enter your email" required>
-                    @error('email') <small class="text-danger">{{ $message }}</small> @enderror
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="note">Message</label>
-                <textarea id="note" name="note" placeholder="Write your message here" required>{{ old('note') }}</textarea>
-                @error('note') <small class="text-danger">{{ $message }}</small> @enderror
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
+
         <div class="grid grid-cols-12">
             <div class="col-span-1"></div>
             <div class="col-span-10 md:col-span-12">
@@ -171,7 +139,7 @@
 
                 </div>
                 <!-- hidden Form  -->
-                <div class="hidden">
+                <div class="">
                     <div class="max-w-[440px] mx-auto text-center mb-[50px]">
                         <h2 class="text-[35px] col:text-[25px] text-[#0a272c] font-heading-font font-bold
                                     mb-[20px]">
@@ -181,34 +149,43 @@
                             reader will be distracted
                             content of a page when looking.</p>
                     </div>
-                    <div class="p-[50px] bg-white mb-[-125px] relative z-10
-                                shadow-[0px_1px_15px_0px_rgba(62,65,159,0.1)] sm:p-7 sm:pt-[50px]">
-                        <form id="contact-form-main" action="{{ route('contact-form.submit') }}" method="POST">
+                    <div class="p-[20px] max-w-[640px] bg-box mb-[-95px] rounded-[10px] relative z-10
+                                shadow-[0px_1px_15px_0px_rgba(62,65,159,0.1)] sm:p-7 sm:pt-[50px] mx-auto">
+                        <form id="contact-form-main" method="POST" action="{{ route('contact-form.submit') }}">
                             @csrf
-                            <div class="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
-                                <input type="text" class="form-control w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px]
+                            <h2>Contact Us</h2>
+                            @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                            @endif
+                            @if ($errors->any())
+                            <div class="alert alert-error">
+                                Please fix the errors below.
+                            </div>
+                            @endif
+                            <div class="w-[calc(50%-30px)] float-left mr-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
+                                <input class="form-control custom-input w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px]
                         text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none
-                         focus:border-[#F5811E] focus:bg-transparent " name="name" id="name" placeholder="Your Name*">
+                         focus:border-[#F5811E] focus:bg-transparent " type="text" id="name" name="name" value="{{ old('name') }}" placeholder="Enter your name" required>
+                                @error('name') <small class="text-danger">{{ $message }}</small> @enderror
                             </div>
-                            <div class="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
-                                <input type="email" class="form-control  w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px] text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none  focus:border-[#F5811E] focus:bg-transparent" name="email" id="email" placeholder="Your Email*">
+                            <div class="w-[calc(50%-30px)] float-left ml-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
+                                <input class="form-control custom-input w-full bg-transparent border-[1px] border-[#ebebeb] h-[50px] text-[#212529] transition-all pl-[25px] focus:outline-0 focus:shadow-none  focus:border-[#F5811E] focus:bg-transparent" id="email" name="email" value="{{ old('email') }}" placeholder="Enter your email" required>
                             </div>
-                            <div class="w-[calc-(100%-25px)] mb-[25px] mx-[15px]">
-                                <textarea class="form-control  w-full bg-transparent border-[1px] border-[#ebebeb] h-[180px]  text-[#212529] transition-all pt-[15px] pl-[25px] focus:outline-0 focus:shadow-none  focus:border-[#F5811E] focus:bg-transparent" name="note" id="note" placeholder="Message..."></textarea>
+                            <div class="w-[calc-(100%-25px)] mb-[25px] ">
+                                <textarea class="form-control custom-input w-full bg-transparent border-[1px] border-[#ebebeb] h-[180px]  text-[#212529] transition-all pt-[15px] pl-[25px] focus:outline-0 focus:shadow-none  focus:border-[#F5811E] focus:bg-transparent" id="note" name="note" placeholder="Write your message here" required>{{ old('note') }}</textarea>
+                                @error('note') <small class="text-danger">{{ $message }}</small> @enderror
                             </div>
                             <div class="text-center w-full mb-[10px]">
                                 <div class="flex-center pt-5">
-                                    <button type="submit" data-wow-duration="1s" class="wow fadeInUp theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]">Get
+                                    <button type="submit" data-wow-duration="1s" class="wow fadeInUp theme-btn  ">Get
                                         in Touch</button>
 
                                 </div>
                                 <div id="loader">
                                     <i class="ti-reload"></i>
                                 </div>
-                            </div>
-                            <div class="clearfix error-handling-messages">
-                                <div id="success">Thank you</div>
-                                <div id="error"> Error occurred while sending email. Please try again later. </div>
                             </div>
                         </form>
 

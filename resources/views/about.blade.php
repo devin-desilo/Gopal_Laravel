@@ -56,7 +56,7 @@
                                     five centuries the leap into.</p>
                             </li>
                         </ul>
-                        <a data-wow-duration="1s" class=" wow fadeInUp theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">Get In
+                        <a data-wow-duration="1s" class=" wow fadeInUp theme-btn  " href="/about">Get In
                             Touch</a>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
                                 instructional videos, and aiming to export high-quality goods.</p>
                             </li>
                     </ul>
-                    <a class="theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">Get In Touch</a>
+                    <a class="theme-btn  " href="/about">Get In Touch</a>
                 </div>
 
             </div>

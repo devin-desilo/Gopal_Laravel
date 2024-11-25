@@ -88,8 +88,9 @@
 
 
         .search-field:focus {
-            background-color: #210805;
-            border: 1px solid #210805;
+            background-color: #432C25;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+
             background-size: 24px 20px;
             border-radius: 10px;
             cursor: text;
@@ -126,7 +127,7 @@
         </div>
 
         <!-- start header-section -->
-        <header class="relative z-[111] Scroller-bg">
+        <header class="relative z-[111] header-bg">
             {{-- <div class="absolute left-0 top-0 z-10 sm:hidden">
                 <img src="{{ url('assets/images/header-shape1.png') }}" alt="">
     </div>
@@ -223,7 +224,7 @@
             shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
             group-hover:opacity-100 group-hover:top-full group-hover:visible hover-menu">
                             <li>
-                                <a href="products/1" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
+                                <a href="/products/1" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
                 text-[#0a272c] group relative overflow-hidden font-medium transition-all
                 after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px] after:content
                 after:bg-[#ea7c08] after:transition-all hover:after:w-[50%]">
@@ -231,7 +232,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="products/2" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
+                                <a href="/products/2" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
                 text-[#0a272c] group relative overflow-hidden font-medium transition-all
                 after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px] after:content
                 after:bg-[#ea7c08] after:transition-all hover:after:w-[50%]">
@@ -239,7 +240,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="products/3" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
+                                <a href="/products/3" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
                 text-[#0a272c] group relative overflow-hidden font-medium transition-all
                 after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px] after:content
                 after:bg-[#ea7c08] after:transition-all hover:after:w-[50%]">
@@ -247,7 +248,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="products/4" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
+                                <a href="/products/4" class="text-[16px] lg:text-[16px] inline-block px-[15px] capitalize
                 text-[#0a272c] group relative overflow-hidden font-medium transition-all
                 after:absolute after:left-[15px] after:bottom-0 after:w-0 after:h-[2px] after:content
                 after:bg-[#ea7c08] after:transition-all hover:after:w-[50%]">

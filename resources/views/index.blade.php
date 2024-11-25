@@ -171,7 +171,7 @@
                                     five centuries the leap into.</p>
                             </li>
                         </ul>
-                        <a data-wow-duration="1s" class=" wow fadeInUp theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">Get In
+                        <a data-wow-duration="1s" class=" wow fadeInUp theme-btn  " href="/about">Get In
                             Touch</a>
                     </div>
                 </div>
@@ -283,7 +283,7 @@
         </div>
 
         <div class="flex-center pt-5">
-            <a href="/products" data-wow-duration="1s" class="wow fadeInUp theme-btn bg-[#F5811E] hover:bg-[#F5811Eee]" href="/about">View all Products</a>
+            <a href="/products" data-wow-duration="1s" class="wow fadeInUp theme-btn  " href="/about">View all Products</a>
 
         </div>
     </div>

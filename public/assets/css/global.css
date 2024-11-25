@@ -365,15 +365,13 @@
     background-color: #3e2922;
     color: #fff;
 }
-
-.theme-btn,
-.view-cart-btn {
-    background-color: #72a01e;
+/* .conatct-btn {
+    background-color: #432C25;
+    border: 1px solid #FFF;
     color: #fff;
     display: inline-block;
     font-weight: 500;
     padding: 8px 24px;
-    border: 0;
     border-radius: 12px;
     text-transform: capitalize;
     -webkit-backface-visibility: hidden;
@@ -381,6 +379,31 @@
     position: relative;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+}
+
+.conatct-btn:hover,
+.conatct-btn:focus,
+.conatct-btn:active {
+    background-color: #3e2922;
+    color: #fff;
+} */
+
+.theme-btn,
+.view-cart-btn {
+    background-color: transparent;
+    color: #F5811E;
+    display: inline-block;
+    font-weight: 500;
+    padding: 8px 24px;
+    border: 1px solid #F5811E;
+    border-radius: 12px;
+    text-transform: capitalize;
+    -webkit-backface-visibility: hidden;
+    z-index: 1;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s;
 }
 
 
@@ -392,7 +415,7 @@
 .view-cart-btn:focus,
 .theme-btn:active,
 .view-cart-btn:active {
-    background-color: #72a01ee7;
+    background-color: #F5811E;
     color: #fff;
 }
 

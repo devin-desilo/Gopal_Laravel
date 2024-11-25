@@ -27,6 +27,19 @@
     --tw-content: '';
 }
 
+.header-bg {
+    /* background: rgba(255, 255, 255, 0.1); */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+}
+.footer-bg {
+    /* background: rgba(255, 255, 255, 0.1); */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+}
+
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -1407,8 +1420,8 @@ h6 {
     margin-bottom: 2rem;
 }
 
-.mb-\[-125px\] {
-    margin-bottom: -125px;
+.mb-\[-95px\] {
+    margin-bottom: -95px;
 }
 
 .mb-\[0\.125rem\] {
@@ -4826,6 +4839,9 @@ h6 {
 .p-\[50px\] {
     padding: 50px;
 }
+.p-\[20px\] {
+    padding: 20px;
+}
 
 .p-\[5px\] {
     padding: 5px;
@@ -5446,6 +5462,7 @@ NaNrem-\[auto\] {
 .font-heading-font {
     /* font-family: themify; */
 }
+
 .home-heading-font {
     font-family: themify;
 }
@@ -5590,7 +5607,7 @@ NaNrem-\[auto\] {
 }
 
 .text-\[60px\] {
-    font-size: 60px;
+    font-size: 48px;
 }
 
 .text-\[75px\] {
@@ -6162,6 +6179,7 @@ NaNrem-\[auto\] {
     /* color: rgb(0 0 0 / var(--tw-text-opacity)); */
     color: #000000;
 }
+
 .text-white {
     --tw-text-opacity: 1;
     /* color: rgb(0 0 0 / var(--tw-text-opacity)); */
@@ -7325,7 +7343,7 @@ NaNrem-\[auto\] {
 .before\:bg-\[\#040128\]::before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(4 1 40 / var(--tw-bg-opacity));
+    background-color: #000;
 }
 
 .before\:bg-\[\#111F0B\]::before {
@@ -7520,7 +7538,7 @@ NaNrem-\[auto\] {
 
 .before\:opacity-\[0\.6\]::before {
     content: var(--tw-content);
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .before\:opacity-\[0\.9\]::before {
@@ -11023,7 +11041,7 @@ video {
     border: 1px solid #F4801D;
 }
 
-.opacity-90{
+.opacity-90 {
     opacity: 0.1;
 }
 
@@ -11056,6 +11074,7 @@ video {
 .products-wrap {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+
 .infrastructure-wrap {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
@@ -11083,6 +11102,7 @@ video {
     .products-wrap {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
     .infrastructure-wrap {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -11420,11 +11440,12 @@ video {
 .store-black {
     stroke: #000000;
 }
+
 .store-white {
     stroke: #FFF;
 }
 
-.footer-link-title{
+.footer-link-title {
     margin-bottom: 30px;
 }
 
@@ -11434,7 +11455,7 @@ video {
         padding-left: 12px;
         padding-right: 12px;
     }
-    
+
     .blog-img {
         height: 180px;
     }
@@ -11446,7 +11467,8 @@ video {
         padding-left: 12px;
         padding-right: 12px;
     }
-    .footer-link-title{
+
+    .footer-link-title {
         margin-bottom: 20px;
     }
 }
@@ -11470,7 +11492,7 @@ video {
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+
     .home-sub-title {
         font-size: 18px;
     }
@@ -11482,11 +11504,12 @@ video {
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
     .home-sub-title {
         font-size: 16px;
     }
-    .footer-link-title{
+
+    .footer-link-title {
         margin-bottom: 10px;
     }
 }
@@ -11551,7 +11574,7 @@ video {
         width: 130px !important;
     }
 
-    .slider-nav{
+    .slider-nav {
         height: 78px;
     }
 
@@ -11564,11 +11587,21 @@ video {
     }
 }
 
-.bg-box{
+.bg-box {
     background-color: #432C25;
 }
 
-.footer-email{
-    color: #FFF;
-    background-color: #210805;
+.footer-email {
+    color: #FFF;    
+    background-color: #432C25 ;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+}
+.custom-input {
+    color: #FFF;    
+    background-color: #432C25 ;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
 }
