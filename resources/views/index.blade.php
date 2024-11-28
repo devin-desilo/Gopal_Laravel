@@ -363,7 +363,7 @@
 
 
 <!-- start of orico-partners-section  -->
-<section class="relative py-[60px] bg-[url(../images/partner/bg.jpg)] bg-no-repeat bg-center bg-cover z-10
+<section class="hidden relative py-[60px] bg-[url(../images/partner/bg.jpg)] bg-no-repeat bg-center bg-cover z-10
         before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#8AC224] before:opacity-[0.9] before:-z-10 ">
     <h2 class="hidden">hidden</h2>
     <div class="wraper">
@@ -383,11 +383,11 @@
                     <img src="assets/images/partner/3.png" alt="" class="mx-auto w-auto">
                 </div>
             </div>
-            <div class="h-[120px] flex items-center justify-center">
+            <!-- <div class="h-[120px] flex items-center justify-center">
                 <div>
                     <img src="assets/images/partner/4.png" alt="" class="mx-auto w-auto">
                 </div>
-            </div>
+            </div> -->
             <div class="h-[120px] flex items-center justify-center">
                 <div>
                     <img src="assets/images/partner/5.png" alt="" class="mx-auto w-auto">

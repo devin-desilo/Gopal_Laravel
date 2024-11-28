@@ -15,11 +15,11 @@ class InfrastructureController extends Controller
             // ['name' => 'Packaging Unit', 'filename' => 'packaging_unit.jpg'],
             // ['name' => 'Warehouse', 'filename' => 'warehouse.jpg'],
             // ['name' => 'Quality Control', 'filename' => 'quality_control.jpg']
-            ['name' => 'Factory Entrance', 'filename' => 'factory.jpg'],
-            ['name' => 'Production Floor', 'filename' => 'factory.jpg'],
-            ['name' => 'Packaging Unit', 'filename' => 'factory.jpg'],
-            ['name' => 'Warehouse', 'filename' => 'factory.jpg'],
-            ['name' => 'Quality Control', 'filename' => 'factory.jpg']
+            // ['name' => 'Factory Entrance', 'filename' => 'factory.jpg'],
+            ['name' => 'Production Floor', 'filename' => 'factory1.jpg'],
+            ['name' => 'Packaging Unit', 'filename' => 'factory2.jpg'],
+            ['name' => 'Warehouse', 'filename' => 'factory3.jpg'],
+            // ['name' => 'Quality Control', 'filename' => 'factory.jpg']
             // Add more images as needed
         ];
 

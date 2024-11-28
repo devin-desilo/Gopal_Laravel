@@ -11,15 +11,15 @@
                         Agricultural Products: Desi Chana, Groundnut Seeds, Soybean Seeds, Fish Fertilizer &
                         More.</p>
                     <ul class="pt-[10px]">
-                        <li class="inline-block text-[22px] text-white">
+                        <!-- <li class="inline-block text-[22px] text-white">
                             <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
                                       hover:bg-[#F5811E]" href="#">
                                 <i class="ti-facebook"></i>
                             </a>
-                        </li>
-                        <li class="inline-block text-[22px] text-white ml-[20px] lg:ml-[20px]">
+                        </li> -->
+                        <li class="inline-block text-[22px] text-white ">
                             <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
@@ -35,14 +35,14 @@
                                 <i class="ti-instagram"></i>
                             </a>
                         </li>
-                        <li class="inline-block text-[22px] text-white ml-[20px] lg:ml-[20px]">
+                        <!-- <li class="inline-block text-[22px] text-white ml-[20px] lg:ml-[20px]">
                             <a class="icon-div text-white w-[36px] h-[36px] leading-[40px]
                                      bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
                                       text-[18px] transition-all-all
                                       hover:bg-[#F5811E]" href="#">
                                 <i class="ti-google"></i>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">

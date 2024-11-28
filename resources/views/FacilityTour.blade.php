@@ -1,5 +1,7 @@
 @extends('Common.main')
 @section('content')
+
+
 <!-- start wpo-page-title -->
 <section class="relative bg-[url(../images/page-title.jpg)] bg-no-repeat bg-center bg-cover min-h-[450px] flex justify-center flex-col z-10
                 sm:min-h-[250px]  before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#040128] before:-z-10 before:opacity-[0.65]">
@@ -31,7 +33,23 @@
                     <p class="mb-5 description-text">
                         At Gopal Agri Export, we specialize in the post-harvest processing of a broad selection of seed products. From efficient shelling and grading to meticulous sorting, roasting, blanching, and packaging, our facility is dedicated to quality and freshness across every seed type.
                     </p>
-                    <ul class="mb-8 flex col:block">
+                    <div class="infrastructure-slider">
+                        <div class="swiper-container infrastructure-swiper">
+                            <div class="swiper-wrapper">
+                                @foreach ($images as $image)
+                                <div class="swiper-slide">
+                                    <img src="{{ asset('assets/images/infrastructure/' . $image['filename']) }}" alt="{{ $image['name'] }}">
+                                    <!-- <h3>{{ $image['name'] }}</h3> -->
+                                </div>
+                                @endforeach
+                            </div>
+                            <!-- Add Pagination and Navigation -->
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                    <ul class="mb-8 flex col:block mt-3">
 
                         <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#E1D4D1]">
                             <i class="absolute left-0 top-1">
@@ -46,7 +64,7 @@
                             <p>Efficient equipment and machinery to perform the various operations with minimal losses and wastage.</p>
                         </li>
                     </ul>
-                    <ul class="mb-8 flex col:block">
+                    <!-- <ul class="mb-8 flex col:block">
                         <li data-wow-duration="1s" class=" wow fadeIn py-1 relative pl-6 font-medium inline-block text-base  text-[#E1D4D1]">
                             <i class="absolute left-0 top-1">
                                 <img src="assets/images/about/4.png" alt="">
@@ -61,27 +79,65 @@
                             <p>We are developing software for APMC price lists, integrating auto voice commands and
                                 instructional videos, and aiming to export high-quality goods.</p>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
 
             </div>
         </div>
     </div>
-    <!-- infrastructure-section start-->
-    <div class="bg-[#f9f9f9] ">
-    <div class="wraper max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid infrastructure-wrap">
-            @foreach ($images as $image)
-            <div class="bg-white p-4 rounded-lg shadow-lg text-center">
-                <img src="{{ asset('assets/images/infrastructure/' . $image['filename']) }}" alt="{{ $image['name'] }}" class="w-full h-auto mb-4 rounded">
-                <h3 class="text-lg font-semibold">{{ $image['name'] }}</h3>
-            </div>
-            @endforeach
-        </div>
-    </div>
-</div>
 
     <!-- infrastructure-section end -->
 </section>
 
+<script>
+var swiper = new Swiper(".infrastructure-swiper", {
+    loop: true,
+    speed: 1000,
+    parallax: true,
+    autoplay: {
+        delay: 100,
+        disableOnInteraction: false,
+    },
+    effect: 'fade', // Options: 'fade', 'cube', 'coverflow', 'flip'
+    fadeEffect: {
+        crossFade: true, // Smooth fading
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    on: {
+        init: function () {
+            const activeSlide = this.slides[this.activeIndex];
+            animateSlide(activeSlide);
+        },
+        slideChangeTransitionStart: function () {
+            const activeSlide = this.slides[this.activeIndex];
+            animateSlide(activeSlide);
+        },
+    },
+});
+
+// Animation function for the slides
+function animateSlide(slide) {
+    const img = slide.querySelector('img');
+    if (img) {
+        // Initial state
+        img.style.transform = 'scale(0.5) rotate(5deg)';
+        img.style.opacity = '0';
+        img.style.transition = 'transform 0.8s ease-out, opacity 0.8s ease-out';
+
+        // Animate to final state
+        setTimeout(() => {
+            img.style.transform = 'scale(1) rotate(0deg)';
+            img.style.opacity = '1';
+        }, 100);
+    }
+}
+
+</script>
 @endsection

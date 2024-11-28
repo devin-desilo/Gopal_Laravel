@@ -7,8 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpOceans">
+    <meta name="description" content="Gopal Agri Export is a leading provider of premium peanuts, sesame seeds, and other agricultural products. We provide quality export services worldwide.">
     <link rel="shortcut icon" type="image/png" href="{{ url('assets/images/favicon.ico')}}">
     <title>{{ $title  ?? 'Gopal Agri Export'}}</title>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Gopal Agri Export",
+            "url": "https://www.yourdomain.com",
+            "logo": "https://www.yourdomain.com/assets/images/logo.png",
+            "sameAs": [
+                "https://www.facebook.com/YourBusiness",
+                "https://twitter.com/YourBusiness"
+            ],
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-234-567-8901",
+                "contactType": "Customer Service"
+            }
+        }
+    </script>
     <link href="{{ url('assets/css/themify-icons.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/flaticon.css') }}" rel="stylesheet">
@@ -24,9 +43,8 @@
     <link href="{{ url('assets/css/global.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/style.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
 
 
@@ -263,7 +281,7 @@
     before:absolute before:left-0 before:top-0 before:w-full before:h-[4px] before:bg-[#ea7c08] before:content
     before:opacity-0 before:invisible before:transition-all-all before:rounded-[3px]
     hover:before:opacity-100 hover:before:visible {{ Request::is('certifications') ? 'active-text' : '' }}">
-    Our Credentials
+                        Our Credentials
                     </a>
                     <a href="/infrastructure" class="relative text-[16px] lg:text-[17px] py-[25px] xl:py-[25px] menu-nav-item
     text-[#14212b] block capitalize font-medium transition-all-all hover:text-[#ea7c08]

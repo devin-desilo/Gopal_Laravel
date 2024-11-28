@@ -2385,7 +2385,7 @@ h6 {
 }
 
 .w-\[calc\(50\%-30px\)\] {
-    width: calc(50% - 30px);
+    width: calc(50% - 8px);
 }
 
 .w-\[calc-\(100\%-25px\)\] {
@@ -5464,7 +5464,7 @@ NaNrem-\[auto\] {
 }
 
 .home-heading-font {
-    font-family: themify;
+    font-family: "Cardo", serif;
 }
 
 .text-2xl {
@@ -10227,6 +10227,11 @@ NaNrem-\[auto\] {
 }
 
 @media (max-width: 567px) {
+    .w-\[calc\(50\%-30px\)\] {
+        /* width: calc(50% - 30px); */
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
     .md\:mb-\[30px\] {
         margin-bottom: 0px;
     }
@@ -11003,7 +11008,7 @@ video {
 }
 
 .header-box {
-    padding: 10px !important;
+    padding: 20px 10px 10px 10px !important;
 }
 
 .content-btn {
@@ -11137,7 +11142,7 @@ video {
     }
 
     .product_image-div {
-        /* height: 190px; */
+        max-height: 190px;
     }
 }
 
@@ -11155,7 +11160,7 @@ video {
     }
 
     .product_image-div {
-        /* height: 170px; */
+        max-height: 170px;
     }
 
     .counter-grids .counter-li {
@@ -11239,7 +11244,7 @@ video {
     }
 
     .product_image-div {
-        /* height: 50vw; */
+        max-height: 40vw;
     }
 }
 
@@ -11306,11 +11311,12 @@ video {
 }
 
 .contact-link {
-    color: #F5811E;
+    /* color: #F5811E; */
     text-decoration: none;
 }
 
 .contact-link:hover {
+    color: #F5811E;
     text-decoration: underline;
 }
 
@@ -11337,11 +11343,11 @@ video {
     display: inline-block;
     padding: .5rem 1rem;
     margin: 0 .25rem;
-    border: 1px solid #ddd;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: .25rem;
     text-decoration: none;
     color: #F5811E;
-    background-color: #fff;
+    background-color: #432C25;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -11355,14 +11361,14 @@ video {
 /* Disabled link styles */
 .pagination-link.disabled {
     color: #6c757d;
-    border-color: #6c757d;
+    border-color: #432C25;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 /* Hover effect for links */
 .pagination-link:not(.disabled):hover {
-    background-color: #e9ecef;
+    background-color: #5e453d;
     color: #F5811E;
 }
 
@@ -11605,3 +11611,16 @@ video {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(12px);
 }
+
+
+.infrastructure-swiper .swiper-slide img {
+    transform: scale(0.8) rotate(-10deg);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.infrastructure-swiper .swiper-slide-active img {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+}
+
